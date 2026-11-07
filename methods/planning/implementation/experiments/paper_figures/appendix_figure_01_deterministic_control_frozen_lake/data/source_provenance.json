@@ -1,0 +1,234 @@
+{
+  "figure_slug": "frozen_lake_control_support_uniform",
+  "figure_role": "additional_result",
+  "purpose": "Two-panel deterministic-control FrozenLake stable-hit comparison rendered in the active main-body Figure 2 style.",
+  "environment": {
+    "name": "frozen_lake",
+    "size": 8,
+    "slip_prob": 0.3333333333333333
+  },
+  "experiment_settings": {
+    "error_mode": "support_uniform",
+    "problem_type": "control",
+    "threshold": 0.001,
+    "run_budget": 1000,
+    "metric_mode": "policy_value_error",
+    "value_norm": "L1",
+    "value_normalized": true,
+    "lambda_grid": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.825,
+      0.85,
+      0.875,
+      0.9,
+      0.925,
+      0.95,
+      0.975,
+      1.0
+    ],
+    "algorithms": [
+      "vi",
+      "osvi",
+      "waterfall"
+    ]
+  },
+  "source_runtime": null,
+  "target_preparation": [
+    {
+      "gamma": 0.9,
+      "target_id": "control-target-frozen_lake-gamma0p9-3aff4f0e8b9a",
+      "target_manifest": "control-target-frozen_lake-gamma0p9-3aff4f0e8b9a/target_manifest.json",
+      "target_manifest_sha256": "3345109f29fa77a2762c65bf8dd2e88d4d0d601e56e1c8d28c6d4ec61a662b81",
+      "run_command": {
+        "protocol": "deterministic target preparation",
+        "parameters": [
+          "JAX_PLATFORMS=cpu",
+          "--lane",
+          "control",
+          "--env",
+          "frozen_lake",
+          "--gamma",
+          "0.9",
+          "--env-param",
+          "size=8",
+          "--env-param",
+          "slip_prob=0.3333333333333333",
+          "--platform",
+          "cpu"
+        ]
+      }
+    },
+    {
+      "gamma": 0.99,
+      "target_id": "control-target-frozen_lake-gamma0p99-48901329561d",
+      "target_manifest": "control-target-frozen_lake-gamma0p99-48901329561d/target_manifest.json",
+      "target_manifest_sha256": "f4f251dff94be0628fec3f676ba00c5c1256010f4b3e91b292058dd2bd977df8",
+      "run_command": {
+        "protocol": "deterministic target preparation",
+        "parameters": [
+          "JAX_PLATFORMS=cpu",
+          "--lane",
+          "control",
+          "--env",
+          "frozen_lake",
+          "--gamma",
+          "0.99",
+          "--env-param",
+          "size=8",
+          "--env-param",
+          "slip_prob=0.3333333333333333",
+          "--platform",
+          "cpu"
+        ]
+      }
+    }
+  ],
+  "source_configs": [
+    {
+      "gamma": 0.9,
+      "source_path": null,
+      "package_path": "data/raw/gamma09/source_config.yaml",
+      "sha256": "d93ce389cf79fa3cc0578f5555d0b4f184df1f0f65475421e716c131190ab79e"
+    },
+    {
+      "gamma": 0.99,
+      "source_path": null,
+      "package_path": "data/raw/gamma099/source_config.yaml",
+      "sha256": "e22c0fd03503d8a409b11b7dae993d03272e9c4b9a48e93935faa459ff87b7d4"
+    }
+  ],
+  "runs": [
+    {
+      "gamma": 0.9,
+      "run_dir": null,
+      "run_command": [
+        "JAX_PLATFORMS=cpu",
+        "python",
+        "scripts/run_experiment.py",
+        "--config",
+        "configs/control_gamma09_frozen_lake8x8_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000.yaml",
+        "--platform",
+        "cpu",
+        "--cores",
+        "32"
+      ],
+      "copied_files": [
+        {
+          "path": null,
+          "source_path": null,
+          "sha256": "5d27c760dea1450b216981d7c08e3a194ea448b155701b098ee42d8ba0f41d10"
+        },
+        {
+          "path": "data/raw/gamma09/results.csv",
+          "source_path": null,
+          "sha256": "eb8b25f46458f89d82c18d8cdd8c883631d2fe7786d9d41d0bfe8a09219c50ab"
+        },
+        {
+          "path": "data/raw/gamma09/run_summary.json",
+          "source_path": null,
+          "sha256": "78b5292ec04902ff25ab84ad4ba1b3dce37d0aa23f5fc43681658ce9dc30a48e"
+        }
+      ]
+    },
+    {
+      "gamma": 0.99,
+      "run_dir": null,
+      "run_command": [
+        "JAX_PLATFORMS=cpu",
+        "python",
+        "scripts/run_experiment.py",
+        "--config",
+        "configs/control_gamma099_frozen_lake8x8_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000.yaml",
+        "--platform",
+        "cpu",
+        "--cores",
+        "32"
+      ],
+      "copied_files": [
+        {
+          "path": null,
+          "source_path": null,
+          "sha256": "6221b08e431fa69915163da5a1f257e1305d89036832e6edd55ad67f7ccd09b5"
+        },
+        {
+          "path": "data/raw/gamma099/results.csv",
+          "source_path": null,
+          "sha256": "32668d1c64200c1883d4d4305e8a5807ad4aabfafd61eece3a0dcbeb591c2a9a"
+        },
+        {
+          "path": "data/raw/gamma099/run_summary.json",
+          "source_path": null,
+          "sha256": "3fc71be9e08f131c2cc25a93d24d88d4babdf8964197cc01bef764f77ba8b105"
+        }
+      ]
+    }
+  ],
+  "rendering": {
+    "script": "code/experiments/scripts/render_gamma_comparison_hit_query_vs_lambda.py",
+    "script_sha256": "d4f897a3be777fc8c9a1531517c8f1cf97c2b34f834a199772e3acf0bc582f4a",
+    "style_helper": "code/experiments/common/plot_style.py",
+    "style_helper_sha256": "3fff1c74013bc0445a58774fad7c6e06d21f7ac1f1960dc3b5236288c44a549f",
+    "figure_spec": "figure_spec.json",
+    "figure_spec_sha256": "813f3a693ebd899917d92c713901c6b350e4ab7942697d3a87e690de8f412c98",
+    "native_pdf_size_points": [
+      398.419,
+      174.176
+    ],
+    "outputs": {
+      "png": {
+        "path": "assets/frozen_lake_control_support_uniform.png",
+        "sha256": "17b8ced0a05148e31ffa109b3ace89d106a3ec79c5d01ee2e070a7bd33c4372e"
+      },
+      "pdf": {
+        "path": "assets/frozen_lake_control_support_uniform.pdf",
+        "sha256": "3c01a54018cf76ccb75bf198692178871fdfe62b7c0683f72014bbad2ee6b3fe"
+      },
+      "metadata": {
+        "path": "assets/frozen_lake_control_support_uniform.metadata.json",
+        "sha256": "91bf658af19a56df4eb084302a3a4eeb595f19db42461df25b528bf57bdf73cb"
+      }
+    },
+    "figure_outputs": {
+      "png": "../../figures/frozen_lake_control_support_uniform.png",
+      "pdf": "../../figures/frozen_lake_control_support_uniform.pdf",
+      "metadata": "../../figures/frozen_lake_control_support_uniform.metadata.json"
+    }
+  },
+  "result_summary": {
+    "gamma09": {
+      "vi_stable_hit": 35,
+      "osvi_stable_hit_range": [
+        1,
+        6
+      ],
+      "aievi_stable_hit_range": [
+        1,
+        6
+      ],
+      "no_stable_hit_count": 0
+    },
+    "gamma099": {
+      "vi_stable_hit": 137,
+      "osvi_stable_hit_range": [
+        2,
+        22
+      ],
+      "aievi_stable_hit_range": [
+        1,
+        22
+      ],
+      "no_stable_hit_count": 0
+    }
+  },
+  "recorded_hash_scope": "Hash values identify reference-source bytes. Null optional source locations indicate unavailable identical source files. Corresponding bundled inputs may differ in byte identity; numerical settings and outcomes are documented separately."
+}

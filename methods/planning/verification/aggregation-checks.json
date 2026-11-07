@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "horizons": [
+        10
+      ],
+      "timing_requested": false,
+      "passed": true
+    },
+    {
+      "horizons": [
+        640
+      ],
+      "timing_requested": true,
+      "passed": true
+    },
+    {
+      "horizons": [
+        10,
+        20
+      ],
+      "timing_requested": true,
+      "passed": true
+    },
+    {
+      "horizons": [
+        10,
+        20,
+        40,
+        80,
+        160,
+        320,
+        640
+      ],
+      "timing_requested": true,
+      "passed": true
+    }
+  ],
+  "missing_requested_timing_rejected": true,
+  "duplicate_horizon_slope_unavailable": true,
+  "raw_csv_hashes_unchanged": true,
+  "solver_experiments_run": false
+}

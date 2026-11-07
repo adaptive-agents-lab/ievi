@@ -1,0 +1,79 @@
+{
+  "figure": "frozen_lake_control_support_uniform",
+  "environment": "frozen_lake",
+  "environment_params": {
+    "size": 8,
+    "slip_prob": 0.3333333333333333
+  },
+  "error_mode": "support_uniform",
+  "threshold": 0.001,
+  "run_budget": 1000,
+  "dnf_y": 1680,
+  "algorithms": [
+    "vi",
+    "osvi",
+    "waterfall"
+  ],
+  "figure_role": "additional_result",
+  "datasets": [
+    {
+      "gamma": 0.9,
+      "label": "$\\gamma=0.9$",
+      "trace_file": "data/raw/gamma09/control_traces.json",
+      "dense_lambda_region": [
+        0.8,
+        1.0
+      ],
+      "display_segments": [
+        {
+          "lambda_start": 0.0,
+          "lambda_end": 0.6,
+          "width": 0.3
+        },
+        {
+          "lambda_start": 0.6,
+          "lambda_end": 0.8,
+          "width": 0.25
+        },
+        {
+          "lambda_start": 0.8,
+          "lambda_end": 1.0,
+          "width": 0.45
+        }
+      ],
+      "source_configs": [
+        "data/raw/gamma09/source_config.yaml"
+      ]
+    },
+    {
+      "gamma": 0.99,
+      "label": "$\\gamma=0.99$",
+      "trace_file": "data/raw/gamma099/control_traces.json",
+      "dense_lambda_region": [
+        0.8,
+        1.0
+      ],
+      "display_segments": [
+        {
+          "lambda_start": 0.0,
+          "lambda_end": 0.6,
+          "width": 0.3
+        },
+        {
+          "lambda_start": 0.6,
+          "lambda_end": 0.8,
+          "width": 0.25
+        },
+        {
+          "lambda_start": 0.8,
+          "lambda_end": 1.0,
+          "width": 0.45
+        }
+      ],
+      "source_configs": [
+        "data/raw/gamma099/source_config.yaml"
+      ]
+    }
+  ],
+  "output_path": "assets/frozen_lake_control_support_uniform.png"
+}

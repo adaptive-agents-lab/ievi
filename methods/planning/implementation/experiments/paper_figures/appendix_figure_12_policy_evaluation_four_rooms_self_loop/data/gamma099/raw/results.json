@@ -1,0 +1,135 @@
+[
+  {
+    "lambda": 0.0,
+    "seed": 0,
+    "vi": 695,
+    "osvi": 1,
+    "waterfall_besp": 1
+  },
+  {
+    "lambda": 0.1,
+    "seed": 100,
+    "vi": 695,
+    "osvi": 2,
+    "waterfall_besp": 2
+  },
+  {
+    "lambda": 0.2,
+    "seed": 200,
+    "vi": 695,
+    "osvi": 3,
+    "waterfall_besp": 3
+  },
+  {
+    "lambda": 0.3,
+    "seed": 300,
+    "vi": 695,
+    "osvi": 5,
+    "waterfall_besp": 5
+  },
+  {
+    "lambda": 0.4,
+    "seed": 400,
+    "vi": 695,
+    "osvi": 9,
+    "waterfall_besp": 9
+  },
+  {
+    "lambda": 0.5,
+    "seed": 500,
+    "vi": 695,
+    "osvi": 96,
+    "waterfall_besp": 96
+  },
+  {
+    "lambda": 0.6,
+    "seed": 600,
+    "vi": 695,
+    "osvi": 1001,
+    "waterfall_besp": 43
+  },
+  {
+    "lambda": 0.65,
+    "seed": 650,
+    "vi": 695,
+    "osvi": 1001,
+    "waterfall_besp": 51
+  },
+  {
+    "lambda": 0.7,
+    "seed": 700,
+    "vi": 695,
+    "osvi": 1001,
+    "waterfall_besp": 57
+  },
+  {
+    "lambda": 0.75,
+    "seed": 750,
+    "vi": 695,
+    "osvi": 1001,
+    "waterfall_besp": 1001
+  },
+  {
+    "lambda": 0.8,
+    "seed": 800,
+    "vi": 695,
+    "osvi": 1001,
+    "waterfall_besp": 1001
+  },
+  {
+    "lambda": 0.825,
+    "seed": 825,
+    "vi": 695,
+    "osvi": 1001,
+    "waterfall_besp": 1001
+  },
+  {
+    "lambda": 0.85,
+    "seed": 850,
+    "vi": 695,
+    "osvi": 1001,
+    "waterfall_besp": 1001
+  },
+  {
+    "lambda": 0.875,
+    "seed": 875,
+    "vi": 695,
+    "osvi": 1001,
+    "waterfall_besp": 1001
+  },
+  {
+    "lambda": 0.9,
+    "seed": 900,
+    "vi": 695,
+    "osvi": 1001,
+    "waterfall_besp": 1001
+  },
+  {
+    "lambda": 0.925,
+    "seed": 925,
+    "vi": 695,
+    "osvi": 1001,
+    "waterfall_besp": 1001
+  },
+  {
+    "lambda": 0.95,
+    "seed": 950,
+    "vi": 695,
+    "osvi": 1001,
+    "waterfall_besp": 1001
+  },
+  {
+    "lambda": 0.975,
+    "seed": 975,
+    "vi": 695,
+    "osvi": 1001,
+    "waterfall_besp": 1001
+  },
+  {
+    "lambda": 1.0,
+    "seed": 1000,
+    "vi": 695,
+    "osvi": 1001,
+    "waterfall_besp": 1001
+  }
+]

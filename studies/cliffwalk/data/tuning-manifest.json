@@ -1,0 +1,310 @@
+[
+  {
+    "name": "os_su_l0.8_J1_B100_h0.0.npz",
+    "source": "results/cliffwalk/tuning/os_su_l0.8_J1_B100_h0.0.npz",
+    "sha256": "26fec42139c2538f5ddedd81ad97e6431677ee3b942975b907f27b23500ce336",
+    "bytes": 592856,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "os_su_l0.8_J1_B30_h0.0.npz",
+    "source": "results/cliffwalk/tuning/os_su_l0.8_J1_B30_h0.0.npz",
+    "sha256": "5a925b8fc782d54965a2bf0b96d95eb451a513ff7687db0ef3c2dc0f5332d376",
+    "bytes": 587542,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "q_-_l0.0_J1_B10_h0.0.npz",
+    "source": "results/cliffwalk/tuning/q_-_l0.0_J1_B10_h0.0.npz",
+    "sha256": "045d6655f35f35800e27a31041eafd7fcc0b1fd44cc90ff2761ec4d022bb15be",
+    "bytes": 539428,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J1_B10_h0.001.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J1_B10_h0.001.npz",
+    "sha256": "05633b5b02b43c52af08efce57d9c946c5f2b9510efafe5f616a4e55ae97b93e",
+    "bytes": 457876,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J1_B10_h0.003.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J1_B10_h0.003.npz",
+    "sha256": "0c52b51fb83c428d8e83fbbd8391d9b8fd9a294465ce53300bd3f4c0a34ed192",
+    "bytes": 443147,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J1_B10_h0.01.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J1_B10_h0.01.npz",
+    "sha256": "ffbf305dffab5739b024ac9c7002d02eb9911ce3eb7434b9db812a33f82f0ad0",
+    "bytes": 459961,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J1_B10_h0.03.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J1_B10_h0.03.npz",
+    "sha256": "07758e68f1adb00adeb47ed3dced9b339344e27aeebff9c304971830da992365",
+    "bytes": 489872,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J1_B10_h0.1.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J1_B10_h0.1.npz",
+    "sha256": "fc572b59282f8aeca40c63108b24a4be96a3a23624dd7564dc51f6cb8c3cfda2",
+    "bytes": 517606,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J1_B10_h0.3.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J1_B10_h0.3.npz",
+    "sha256": "430319caa38a7255808bc47a33d11d37d834423deb938c76bca5d4b776effdbf",
+    "bytes": 540197,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J1_B10_h1.0.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J1_B10_h1.0.npz",
+    "sha256": "59763584089e3439f5fdc468c450d9953326d1a8446160e368dfa6b0365e1204",
+    "bytes": 560323,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J1_B10_h10.0.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J1_B10_h10.0.npz",
+    "sha256": "d07b050d8ab599a7808629703a0965cad09c54b2bd5ed9ecad50c2bafb5a3a8d",
+    "bytes": 581880,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J1_B10_h3.0.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J1_B10_h3.0.npz",
+    "sha256": "e90fb6fbe3045dd0efb1c5edcdc05a87623f0490b196e6303b30a67bd87fb785",
+    "bytes": 576443,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J1_B10_h30.0.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J1_B10_h30.0.npz",
+    "sha256": "de298805bbc6580415e2fd7a328c1edbe9d9da7d14a1ce02c116667a18e2be19",
+    "bytes": 583659,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J1_B30_h0.001.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J1_B30_h0.001.npz",
+    "sha256": "f41badc7ec55dc9e5fce7484248328ffea8dc331884bc243fe909cd7658a5bfc",
+    "bytes": 482731,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J1_B30_h0.003.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J1_B30_h0.003.npz",
+    "sha256": "561c33a0ce88607f1d9c1395128239cb445d1a60a71be7b03e1e215604d78870",
+    "bytes": 458265,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J1_B30_h0.01.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J1_B30_h0.01.npz",
+    "sha256": "51dc1785eee3b8e602770aed53514aa7ab829cf67a1dc12c151417c7f19c5b8c",
+    "bytes": 442775,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J1_B30_h0.03.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J1_B30_h0.03.npz",
+    "sha256": "d63d948ec1b54fd5f8344266e1bc12a480aaa0dc1b9233387a564d6fe9b6a384",
+    "bytes": 458659,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J1_B30_h0.1.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J1_B30_h0.1.npz",
+    "sha256": "64028943a117fe8cbcf8e50133694e55023bbbef3447220d9359c2e3a7268e1a",
+    "bytes": 492021,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J1_B30_h0.3.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J1_B30_h0.3.npz",
+    "sha256": "e46c8002e65841d72abc22071821d398a1950626cd68076df3e0b64c280139fc",
+    "bytes": 517523,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J1_B30_h1.0.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J1_B30_h1.0.npz",
+    "sha256": "4614f2c9d58dde7a32574a81f72b2a7d35ad8f06f3e5e405d5f418fce0eb88e8",
+    "bytes": 542653,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J1_B30_h10.0.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J1_B30_h10.0.npz",
+    "sha256": "a6be4e743d9d03d5ff8755164ffb31b70d78be346080fc7894937bd513b19396",
+    "bytes": 576935,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J1_B30_h3.0.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J1_B30_h3.0.npz",
+    "sha256": "9025f70b025a8ec89c782c564fa222e689ada3175ae0631077ee515059f11b9d",
+    "bytes": 560070,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J1_B30_h30.0.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J1_B30_h30.0.npz",
+    "sha256": "acfe198d57bc5d361744404e1edba63fa41ce35984d08d72db65ccd8cb4cbbd4",
+    "bytes": 583148,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J3_B10_h0.001.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J3_B10_h0.001.npz",
+    "sha256": "a194c02ef4311dc3f2829fd6964ce82bb9c1b9aa05072aa71fee41bccff39a68",
+    "bytes": 482892,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J3_B10_h0.003.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J3_B10_h0.003.npz",
+    "sha256": "050f45d28788efac3f3c31352481253fd5a5c72a562600ea9fc34380f398ca18",
+    "bytes": 459250,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J3_B10_h0.01.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J3_B10_h0.01.npz",
+    "sha256": "49f1039ef9d6cb1278a0485c86014b74849fc5f883d5262a2b52db145116b5a4",
+    "bytes": 443093,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J3_B10_h0.03.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J3_B10_h0.03.npz",
+    "sha256": "55403e6ca41f8eee590c7e300ea8744e6e4b303c1b619a9ccafebcbe8c8000dc",
+    "bytes": 459069,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J3_B10_h0.1.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J3_B10_h0.1.npz",
+    "sha256": "68509b49f7ec65d483186d839e39fae4aafcddc92b3af67e58c769357439e388",
+    "bytes": 491332,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J3_B10_h0.3.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J3_B10_h0.3.npz",
+    "sha256": "a5d40082152ecbb7020c38167ff4c3af782712434d811a27b7768411537cea05",
+    "bytes": 516944,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J3_B10_h1.0.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J3_B10_h1.0.npz",
+    "sha256": "89cf92c87beb8da3c714708405e31d14d2cadb7e3cd1bd1abdbcf7535d910968",
+    "bytes": 542531,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J3_B10_h10.0.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J3_B10_h10.0.npz",
+    "sha256": "29a14714ddf90940d99b843397d1849602dc1b402e43b12e2a15a23dd14b2f5d",
+    "bytes": 577273,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J3_B10_h3.0.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J3_B10_h3.0.npz",
+    "sha256": "07b95c6dcc464a973b9cb1ed66733d3e8f62d29fe9744974a85cfed7f5d9aac5",
+    "bytes": 560418,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J3_B10_h30.0.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J3_B10_h30.0.npz",
+    "sha256": "924dbe992c5855bc957240a9190f82c90d7ca6eb5ad9056ec6b6d253265b37b5",
+    "bytes": 581431,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J3_B30_h0.001.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J3_B30_h0.001.npz",
+    "sha256": "96c798e8eda73092053a44bcdc9f5d4353bd61d9865b8912a3b332f42b6d61e7",
+    "bytes": 484400,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J3_B30_h0.003.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J3_B30_h0.003.npz",
+    "sha256": "b509744261b0622dc07ab27784de941edc3b2645c9f59fd318886a964e09ef8d",
+    "bytes": 480691,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J3_B30_h0.01.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J3_B30_h0.01.npz",
+    "sha256": "a692e13042f09a53418857e2208fd36f4db4a2f82edf8db22410aeb1d463d5a0",
+    "bytes": 458086,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J3_B30_h0.03.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J3_B30_h0.03.npz",
+    "sha256": "bcff6091478d770813488ae57a0f0210a3f8a752929ad0b880e8fc924a1e597b",
+    "bytes": 442436,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J3_B30_h0.1.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J3_B30_h0.1.npz",
+    "sha256": "afeda5fae109fed2ec3413f9f950204ff87e7f27147ae555c32885f2eafea7b0",
+    "bytes": 460955,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J3_B30_h0.3.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J3_B30_h0.3.npz",
+    "sha256": "12135077adfde47af8daf6e06f456667f5c75536a0e02ccff6bdf1b138369f88",
+    "bytes": 490616,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J3_B30_h1.0.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J3_B30_h1.0.npz",
+    "sha256": "721dfd96920301335569229560daec6ca945111eb3576a4e78ec3eb6120b67ad",
+    "bytes": 518041,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J3_B30_h10.0.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J3_B30_h10.0.npz",
+    "sha256": "2f781c1b95df742e2f4d49a3cc05dadc4b6d67b6ed9a156d51ecac38591abde1",
+    "bytes": 564531,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J3_B30_h3.0.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J3_B30_h3.0.npz",
+    "sha256": "d65446c171179675dac73517c4e220ae1b199bc2240e045ee48e352bb849a58f",
+    "bytes": 542587,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "ie_su_l0.8_J3_B30_h30.0.npz",
+    "source": "results/cliffwalk/tuning/ie_su_l0.8_J3_B30_h30.0.npz",
+    "sha256": "c058e2cfe6bb2dc9989a1a1d676ae443c4004e37f00aed9f1642e11c633fdb60",
+    "bytes": 579120,
+    "nonfinite_cells": 0
+  },
+  {
+    "name": "os_su_l0.8_J1_B10_h0.0.npz",
+    "source": "results/cliffwalk/tuning/os_su_l0.8_J1_B10_h0.0.npz",
+    "sha256": "56539eca2e8eb40907c29f8f11cf167ccd8fdfbedcb3445d1745090a48b87ed1",
+    "bytes": 585095,
+    "nonfinite_cells": 0
+  }
+]

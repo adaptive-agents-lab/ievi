@@ -1,0 +1,12 @@
+{
+  "figure": "figure_app_maze_control_self_loop_gamma099",
+  "paper_label": "fig:maze-control-self-loop",
+  "regime": "Control",
+  "environment": "maze",
+  "noise_model": "self_loop",
+  "gamma": 0.99,
+  "threshold": 0.001,
+  "max_queries": 10000,
+  "asset_pdf": "assets/figure_app_maze_control_self_loop_gamma099.pdf",
+  "trace_file": "data/raw/control_traces.json"
+}

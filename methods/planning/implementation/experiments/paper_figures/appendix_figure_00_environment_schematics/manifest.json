@@ -1,0 +1,23 @@
+{
+  "package_name": "appendix_figure_00_environment_schematics",
+  "purpose": "Source-owned appendix schematic figure for finite-MDP environment layouts.",
+  "schema_version": 2,
+  "scope": "Distributed paper-figure inputs, implementation and reference assets",
+  "files": [
+    {
+      "path": "code/plot_style.py",
+      "sha256": "64efb62ee3010beebfbee798b0209c7f4e9876f40c9675679f4c717484b71781",
+      "bytes": 8245
+    },
+    {
+      "path": "code/render_environment_schematics.py",
+      "sha256": "e8a5ce7c50a46c5e26a79033e341bd375758aba63a84ea07a0977878ad6c17e8",
+      "bytes": 13491
+    },
+    {
+      "path": "figure_spec.json",
+      "sha256": "f1e8e5a95a4fdd1b010dfaabf8082a8fad5f147586fe0a8d5e40acdf80430c34",
+      "bytes": 5891
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "bellman_optimality_residual_inf": 5.684341886080802e-14,
+  "policy_evaluation_residual_inf": 4.263256414560601e-14,
+  "value_error_upper_bound": 5.684341886080797e-12,
+  "policy_optimal_to_float64_precision": true,
+  "construction": "JAX value iteration to iterate delta<=1e-12 or cap100000, first-index argmax then numpy float64 direct policy evaluation",
+  "reference_target_recovered": false,
+  "mdp_fingerprint": "1113d13dee58dd8804b1636e4d4fe124ec782878c12a12d5627a51007ff32504",
+  "reference_target_path": "control-target-four_rooms-gamma0p99-1113d13dee58/target_manifest.json"
+}

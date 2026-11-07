@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper when using these experiments."
+title: "Implicit-Euler Value Iteration"
+url: "https://github.com/adaptive-agents-lab/ievi"
+type: software
+license: MIT
+authors:
+  - family-names: "De La Vega"
+    given-names: "Nimrod"
+  - family-names: "Farahmand"
+    given-names: "Amir-massoud"
+preferred-citation:
+  type: conference-paper
+  title: "Implicit-Euler Value Iteration: Long-Horizon Planning via Stable Integration of the Bellman Residual Flow"
+  authors:
+    - family-names: "De La Vega"
+      given-names: "Nimrod"
+    - family-names: "Farahmand"
+      given-names: "Amir-massoud"
+  conference:
+    name: "Conference on Neural Information Processing Systems"
+  year: 2026

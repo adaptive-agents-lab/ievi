@@ -1,0 +1,17 @@
+{
+  "source_config": "data/raw/source_config.yaml",
+  "run_command": "JAX_PLATFORMS=cpu CUDA_VISIBLE_DEVICES='' OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 python scripts/run_experiment.py --config data/raw/source_config.yaml --platform cpu --cores 32",
+  "python_version": "3.11.5",
+  "jax_version": "0.8.2",
+  "platform": "Linux-6.8.0-54-generic-x86_64-Intel-R-_Xeon-R-_Gold_6338_CPU_@_2.00GHz-with-glibc2.37",
+  "control_traces_sha256": "866003c3ae069a1e4c97ca85a68212078f7807a08186357ff2461c73e87fd45b",
+  "source_config_snapshot_sha256": "ecfcc14bc9eb565d872f38460a79ef9f0bb6666f02d3da0fe27498e18e74a9aa",
+  "control_traces_size": "332M",
+  "raw_links": {
+    "control_traces": "data/raw/control_traces.json",
+    "results_csv": "data/raw/results.csv",
+    "results_json": "data/raw/results.json",
+    "source_config": "data/raw/source_config.yaml"
+  },
+  "generated_in_current_request": true
+}

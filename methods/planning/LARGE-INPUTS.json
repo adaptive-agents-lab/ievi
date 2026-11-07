@@ -1,0 +1,9 @@
+[
+  {
+    "bytes": 100552305,
+    "compressed_path": "implementation/experiments/paper_figures/appendix_figure_08_control_maze_self_loop/data/raw/control_traces.json.gz",
+    "compressed_sha256": "81673cb289d0d81e53e57b62ff10758d4846d21c2ec39b8a223b240570a15990",
+    "path": "implementation/experiments/paper_figures/appendix_figure_08_control_maze_self_loop/data/raw/control_traces.json",
+    "sha256": "9d74b3798924c56e91af346b297e4a7bd64cc5ebfa8a494ca0106c20dcbaa71f"
+  }
+]

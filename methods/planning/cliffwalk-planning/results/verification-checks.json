@@ -1,0 +1,17 @@
+{
+  "pass": true,
+  "source_ast_equivalent_after_removing_only_declared_hooks_and_budget_preflight": true,
+  "configuration_count": 19,
+  "algorithm_grid_points": 57,
+  "actual_query_counters_match_every_recorded_trajectory": true,
+  "all_actual_run_counts_within_1000": true,
+  "offline_policy_metric_replay_max_abs_difference": 0.0,
+  "exact_threshold_equalities": 0,
+  "target_bellman_residual_independent_numpy_check": 9.868017514236271e-11,
+  "target_value_error_bound": 9.868017514236263e-09,
+  "all_stable_hits_equal_to_reference": true,
+  "all_query_indices_equal_to_reference": true,
+  "all_policy_traces_equal_to_reference": false,
+  "aisp_inner_cap_hits": 0,
+  "reference_solver_identity_remains_unproven": true
+}

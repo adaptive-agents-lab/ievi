@@ -1,0 +1,49 @@
+{
+  "experiment_name": "Value-iteration runtime comparison for the true baseline and surrogate subproblems",
+  "gamma": 0.995,
+  "true_microsteps": 128,
+  "surrogate_microsteps": [
+    4,
+    8,
+    16,
+    32
+  ],
+  "benchmark_grid_sides": [
+    32,
+    64,
+    100
+  ],
+  "benchmark_repetitions": {
+    "32": 5,
+    "64": 3,
+    "100": 3
+  },
+  "target_relative_true_bellman_residual": 1e-05,
+  "inner_vi_relative_bellman_residual": 1e-06,
+  "reference_relative_true_bellman_residual": 1e-08,
+  "ievi_inner_depth": 1,
+  "calibration_grid_side": 24,
+  "calibration_h_grid": [
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    4096
+  ],
+  "calibration_max_outer_rounds_rule": 6,
+  "timing_order_seed": 20260729,
+  "dynamics": {
+    "diffusion_rate": 0.12,
+    "advection_amplitude": 0.3,
+    "secondary_amplitude": 0.08,
+    "phase_seed": 20260729
+  },
+  "threading": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMBA_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "exact_selection_match",
+  "tuning_files": 44,
+  "selection_rows": 3,
+  "candidate_rows": 1584,
+  "method_candidate_counts": {
+    "q": 36,
+    "os": 108,
+    "ie": 1440
+  },
+  "nonfinite_candidates_retained": 0,
+  "selection_uses_heldout": false,
+  "metric": "pol|all|L1",
+  "selection_sha256": "52daea5d0da12ad56e36ad4c337bd64ef765df9369f6f773b973ba20777e7b68"
+}

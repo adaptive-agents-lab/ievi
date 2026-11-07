@@ -1,0 +1,56 @@
+{
+  "experiment_name": "IE-VI Controlled solve-accuracy comparison: reproduced matched Control cost/robustness panel",
+  "gamma": 0.99,
+  "lambdas": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.625,
+    0.65,
+    0.675,
+    0.7,
+    0.725,
+    0.75,
+    0.775,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1.0
+  ],
+  "metric": "normalized L1 true policy-value error",
+  "strict_threshold": 0.001,
+  "true_budget": 1000,
+  "common_solver": {
+    "method": "surrogate Control value iteration",
+    "warm_start": "current outer/correction iterate",
+    "stop": "||T_hat U-U||_inf/(1-beta) <= delta_solve",
+    "delta_solve": {
+      "tight": 1e-08,
+      "practical": 0.01
+    },
+    "max_sweeps": 5000,
+    "tie_breaking": "first-index numpy argmax"
+  },
+  "native_osvi": {
+    "method": "policy iteration to policy stability",
+    "policy_evaluation": "SciPy LU factorization and solve",
+    "factorization_reuse": "policy-keyed cache within each run"
+  },
+  "native_waterfall_tolerances": [
+    1e-10,
+    0.01
+  ],
+  "adaptive_bridge": {
+    "m": 10,
+    "true_budget": 6000,
+    "delta_solve": [
+      1e-08,
+      0.01
+    ]
+  }
+}

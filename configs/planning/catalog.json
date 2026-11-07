@@ -1,0 +1,1879 @@
+{
+  "schema_version": 1,
+  "studies": [
+    {
+      "description": "control_gamma09_frozen_lake8x8_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "family": "practical",
+      "id": "planning-01_gamma09",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/01_gamma09.json",
+      "source_sha256": "5eeb71a25b568d9daaf188fa35e086c973a74e95bfaa2aae9532c4b105c97d74"
+    },
+    {
+      "description": "control_gamma099_frozen_lake8x8_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "family": "practical",
+      "id": "planning-01_gamma099",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/01_gamma099.json",
+      "source_sha256": "ae430212e566a439a7ca0ba51a7b6e01f049eb962dc0921489ceac0c88590278"
+    },
+    {
+      "description": "control_gamma09_four_rooms15_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "family": "practical",
+      "id": "planning-02_gamma09",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/02_gamma09.json",
+      "source_sha256": "070ee91d9f77a18246e503c2f4ea5e6db21002c0a4720052e49c37a60d6873b9"
+    },
+    {
+      "description": "control_gamma099_four_rooms15_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "family": "practical",
+      "id": "planning-02_gamma099",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/02_gamma099.json",
+      "source_sha256": "9d7fd8f1a6997e8c5bbbeb7faac88c2a2d7792333d0dc5bfe61e03582adb4ea7"
+    },
+    {
+      "description": "pe_gamma09_maze_support_uniform_vi_osvi_waterfall_besp_piecewise_1000",
+      "family": "practical",
+      "id": "planning-03_gamma09",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/03_gamma09.json",
+      "source_sha256": "71ebaa46d0fe185e83e9224971c39f302269c1e7606c2b44f7d2451e8b7d1301"
+    },
+    {
+      "description": "pe_gamma099_maze_support_uniform_vi_osvi_waterfall_besp_piecewise_1000",
+      "family": "practical",
+      "id": "planning-03_gamma099",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/03_gamma099.json",
+      "source_sha256": "41012e56e2f5dcea54c4e48c743a1a3e7594b9c7777078becb509d5f2829502e"
+    },
+    {
+      "description": "pe_gamma09_four_rooms15_support_uniform_vi_osvi_waterfall_besp_highlambda_piecewise_1000",
+      "family": "practical",
+      "id": "planning-04_gamma09",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/04_gamma09.json",
+      "source_sha256": "4f982a783fe382f78334528638aa351c29ce50eaf89f07a3ec21539f613d40d9"
+    },
+    {
+      "description": "pe_gamma099_four_rooms15_support_uniform_vi_osvi_waterfall_besp_highlambda_piecewise_1000",
+      "family": "practical",
+      "id": "planning-04_gamma099",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/04_gamma099.json",
+      "source_sha256": "f7dc727a6d4c6879f986d110fff33f33278afe519bd6a8654ea41d2b090819a6"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-05_threshold",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/05_threshold.json",
+      "source_sha256": "949a5ea0fe4e2e9be13ac704a059edf8972c5623558318980e56ab39099aa34a"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p03_S1",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p03_S1.json",
+      "source_sha256": "824a945dc299095254fece2dd1e146dfdaa1efcc67b9aafd4e3c6005d526a8f6"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p03_S2",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p03_S2.json",
+      "source_sha256": "e7cc87b6168dd634e93eb5b35d43ca1aa51b90f489efa934f496c6881cf7d476"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p03_S3",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p03_S3.json",
+      "source_sha256": "82bfab92ca64bd402a425034cc3cfb643c672d9131e22835aeae5c5341dd091d"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p03_S5",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p03_S5.json",
+      "source_sha256": "ccff2f66b89229b5828b7239e5f26dd3d8bebbba96dcd629afbc813d5e7a648e"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p03_S8",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p03_S8.json",
+      "source_sha256": "9d32df42b28f5139b06d66a7c697c5e396906883b3d6fd50d4c7aa436205de0e"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p05_S1",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p05_S1.json",
+      "source_sha256": "61f1d800af8094c7be886eb7bf195aefdf592218bcc30a0df19486e715185619"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p05_S2",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p05_S2.json",
+      "source_sha256": "e81958b476aa6c811e88ad9f26f9c7caafc1b66d9ac3913df5e4772bebd0772d"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p05_S3",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p05_S3.json",
+      "source_sha256": "2aa1674efa4575d54c2807f3d17549c8fea94024b46f6c44aa1f305a2b64069e"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p05_S5",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p05_S5.json",
+      "source_sha256": "1677bf2b30f14db5680d48e450d896393b238b606f85171d1e1d77e7dfd81cc1"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p05_S8",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p05_S8.json",
+      "source_sha256": "998ca75d15e80e88eb116e1ccea3605ebc95de94b1f22238fd9b5edb71a54259"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p1_S1",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p1_S1.json",
+      "source_sha256": "74b66a2eca2c9befa83c66f28e676fb45d72c140607e55f19b4d1a3bd1c22998"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p1_S2",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p1_S2.json",
+      "source_sha256": "6a2302fc255a4121c4dd9dda131e6b8a7e925ce6570c500c8dd4fe96fd917a9e"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p1_S3",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p1_S3.json",
+      "source_sha256": "efd596920a8738179f5e2c0973e46007b093ee3c49f9b8c3903ccee8a67ee5c9"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p1_S5",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p1_S5.json",
+      "source_sha256": "f4c7e5a76b7e4eea520df8ce157dda699a3e5561cf8a629bf96a9457e140a7e5"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p1_S8",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p1_S8.json",
+      "source_sha256": "7469ae7dc694045fcff991423dd350d81109e5c1ac9970ea0131d5377b2de2b8"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p2_S1",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p2_S1.json",
+      "source_sha256": "34ac9260b32aa54c36a59a7871c9c084f38a58c864d637de7967e16618b34e12"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p2_S2",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p2_S2.json",
+      "source_sha256": "411f5ba880cc2be6a08582149ddbc830e0ae8675e36c1c7a4e30d45af9a530a1"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p2_S3",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p2_S3.json",
+      "source_sha256": "16d1ec1bad4379a4b3946f018883b1bc2d2c93124bacc108d4bcc2319eb7800f"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p2_S5",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p2_S5.json",
+      "source_sha256": "8fb05645416530c06c69e88e61bffc0a8dc4af9ec9571249769c27574280c824"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p2_S8",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p2_S8.json",
+      "source_sha256": "b7fc64fb9dc988031aa72eb99c2cb48ddc71ca5a9f2726bd2ee9c3242d4cf97d"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p5_S1",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p5_S1.json",
+      "source_sha256": "1f73b6ae08d0ff64f80bf687040c925b31965dcca34139077b05734ea86dda60"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p5_S2",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p5_S2.json",
+      "source_sha256": "0854f174cfeb1b64ae609691d167592fdf27da3e38dab0d28b7652278172a1d5"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p5_S3",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p5_S3.json",
+      "source_sha256": "fde722abc19fae11f9beb6c3453dfa859b271a5dbddb8bbdcfab33d31afb9961"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p5_S5",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p5_S5.json",
+      "source_sha256": "bd6403f3287a03d0839b2b453e0716396708ffb02827142d73650a043c4362a1"
+    },
+    {
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "family": "practical",
+      "id": "planning-06_beta0p5_S8",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/06_beta0p5_S8.json",
+      "source_sha256": "69728473a69f3cebfd5fc8f8272e790d567d038ef7ad1bdffe439f465c0b77a1"
+    },
+    {
+      "description": "pe_gamma09_maze_self_loop_vi_osvi_waterfall_besp_piecewise_10000",
+      "family": "practical",
+      "id": "planning-09_gamma09",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/09_gamma09.json",
+      "source_sha256": "6d77a4ba4c2d2fe7396d1c29405259eb0921290a28f3368be3df648048c50be3"
+    },
+    {
+      "description": "pe_gamma099_maze_self_loop_vi_osvi_waterfall_besp_piecewise_10000",
+      "family": "practical",
+      "id": "planning-09_gamma099",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/09_gamma099.json",
+      "source_sha256": "0d9e74ad89ded221050014f47ec03afe93c629a9ff2c05c35c099fde1d4c0f1b"
+    },
+    {
+      "description": "pe_gamma0999_cliffwalk_self_loop_dense41_1000_vi_osvi_waterfall_besp",
+      "family": "practical",
+      "id": "planning-10_gamma0999_budget1000",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/10_gamma0999_budget1000.json",
+      "source_sha256": "63ad7148d59e680eb1815c4f8a24911cab97a81e3d6bfc6c6695ce3b9f6d0aaf"
+    },
+    {
+      "description": "pe_gamma0999_cliffwalk_self_loop_dense41_10000_vi_osvi_waterfall_besp",
+      "family": "practical",
+      "id": "planning-10_gamma0999_budget10000",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/10_gamma0999_budget10000.json",
+      "source_sha256": "9550452d88a798ea4edfc2ffb8c3d79c0eff61adeb481e99369bf3847787c519"
+    },
+    {
+      "description": "pe_gamma099_cliffwalk_self_loop_dense21_1000_vi_osvi_waterfall_besp",
+      "family": "practical",
+      "id": "planning-10_gamma099_budget1000",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/10_gamma099_budget1000.json",
+      "source_sha256": "0e4ad654bde0baba7e8ce3d18627b189a66fbe6b02d5e2293e6dc1ebd1c87b4b"
+    },
+    {
+      "description": "pe_gamma099_cliffwalk_self_loop_figure2dense25_10000_vi_osvi_waterfall_besp",
+      "family": "practical",
+      "id": "planning-10_gamma099_budget10000",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/10_gamma099_budget10000.json",
+      "source_sha256": "90acf39d41fbee74e0b503fe3c193bceb13bc095b41a8a24b49680d15add38e1"
+    },
+    {
+      "description": "control_gamma09_four_rooms15_self_loop_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "family": "practical",
+      "id": "planning-11_gamma09",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/11_gamma09.json",
+      "source_sha256": "043549402e2b1eef2b10adb3bdc8753d23b6a6651509e4d061eaecfee32f0c1b"
+    },
+    {
+      "description": "control_gamma099_four_rooms15_self_loop_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "family": "practical",
+      "id": "planning-11_gamma099",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/11_gamma099.json",
+      "source_sha256": "c52aed37e4fca3256b61a6c999c22bb109df0fea8b1942fc54fe2e884e8a2313"
+    },
+    {
+      "description": "pe_gamma09_four_rooms15_self_loop_vi_osvi_waterfall_besp_highlambda_piecewise_1000",
+      "family": "practical",
+      "id": "planning-12_gamma09",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/12_gamma09.json",
+      "source_sha256": "4fa7fab3defb7119df15921dd271a3d61649c86f007d79ab03708aee43d16b4b"
+    },
+    {
+      "description": "pe_gamma099_four_rooms15_self_loop_vi_osvi_waterfall_besp_highlambda_piecewise_1000",
+      "family": "practical",
+      "id": "planning-12_gamma099",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "methods/incumbent-restoration/configs/12_gamma099.json",
+      "source_sha256": "d8d08e968e66f34d6afa4ce6a03d4a22cc95fa70225a0adaa5393271c4014c9d"
+    },
+    {
+      "description": "appendix_figure_06_adaptive_heuristic_schedule_sensitivity",
+      "family": "unavailable",
+      "id": "reference-unavailable-09",
+      "limitations": [
+        "Reference source_config.yaml contains only an unavailable reference path; exact source overrides cannot be recovered from this file."
+      ],
+      "source_config": "methods/planning/implementation/experiments/paper_figures/appendix_figure_06_adaptive_heuristic_schedule_sensitivity/data/raw/source_config.yaml",
+      "source_sha256": "122487bbc7965eab6525f71d0157633b3ea5b30ee1c4a69f1b8ba8aeaa0449a1"
+    },
+    {
+      "algorithms": [
+        "vi",
+        {
+          "name": "osvi",
+          "surrogate_policy_iteration_steps": 5
+        }
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "control_gamma09_frozen_lake8x8_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "excluded_algorithms": [
+        {
+          "decay_factor": 0.1,
+          "h_init": "1e6",
+          "h_min": 1.0,
+          "name": "waterfall",
+          "stall_patience": 3
+        }
+      ],
+      "family": "baseline",
+      "id": "source-control-frozen-lake-gamma09",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-control-frozen-lake-gamma09.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.65,
+            0.7,
+            0.75,
+            0.8,
+            0.825,
+            0.85,
+            0.875,
+            0.9,
+            0.925,
+            0.95,
+            0.975,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_01_deterministic_control_frozen_lake/data/raw/gamma09/source_config.yaml",
+          "sha256": "cd6a429ca9a91b1f3bf601c0778d76c76950d90009d249b7884fd17d7aad1ead"
+        }
+      ],
+      "source_sha256": "95a0e5102257b892e65a54f14c42d5c1e5f775f56e7868fafc6941380fb3c2e3"
+    },
+    {
+      "algorithms": [
+        "vi",
+        {
+          "name": "osvi",
+          "surrogate_policy_iteration_steps": 5
+        }
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "control_gamma099_frozen_lake8x8_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "excluded_algorithms": [
+        {
+          "decay_factor": 0.1,
+          "h_init": "1e6",
+          "h_min": 1.0,
+          "name": "waterfall",
+          "stall_patience": 3
+        }
+      ],
+      "family": "baseline",
+      "id": "source-control-frozen-lake-gamma099",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-control-frozen-lake-gamma099.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.65,
+            0.7,
+            0.75,
+            0.8,
+            0.825,
+            0.85,
+            0.875,
+            0.9,
+            0.925,
+            0.95,
+            0.975,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_01_deterministic_control_frozen_lake/data/raw/gamma099/source_config.yaml",
+          "sha256": "855a148310eed3c5181ba3e44d433b8bb6ee4ffb717330b72396e33ec3cf4e1e"
+        }
+      ],
+      "source_sha256": "54034927be7d96ec0b98eefd6fed286e3a73482f67395f337065442a2fa661ed"
+    },
+    {
+      "algorithms": [
+        "vi",
+        {
+          "name": "osvi",
+          "surrogate_policy_iteration_steps": 5
+        }
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "control_gamma09_four_rooms15_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "excluded_algorithms": [
+        {
+          "decay_factor": 0.1,
+          "h_init": "1e6",
+          "h_min": 1.0,
+          "name": "waterfall",
+          "stall_patience": 3
+        }
+      ],
+      "family": "baseline",
+      "id": "source-control-four-rooms-gamma09",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-control-four-rooms-gamma09.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.65,
+            0.7,
+            0.75,
+            0.8,
+            0.825,
+            0.85,
+            0.875,
+            0.9,
+            0.925,
+            0.95,
+            0.975,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_02_deterministic_control_four_rooms/data/raw/gamma09/source_config.yaml",
+          "sha256": "ebf5d77e588c01b87550c574164567e9a92f7b65885c3c8b22705e4b9422174a"
+        }
+      ],
+      "source_sha256": "5349d62cc31ad80c67cfd694331bb5b111d3ddb8295c2db2a2feca361b91e388"
+    },
+    {
+      "algorithms": [
+        "vi",
+        {
+          "name": "osvi",
+          "surrogate_policy_iteration_steps": 5
+        }
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "control_gamma099_four_rooms15_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "excluded_algorithms": [
+        {
+          "decay_factor": 0.1,
+          "h_init": "1e6",
+          "h_min": 1.0,
+          "name": "waterfall",
+          "stall_patience": 3
+        }
+      ],
+      "family": "baseline",
+      "id": "source-control-four-rooms-gamma099",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-control-four-rooms-gamma099.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.65,
+            0.7,
+            0.75,
+            0.8,
+            0.825,
+            0.85,
+            0.875,
+            0.9,
+            0.925,
+            0.95,
+            0.975,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_02_deterministic_control_four_rooms/data/raw/gamma099/source_config.yaml",
+          "sha256": "b5a2c226729ead51cd284200f0f614afcc0f72b75430516b323376584037a3cf"
+        }
+      ],
+      "source_sha256": "06e44df6aa68d2326f8d95caec62b0a838044f3fa09afc939ed1be1ad22faa4b"
+    },
+    {
+      "algorithms": [
+        "vi",
+        "osvi"
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "pe_gamma09_maze_support_uniform_vi_osvi_waterfall_besp_piecewise_1000",
+      "excluded_algorithms": [
+        {
+          "decay_factor": 0.1,
+          "h_init": "1e6",
+          "h_min": 1.0,
+          "name": "waterfall_besp",
+          "stall_patience": 3
+        }
+      ],
+      "family": "baseline",
+      "id": "source-evaluation-maze-gamma09",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-evaluation-maze-gamma09.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.625,
+            0.65,
+            0.675,
+            0.7,
+            0.725,
+            0.75,
+            0.775,
+            0.8,
+            0.85,
+            0.9,
+            0.95,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_03_policy_evaluation_maze/data/gamma09/raw/source_config.yaml",
+          "sha256": "c27733e5788bbc4692b0507126b0c933afacb15b55729b7722ad31feb2a2ed02"
+        }
+      ],
+      "source_sha256": "f3460d01d3c77554ee34428b38ee2cc28f8b5cb0afdc742059bff089663611ee"
+    },
+    {
+      "algorithms": [
+        "vi",
+        "osvi"
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "pe_gamma099_maze_support_uniform_vi_osvi_waterfall_besp_piecewise_1000",
+      "excluded_algorithms": [
+        {
+          "decay_factor": 0.1,
+          "h_init": "1e6",
+          "h_min": 1.0,
+          "name": "waterfall_besp",
+          "stall_patience": 3
+        }
+      ],
+      "family": "baseline",
+      "id": "source-evaluation-maze-gamma099",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-evaluation-maze-gamma099.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.625,
+            0.65,
+            0.675,
+            0.7,
+            0.725,
+            0.75,
+            0.775,
+            0.8,
+            0.85,
+            0.9,
+            0.95,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_03_policy_evaluation_maze/data/gamma099/raw/source_config.yaml",
+          "sha256": "a3177f64a427e514e36b39a43b330d128ef272ab928bee5eac19243911495655"
+        }
+      ],
+      "source_sha256": "1fc6285d029770b7d62fb9be9a2d2fec43ced0607bc45e8d769001e671e45865"
+    },
+    {
+      "algorithms": [
+        "vi",
+        "osvi"
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "pe_gamma09_four_rooms15_support_uniform_vi_osvi_waterfall_besp_highlambda_piecewise_1000",
+      "excluded_algorithms": [
+        {
+          "decay_factor": 0.1,
+          "h_init": "1e6",
+          "h_min": 1.0,
+          "name": "waterfall_besp",
+          "stall_patience": 3
+        }
+      ],
+      "family": "baseline",
+      "id": "source-evaluation-four-rooms-gamma09",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-evaluation-four-rooms-gamma09.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.65,
+            0.7,
+            0.75,
+            0.8,
+            0.825,
+            0.85,
+            0.875,
+            0.9,
+            0.925,
+            0.95,
+            0.975,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_04_policy_evaluation_four_rooms/data/gamma09/raw/source_config.yaml",
+          "sha256": "fe4f2c421a586243a19a8472d6af4de5e96af46d0e2ca3b8ebf8f00a29e74e9b"
+        }
+      ],
+      "source_sha256": "a79a6e050d73e166ec52bbf7be1952e7453bc3083a9f726a7bcbf8df48934816"
+    },
+    {
+      "algorithms": [
+        "vi",
+        "osvi"
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "pe_gamma099_four_rooms15_support_uniform_vi_osvi_waterfall_besp_highlambda_piecewise_1000",
+      "excluded_algorithms": [
+        {
+          "decay_factor": 0.1,
+          "h_init": "1e6",
+          "h_min": 1.0,
+          "name": "waterfall_besp",
+          "stall_patience": 3
+        }
+      ],
+      "family": "baseline",
+      "id": "source-evaluation-four-rooms-gamma099",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-evaluation-four-rooms-gamma099.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.65,
+            0.7,
+            0.75,
+            0.8,
+            0.825,
+            0.85,
+            0.875,
+            0.9,
+            0.925,
+            0.95,
+            0.975,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_04_policy_evaluation_four_rooms/data/gamma099/raw/source_config.yaml",
+          "sha256": "8f6221e5794dc0945be180cc6f6485b1c1c5ba6c194604533199d8a2c193dbae"
+        }
+      ],
+      "source_sha256": "0f4a713b356827a28a986400afde9e9afe6ccb169c691e8fe59353cccf0fe0fa"
+    },
+    {
+      "algorithms": [
+        "vi",
+        {
+          "name": "osvi",
+          "surrogate_policy_iteration_steps": 5
+        }
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "excluded_algorithms": [
+        {
+          "decay_factor": 0.1,
+          "h_init": "1e6",
+          "h_min": 1.0,
+          "name": "waterfall",
+          "stall_patience": 3
+        }
+      ],
+      "family": "baseline",
+      "id": "source-control-cliffwalk-gamma099",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-control-cliffwalk-gamma099.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_05_threshold_criterion_sensitivity/data/raw/source_config.yaml",
+          "sha256": "b01e48627c845d7c2618cdb68ab1eb7f60fe7ddccd0cba8eca9e3a025f6543bf"
+        },
+        {
+          "lambdas": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/cliffwalk_deterministic_control/data/raw/gamma099/source_configs/dense11_1000.yaml",
+          "sha256": "b01e48627c845d7c2618cdb68ab1eb7f60fe7ddccd0cba8eca9e3a025f6543bf"
+        },
+        {
+          "lambdas": [
+            0.05,
+            0.15,
+            0.25,
+            0.35,
+            0.45,
+            0.55,
+            0.65,
+            0.75,
+            0.85,
+            0.95
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/cliffwalk_deterministic_control/data/raw/gamma099/source_configs/dense21_subset_1000.yaml",
+          "sha256": "68d8619ab64c3e07d02cfd2f512a66a086242ca0d2af75960f8d46dc72d084cd"
+        },
+        {
+          "lambdas": [
+            0.625,
+            0.675,
+            0.725,
+            0.775
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/cliffwalk_deterministic_control/data/raw/gamma099/source_configs/dense21_quarter_increments_1000.yaml",
+          "sha256": "9332e35f5afe41ed76feabdc9cf1a705a83621b452c8dcd6f299bf36cabab031"
+        }
+      ],
+      "source_sha256": "d8e0bf1e1a5043213eb7af64348aff9ad6b92495b56a3a82ac24c9a4a913c45d"
+    },
+    {
+      "algorithms": [
+        "vi",
+        {
+          "name": "osvi",
+          "surrogate_policy_iteration_steps": 5
+        },
+        {
+          "name": "aisp",
+          "target_epsilon": "1e-3"
+        }
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "control_gamma09_maze_support_uniform_vi_osvi_aisp_target1e3_piecewise_1000",
+      "excluded_algorithms": [],
+      "family": "baseline",
+      "id": "source-control-maze-gamma09",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-control-maze-gamma09.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.625,
+            0.65,
+            0.675,
+            0.7,
+            0.725,
+            0.75,
+            0.775,
+            0.8,
+            0.85,
+            0.9,
+            0.95,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_07_control_maze_support_uniform/data/gamma09/raw/source_config.yaml",
+          "sha256": "c76c7a0871d7695e3a6f1f1483e3f05e81040c3aedc787a614205b466e8f6b47"
+        }
+      ],
+      "source_sha256": "43cb90d69f48abd107afd5c7abce8c47484b40399663bf5e82a8dbac490d606f"
+    },
+    {
+      "algorithms": [
+        "vi",
+        {
+          "name": "osvi",
+          "surrogate_policy_iteration_steps": 5
+        },
+        {
+          "name": "aisp",
+          "target_epsilon": "1e-3"
+        }
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "control_gamma099_maze_support_uniform_vi_osvi_aisp_target1e3_piecewise_1000",
+      "excluded_algorithms": [],
+      "family": "baseline",
+      "id": "source-control-maze-gamma099",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-control-maze-gamma099.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.625,
+            0.65,
+            0.675,
+            0.7,
+            0.725,
+            0.75,
+            0.775,
+            0.8,
+            0.85,
+            0.9,
+            0.95,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_07_control_maze_support_uniform/data/gamma099/raw/source_config.yaml",
+          "sha256": "7ac62add8b7e978889ece3a360b3c801a9fdb8233e669930ed9e00ea854772e8"
+        }
+      ],
+      "source_sha256": "acb25734f2cca63172afb5a0f2afc0cee2b14261ad488e98ebaab91da2518734"
+    },
+    {
+      "algorithms": [
+        "vi",
+        {
+          "name": "osvi",
+          "surrogate_policy_iteration_steps": 5
+        },
+        {
+          "name": "aisp",
+          "target_epsilon": "1e-3"
+        }
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "control_gamma099_maze_self_loop_vi_osvi_aisp_target1e3_piecewise_10000",
+      "excluded_algorithms": [],
+      "family": "baseline",
+      "id": "source-control-maze-self-loop-gamma099",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-control-maze-self-loop-gamma099.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.625,
+            0.65,
+            0.675,
+            0.7,
+            0.725,
+            0.75,
+            0.775,
+            0.8,
+            0.85,
+            0.9,
+            0.95,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_08_control_maze_self_loop/data/raw/source_config.yaml",
+          "sha256": "0c77d7b75a5773bd1838879a7b48c3666d0283425ab3bed53e11f94e5eb3bd74"
+        }
+      ],
+      "source_sha256": "0169f5731bce1b3dd422383e6ea1f9eef3d5e12e0a5395a12a320eff14757979"
+    },
+    {
+      "algorithms": [
+        "vi",
+        "osvi"
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "pe_gamma09_maze_self_loop_vi_osvi_waterfall_besp_piecewise_10000",
+      "excluded_algorithms": [
+        {
+          "decay_factor": 0.1,
+          "h_init": "1e6",
+          "h_min": 1.0,
+          "name": "waterfall_besp",
+          "stall_patience": 3
+        }
+      ],
+      "family": "baseline",
+      "id": "source-evaluation-maze-self-loop-gamma09",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-evaluation-maze-self-loop-gamma09.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.625,
+            0.65,
+            0.675,
+            0.7,
+            0.725,
+            0.75,
+            0.775,
+            0.8,
+            0.85,
+            0.9,
+            0.95,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_09_policy_evaluation_maze_self_loop/data/gamma09/raw/source_config.yaml",
+          "sha256": "50d88c0b5b4e9c09fbbf014fff0a97b5cc738aa43ff39171a40aacdf2a463fa0"
+        }
+      ],
+      "source_sha256": "2290b8bcf198646399a8388f698f2adf5645b3a6cc14f4325117c587f4486a17"
+    },
+    {
+      "algorithms": [
+        "vi",
+        "osvi"
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "pe_gamma099_maze_self_loop_vi_osvi_waterfall_besp_piecewise_10000",
+      "excluded_algorithms": [
+        {
+          "decay_factor": 0.1,
+          "h_init": "1e6",
+          "h_min": 1.0,
+          "name": "waterfall_besp",
+          "stall_patience": 3
+        }
+      ],
+      "family": "baseline",
+      "id": "source-evaluation-maze-self-loop-gamma099",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-evaluation-maze-self-loop-gamma099.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.625,
+            0.65,
+            0.675,
+            0.7,
+            0.725,
+            0.75,
+            0.775,
+            0.8,
+            0.85,
+            0.9,
+            0.95,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_09_policy_evaluation_maze_self_loop/data/gamma099/raw/source_config.yaml",
+          "sha256": "3f3eea832ec0aefa2044981cffe4a553354cb47ac5a0ea2bfec0f38f568211c1"
+        }
+      ],
+      "source_sha256": "6c9e479570a0f8311ff8294ec7b396364d4fd436330ee7fa1b237b3ca1c2c24b"
+    },
+    {
+      "algorithms": [
+        "vi",
+        {
+          "name": "osvi",
+          "surrogate_policy_iteration_steps": 5
+        }
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "control_gamma09_four_rooms15_self_loop_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "excluded_algorithms": [
+        {
+          "decay_factor": 0.1,
+          "h_init": "1e6",
+          "h_min": 1.0,
+          "name": "waterfall",
+          "stall_patience": 3
+        }
+      ],
+      "family": "baseline",
+      "id": "source-control-four-rooms-self-loop-gamma09",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-control-four-rooms-self-loop-gamma09.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.65,
+            0.7,
+            0.75,
+            0.8,
+            0.825,
+            0.85,
+            0.875,
+            0.9,
+            0.925,
+            0.95,
+            0.975,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_11_control_four_rooms_self_loop/data/raw/gamma09/source_config.yaml",
+          "sha256": "eaf804e79c75cf1657dc0502f2868d20bf7d62a1423f589d51c72e4fe95c944d"
+        }
+      ],
+      "source_sha256": "1d363919ddd24aa44c70af8c6a1922fc678efd867480b67b2e6ba6528b0aee44"
+    },
+    {
+      "algorithms": [
+        "vi",
+        {
+          "name": "osvi",
+          "surrogate_policy_iteration_steps": 5
+        }
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "control_gamma099_four_rooms15_self_loop_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "excluded_algorithms": [
+        {
+          "decay_factor": 0.1,
+          "h_init": "1e6",
+          "h_min": 1.0,
+          "name": "waterfall",
+          "stall_patience": 3
+        }
+      ],
+      "family": "baseline",
+      "id": "source-control-four-rooms-self-loop-gamma099",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-control-four-rooms-self-loop-gamma099.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.65,
+            0.7,
+            0.75,
+            0.8,
+            0.825,
+            0.85,
+            0.875,
+            0.9,
+            0.925,
+            0.95,
+            0.975,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_11_control_four_rooms_self_loop/data/raw/gamma099/source_config.yaml",
+          "sha256": "c2f742a7f9ca8f7be973de74a436c533fcca048969ea20645a9bca7130f187bb"
+        }
+      ],
+      "source_sha256": "5eb0d000618ec83eb01ecce0cd1ca94cd7b74b790c21d54273817c6d79204e3b"
+    },
+    {
+      "algorithms": [
+        "vi",
+        "osvi"
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "pe_gamma09_four_rooms15_self_loop_vi_osvi_waterfall_besp_highlambda_piecewise_1000",
+      "excluded_algorithms": [
+        {
+          "decay_factor": 0.1,
+          "h_init": "1e6",
+          "h_min": 1.0,
+          "name": "waterfall_besp",
+          "stall_patience": 3
+        }
+      ],
+      "family": "baseline",
+      "id": "source-evaluation-four-rooms-self-loop-gamma09",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-evaluation-four-rooms-self-loop-gamma09.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.65,
+            0.7,
+            0.75,
+            0.8,
+            0.825,
+            0.85,
+            0.875,
+            0.9,
+            0.925,
+            0.95,
+            0.975,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_12_policy_evaluation_four_rooms_self_loop/data/gamma09/raw/source_config.yaml",
+          "sha256": "9663597173e638ea67e8766dc0ef9933d229c71cd3852e43250991aa86e6a138"
+        }
+      ],
+      "source_sha256": "6441f46a53e35aa992048e8f36aad7a770aa2e0332c975f33c26c4a8ca0dda7e"
+    },
+    {
+      "algorithms": [
+        "vi",
+        "osvi"
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "pe_gamma099_four_rooms15_self_loop_vi_osvi_waterfall_besp_highlambda_piecewise_1000",
+      "excluded_algorithms": [
+        {
+          "decay_factor": 0.1,
+          "h_init": "1e6",
+          "h_min": 1.0,
+          "name": "waterfall_besp",
+          "stall_patience": 3
+        }
+      ],
+      "family": "baseline",
+      "id": "source-evaluation-four-rooms-self-loop-gamma099",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-evaluation-four-rooms-self-loop-gamma099.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.65,
+            0.7,
+            0.75,
+            0.8,
+            0.825,
+            0.85,
+            0.875,
+            0.9,
+            0.925,
+            0.95,
+            0.975,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_12_policy_evaluation_four_rooms_self_loop/data/gamma099/raw/source_config.yaml",
+          "sha256": "ef6c93041b370fcbe8a3f0db0b1690e0c4060ead012662d00401b07532599d9e"
+        }
+      ],
+      "source_sha256": "c63628ccae308c9006005b24b5cf592654d0feb44d9ada258f6d4bde785a0741"
+    },
+    {
+      "algorithms": [
+        "vi",
+        "osvi"
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "pe_gamma0999_cliffwalk_self_loop_dense41_10000_vi_osvi_waterfall_besp",
+      "excluded_algorithms": [
+        {
+          "decay_factor": 0.1,
+          "h_init": "1e6",
+          "h_min": 1.0,
+          "name": "waterfall_besp",
+          "stall_patience": 3
+        }
+      ],
+      "family": "baseline",
+      "id": "source-evaluation-cliffwalk-self-loop-gamma0999-budget10000",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-evaluation-cliffwalk-self-loop-gamma0999-budget10000.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.025,
+            0.05,
+            0.075,
+            0.1,
+            0.125,
+            0.15,
+            0.175,
+            0.2,
+            0.225,
+            0.25,
+            0.275,
+            0.3,
+            0.325,
+            0.35,
+            0.375,
+            0.4,
+            0.425,
+            0.45,
+            0.475,
+            0.5,
+            0.525,
+            0.55,
+            0.575,
+            0.6,
+            0.625,
+            0.65,
+            0.675,
+            0.7,
+            0.725,
+            0.75,
+            0.775,
+            0.8,
+            0.825,
+            0.85,
+            0.875,
+            0.9,
+            0.925,
+            0.95,
+            0.975,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_10_policy_evaluation_cliffwalk_self_loop/data/gamma0999_budget10000_dense41/config.yaml",
+          "sha256": "c62576d4881a76ee7622df26bd44aef109950ae37cc6ba8208498df92a780c17"
+        }
+      ],
+      "source_sha256": "fccfd067a9c064092689fa4d9280999b5e2dcdb250c3e93238b332502624327a"
+    },
+    {
+      "algorithms": [
+        "vi",
+        "osvi"
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "pe_gamma0999_cliffwalk_self_loop_dense41_1000_vi_osvi_waterfall_besp",
+      "excluded_algorithms": [
+        {
+          "decay_factor": 0.1,
+          "h_init": "1e6",
+          "h_min": 1.0,
+          "name": "waterfall_besp",
+          "stall_patience": 3
+        }
+      ],
+      "family": "baseline",
+      "id": "source-evaluation-cliffwalk-self-loop-gamma0999-budget1000",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-evaluation-cliffwalk-self-loop-gamma0999-budget1000.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.025,
+            0.05,
+            0.075,
+            0.1,
+            0.125,
+            0.15,
+            0.175,
+            0.2,
+            0.225,
+            0.25,
+            0.275,
+            0.3,
+            0.325,
+            0.35,
+            0.375,
+            0.4,
+            0.425,
+            0.45,
+            0.475,
+            0.5,
+            0.525,
+            0.55,
+            0.575,
+            0.6,
+            0.625,
+            0.65,
+            0.675,
+            0.7,
+            0.725,
+            0.75,
+            0.775,
+            0.8,
+            0.825,
+            0.85,
+            0.875,
+            0.9,
+            0.925,
+            0.95,
+            0.975,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_10_policy_evaluation_cliffwalk_self_loop/data/gamma0999_budget1000_dense41/config.yaml",
+          "sha256": "9ee9ec4a5b29c37b125b706c44af0b00ff9d528c3080e2af39073ba07c708e8c"
+        }
+      ],
+      "source_sha256": "0a605082ff72755b149fded8cdd82f80dca99fd2c739f5d91a0ff6f801a31f00"
+    },
+    {
+      "algorithms": [
+        "vi",
+        "osvi"
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "pe_gamma099_cliffwalk_self_loop_figure2dense25_10000_vi_osvi_waterfall_besp",
+      "excluded_algorithms": [
+        {
+          "decay_factor": 0.1,
+          "h_init": "1e6",
+          "h_min": 1.0,
+          "name": "waterfall_besp",
+          "stall_patience": 3
+        }
+      ],
+      "family": "baseline",
+      "id": "source-evaluation-cliffwalk-self-loop-gamma099-budget10000",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-evaluation-cliffwalk-self-loop-gamma099-budget10000.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.45,
+            0.5,
+            0.55,
+            0.6,
+            0.625,
+            0.65,
+            0.675,
+            0.7,
+            0.725,
+            0.75,
+            0.775,
+            0.8,
+            0.85,
+            0.9,
+            0.95,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_10_policy_evaluation_cliffwalk_self_loop/data/gamma099_budget10000/config.yaml",
+          "sha256": "d3329dae269c10b2999d8b56d6b09fc6afd3bd80625ddca49d95cbc215d6143b"
+        }
+      ],
+      "source_sha256": "e90ceb6742ecea0216d23cadeed6493b4ae3711e2fe2e70d66062f5d8d76ef3d"
+    },
+    {
+      "algorithms": [
+        "vi",
+        "osvi"
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "pe_gamma099_cliffwalk_self_loop_dense21_1000_vi_osvi_waterfall_besp",
+      "excluded_algorithms": [
+        {
+          "decay_factor": 0.1,
+          "h_init": "1e6",
+          "h_min": 1.0,
+          "name": "waterfall_besp",
+          "stall_patience": 3
+        }
+      ],
+      "family": "baseline",
+      "id": "source-evaluation-cliffwalk-self-loop-gamma099-budget1000",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-evaluation-cliffwalk-self-loop-gamma099-budget1000.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.0,
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.45,
+            0.5,
+            0.55,
+            0.6,
+            0.65,
+            0.7,
+            0.75,
+            0.8,
+            0.85,
+            0.9,
+            0.95,
+            1.0
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_10_policy_evaluation_cliffwalk_self_loop/data/gamma099_budget1000_dense21/config.yaml",
+          "sha256": "99564d58c8482e4494cd0b9fd16c22bdae084ee7ea27f70c86194a1db478b3a5"
+        },
+        {
+          "lambdas": [
+            0.625,
+            0.675,
+            0.725,
+            0.775
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_10_policy_evaluation_cliffwalk_self_loop/data/gamma099_budget1000_transition025/config.yaml",
+          "sha256": "841d73fc1fc0a59c8e2696d982c0f7650a2f8d50874ed3253d30ce678dd198a5"
+        }
+      ],
+      "source_sha256": "92b6f0326eb5d4902321162c672dc8d14b8249b5c3791b7a13982c3d1dc9bad9"
+    },
+    {
+      "algorithms": [
+        {
+          "decay_factor": 0.1,
+          "h_init": "1e6",
+          "h_min": 1.0,
+          "name": "waterfall_besp",
+          "stall_patience": 3
+        }
+      ],
+      "deduplication": "Union lambda grids only when every other scientific and execution field agrees, except descriptive name and unavailable target location.",
+      "description": "pe_gamma099_cliffwalk_self_loop_transition025_1000_vi_osvi_waterfall_besp",
+      "excluded_algorithms": [],
+      "family": "baseline",
+      "id": "source-evaluation-cliffwalk-self-loop-gamma099-boundary",
+      "limitations": [
+        "Reference target arrays unavailable; independently reconstructed and certified.",
+        "Exact executed solver build identity for the reference measurements remains unverified."
+      ],
+      "reference_identity_claimed": false,
+      "source_config": "configs/planning/environments/source-evaluation-cliffwalk-self-loop-gamma099-boundary.yaml",
+      "source_configs": [
+        {
+          "lambdas": [
+            0.625,
+            0.675,
+            0.725,
+            0.775
+          ],
+          "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_10_policy_evaluation_cliffwalk_self_loop/data/gamma099_budget1000_transition025/config.yaml",
+          "sha256": "841d73fc1fc0a59c8e2696d982c0f7650a2f8d50874ed3253d30ce678dd198a5"
+        }
+      ],
+      "source_sha256": "57a8ce25387265bc44011aac4dac29f4be018be5881fda6aaec88b345876af03"
+    },
+    {
+      "description": "Frozen restarted Cliffwalk: all 57 stable-hit results",
+      "family": "planning-profile",
+      "id": "planning-profile",
+      "limitations": [
+        "Full policy trajectories differ from reference archive; exact solver build identity unverified."
+      ],
+      "source_config": "methods/planning/cliffwalk-planning/verification-config.json",
+      "source_sha256": "61ad5e33c434bd7059aa81244a8c3f41701973e0648ea7b04dfbc5af2584b559"
+    },
+    {
+      "description": "Two-state closed-form trajectory figure and complete numerical export",
+      "family": "two-state",
+      "id": "two-state-stiffness",
+      "limitations": [
+        "Illustrative display overrides are preserved and distinguished from computed trajectories."
+      ],
+      "source_config": "methods/planning/implementation/experiments/paper_figures/two_state_bellman_flow_stiffness/data/two_state_compact_inset.metadata.json",
+      "source_sha256": "5cc93601ac7dc5ac43638e78bac98b62e82e496716ddb4439aa9785e60878ced"
+    }
+  ]
+}

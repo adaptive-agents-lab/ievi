@@ -1,0 +1,54 @@
+{
+  "figure_slug": "two_state_compact_inset",
+  "parameters": {
+    "gamma": 0.99,
+    "alpha_self_loop_state1": 0.6,
+    "alpha_self_loop_state2": 0.0,
+    "surrogate_inner_iterations_m": 3,
+    "outer_h_mode": "delta-inv",
+    "shared_outer_h": 100.0,
+    "variant": "phase_portrait_with_floating_inset_and_slow_mode_panel",
+    "figsize_inches": [
+      5.5,
+      2.4
+    ],
+    "inset_axes_fraction_in_main_panel": [
+      0.0548,
+      0.6318,
+      0.3274,
+      0.3023
+    ],
+    "inset_iterate_marker_scatter_s": 8,
+    "u_1_to_u_2_arc3_rad": -0.3,
+    "u_2_to_u_3_arc3_rad": -0.4
+  },
+  "schema_version": 2,
+  "scope": "Distributed paper-figure inputs, implementation and reference assets",
+  "files": [
+    {
+      "path": "code/experiments/common/plot_style.py",
+      "sha256": "dab9f6615b31e2ce3db69f61b23387065e904223986aa540ba0dc365e49c54bc",
+      "bytes": 6848
+    },
+    {
+      "path": "code/experiments/two-state-bellman-flow-stiffness/plot_strict_swap_inset.py",
+      "sha256": "97311f40f8b95ae0b018ebf890c81cdf3d23c68032af66563aa7c61e8d0c0d43",
+      "bytes": 34105
+    },
+    {
+      "path": "code/export_two_state_compact_inset_data.py",
+      "sha256": "c2032af76f106cba8f08d2457a416139ea0924b059d7704b9a255d0fccf884f7",
+      "bytes": 8157
+    },
+    {
+      "path": "data/two_state_compact_inset.metadata.json",
+      "sha256": "5cc93601ac7dc5ac43638e78bac98b62e82e496716ddb4439aa9785e60878ced",
+      "bytes": 4411
+    },
+    {
+      "path": "data/two_state_compact_inset.raw_data.json",
+      "sha256": "3a2276aff0d74540fdd9f958632edd4b465a9e22c1f868ed06d4198cd1c7784a",
+      "bytes": 11072
+    }
+  ]
+}

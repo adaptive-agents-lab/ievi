@@ -1,0 +1,55 @@
+{
+  "purpose": "19-lambda stable-hit cost comparison of carry-forward and incumbent-restoration methods",
+  "inputs": [
+    {
+      "path": "methods/incumbent-restoration/results/common-solver/all-95-row-comparison.csv",
+      "sha256": "ed3785e91e561ab4cebc8173f619a7f5ecfd7a8c70339cebe620d75decbb8d1e",
+      "bytes": 18762
+    },
+    {
+      "path": "methods/planning/results/benchmarks/control_accuracy/raw/control_accuracy_summary.csv",
+      "sha256": "c4a21e465e0ecf647cb4b7ad20462b4effec397d8ae0bf64574282e082c4b13a",
+      "bytes": 16664
+    },
+    {
+      "path": "methods/incumbent-restoration/results/common-solver/control_accuracy_ievi_summary.csv",
+      "sha256": "a898692c98e0daf2902dffcf68b986541d8cc4a42dfb262418c4cda4efc84e3d",
+      "bytes": 11213
+    }
+  ],
+  "generator": {
+    "path": "methods/carry-forward/build_comparison.py",
+    "sha256": "89bcc69347287658e34eea671bdc0f130365751d6ad680fab311de9bdfb8593a",
+    "bytes": 3987
+  },
+  "outputs": [
+    {
+      "path": "reference-assets/method-comparison/common-solver-comparison.csv",
+      "sha256": "c722c999d9462dab704186b3edb4cb36bc398dd2adedb0a32df190e2c6290166",
+      "bytes": 776
+    }
+  ],
+  "checks": {
+    "comparison_rows": 38,
+    "lambda_settings": 19,
+    "source_summary_fields_match": true,
+    "true_count_equality_across_tolerances_per_variant": true,
+    "no_hit_encoding": "no hit; never converted to a finite budget",
+    "no_hit_cells": 0
+  },
+  "columns": [
+    "lambda",
+    "primary_N_P",
+    "primary_N_Phat_delta_1e-8",
+    "primary_N_Phat_delta_1e-2",
+    "restoration_N_P",
+    "restoration_N_Phat_delta_1e-8",
+    "restoration_N_Phat_delta_1e-2"
+  ],
+  "metric": "stable policy-error hit; common-solver actual full operator applications including initial true application",
+  "delta_solve_order": [
+    1e-08,
+    0.01
+  ],
+  "evidence": "Primary comparison uses supplied carry-forward measurements; secondary comparison uses reproduced incumbent-restoration measurements. Source-identity qualifications are documented with the inputs."
+}

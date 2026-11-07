@@ -1,0 +1,104 @@
+{
+  "reference_dispatcher_sha256": "54ad1c9459eba38fa383bd2978581e3091d8950d9d66fab078a33ef6c89ba6da",
+  "executed_reference_solver_byte_identity_proven": false,
+  "reason": "Recorded run fingerprints cover the dispatcher and configuration, but not the complete executed solver file. The supplied solver classes are AST-identical to the supplementary snapshot. Two source snapshots share the dispatcher hash while differing in solver files, so exact executed solver identity remains unverified.",
+  "solver_class_ast_sha256": {
+    "reference_source/besp/algorithms/jax/deterministic.py": {
+      "MSVI_Control": "8e476bad9d96406a6c6fbd893d4559e5446b323351a89977923619df1ab3491b",
+      "ISP_Control": "9dccf82691aa45f28ebe06323f8ba48fc4db132f51e923a40e1c69bc1b1c50cd",
+      "AISP_Control": "4e0f30356e4f42bd0a439fe8c9eb88c0e49aa42c135951a82a83c704c97d316a"
+    },
+    "source-comparisons/supplement/algorithms/jax/deterministic.py": {
+      "MSVI_Control": "8e476bad9d96406a6c6fbd893d4559e5446b323351a89977923619df1ab3491b",
+      "ISP_Control": "9dccf82691aa45f28ebe06323f8ba48fc4db132f51e923a40e1c69bc1b1c50cd",
+      "AISP_Control": "4e0f30356e4f42bd0a439fe8c9eb88c0e49aa42c135951a82a83c704c97d316a"
+    },
+    "source-comparisons/control_comparison/algorithms/jax/deterministic.py": {
+      "MSVI_Control": "f97234e3daca3f447ae69f441c9303973cc9150b82ae88d6d5c7ae822026e06c",
+      "ISP_Control": "f7a36e62bc812078399f91e325757bf589f583d8724e07404b041bf3fb43ca8e",
+      "AISP_Control": "da40fe4bf878e3d98be73fe8268267715e43566db5998b965838f54f5ea738d7"
+    }
+  },
+  "source_manifest": [
+    {
+      "source_path": null,
+      "frozen_path": "reference_source/besp/algorithms/jax/deterministic.py",
+      "sha256": "dd414dfaa1ffd1facb835806eb80714306b25ddf4e915403d78a14a69380a67e"
+    },
+    {
+      "source_path": null,
+      "frozen_path": "reference_source/besp/core/types.py",
+      "sha256": "52427b45998616746e535e6a2b0034215d05e48b6b9b751b16d8326e34e2a82c"
+    },
+    {
+      "source_path": null,
+      "frozen_path": "reference_source/besp/environments/jax_native.py",
+      "sha256": "1299652cf509062a5a63c415bee1d24b263ee3089f9717b3a7ca19510bf6ee85"
+    },
+    {
+      "source_path": null,
+      "frozen_path": "reference_source/besp/runners/deterministic_dispatch.py",
+      "sha256": "bc4ffd4661209eba1ef63d064359e79bc6ff4b7d56fb99b05441a35171315e4e"
+    },
+    {
+      "source_path": null,
+      "frozen_path": "source-comparisons/supplement/algorithms/jax/deterministic.py",
+      "sha256": "b0813f255aecdf19920ca46612b6159edf2551b5b14f76541441277439219c05"
+    },
+    {
+      "source_path": null,
+      "frozen_path": "source-comparisons/supplement/runners/deterministic_dispatch.py",
+      "sha256": "54ad1c9459eba38fa383bd2978581e3091d8950d9d66fab078a33ef6c89ba6da"
+    },
+    {
+      "source_path": null,
+      "frozen_path": "source-comparisons/control_comparison/algorithms/jax/deterministic.py",
+      "sha256": "78f7d90b3271a5491fd5c02a1bdf6afba14fdf23e7293270dd5bd2d57feb3f7a"
+    },
+    {
+      "source_path": null,
+      "frozen_path": "source-comparisons/control_comparison/runners/deterministic_dispatch.py",
+      "sha256": "54ad1c9459eba38fa383bd2978581e3091d8950d9d66fab078a33ef6c89ba6da"
+    },
+    {
+      "source_path": null,
+      "frozen_path": "reference/control_traces.json",
+      "sha256": "5da2a899a69a3fe931780692b1ea053fed8677619e6ea41c5a8463f5ba2a2628",
+      "recorded_source_sha256": "ac703e2b61a23ce6e8427d7a0f5c88ecd2a4b5605fb062c8e1df284891a30259",
+      "byte_identical_to_recorded_source": false
+    },
+    {
+      "source_path": null,
+      "frozen_path": "reference/source_config.yaml",
+      "sha256": "07cfa02bc3dcba3617a3833444c501d12ee6cb1e56fdc2d6995e876c8ecb9cbf",
+      "recorded_source_sha256": "3159f01405a3b71ba46ae9966346b425ebba78a715f3d27e2e56a6bdcd310ef8",
+      "byte_identical_to_recorded_source": false
+    },
+    {
+      "source_path": null,
+      "frozen_path": "reference/source_provenance.json",
+      "sha256": "b32e5ee1dde58e3f80e452ce29d6a0a888dc42c750c7d4ef1037efb222224c85",
+      "recorded_source_sha256": "8b4e62093dd19b67d1f9f98c4ebf98790ae3d2372333321908063cf4aed7584a",
+      "byte_identical_to_recorded_source": false
+    },
+    {
+      "source_path": null,
+      "frozen_path": "reference/planning_stable_hit_query_vs_lambda.metadata.json",
+      "sha256": "46024f171570c9e4ce94a201090081a7a71339e8886709fb01b0cca97faa8583",
+      "recorded_source_sha256": "8836d984aab19c3f05e6d204696cd918fbd4e65f7cb55c1b5d41b395999e8993",
+      "byte_identical_to_recorded_source": false
+    },
+    {
+      "source_path": null,
+      "frozen_path": "runtime/besp/core/types.py",
+      "sha256": "52427b45998616746e535e6a2b0034215d05e48b6b9b751b16d8326e34e2a82c"
+    },
+    {
+      "source_path": null,
+      "frozen_path": "runtime/besp/environments/jax_native.py",
+      "sha256": "1299652cf509062a5a63c415bee1d24b263ee3089f9717b3a7ca19510bf6ee85"
+    }
+  ],
+  "instrumentation": "AISP update preflight reserves m+1 true applications to prevent an over-budget candidate. Observational hooks record actual true-kernel applications and inner-solver returns without changing the accepted update formula, returned policy, numerical stopping rule, or incumbent restoration.",
+  "dispatcher_hash_matches_supplement_and_control_comparison": true
+}

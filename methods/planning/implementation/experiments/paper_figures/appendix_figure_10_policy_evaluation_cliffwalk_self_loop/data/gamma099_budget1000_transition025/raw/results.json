@@ -1,0 +1,30 @@
+[
+  {
+    "lambda": 0.625,
+    "seed": 625,
+    "vi": 692,
+    "osvi": 1001,
+    "waterfall_besp": 47
+  },
+  {
+    "lambda": 0.675,
+    "seed": 675,
+    "vi": 692,
+    "osvi": 1001,
+    "waterfall_besp": 54
+  },
+  {
+    "lambda": 0.725,
+    "seed": 725,
+    "vi": 692,
+    "osvi": 1001,
+    "waterfall_besp": 1001
+  },
+  {
+    "lambda": 0.775,
+    "seed": 775,
+    "vi": 692,
+    "osvi": 1001,
+    "waterfall_besp": 1001
+  }
+]

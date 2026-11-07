@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "claim_id": "cliffwalk-pe-self-loop-gamma099-transition",
+  "source_catalog_id": "source-evaluation-cliffwalk-self-loop-gamma099-boundary",
+  "reference_source": {
+    "path": null,
+    "sha256": "7685e34e6b3deb72edf7b12b4254e2ba72d02c9f7ec867d325d6aaf7c6d8897e",
+    "line": 279,
+    "excerpt": "At \\(\\gamma=0.99\\), increasing the budget does not change the corrected-method no-hit boundary: OS-VI fails from \\(\\lambda=0.55\\), while \\(\\AIEVI{}\\) fails from \\(\\lambda=0.725\\).",
+    "excerpt_sha256": "4498e192e181121919bc4a9fb877a840491ece7fe27fbced4d1f73fc267d3610",
+    "availability": "The reference TeX source is not distributed. The recorded excerpt, source hash and line identify the claim; the experiment check uses the excerpt and numerical conditions."
+  },
+  "experiment": {
+    "problem_type": "pe",
+    "env": "cliffwalk",
+    "gamma": 0.99,
+    "error_mode": "self_loop",
+    "max_queries": 1000,
+    "threshold": 0.001,
+    "algorithm": "waterfall_besp"
+  },
+  "finite_stable_hit_lambdas": [
+    0.625,
+    0.675
+  ],
+  "no_stable_hit_lambdas": [
+    0.725,
+    0.775
+  ],
+  "claim": "Cliffwalk PE self-loop gamma=.99 adaptive no-hit at lambda=.725 within 1000 queries; .625/.675 finite and .775 also no-hit.",
+  "scope": "The excerpt records the manuscript boundary claim. The four reference transition-grid conditions are checked directly against recomputed dense traces; no reference query counts are invented. The full reference manuscript is not a runtime dependency."
+}

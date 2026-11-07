@@ -1,0 +1,48 @@
+{
+  "figure": "cliffwalk_control_gamma099_stable_hits",
+  "environment": "cliffwalk",
+  "error_mode": "support_uniform",
+  "threshold": 0.001,
+  "run_budget": 1000,
+  "dnf_y": 1680,
+  "algorithms": [
+    "vi",
+    "osvi",
+    "waterfall"
+  ],
+  "figure_role": "active_main_body_figure_2",
+  "datasets": [
+    {
+      "gamma": 0.99,
+      "label": "$\\gamma=0.99$",
+      "trace_file": "data/raw/gamma099/control_traces.json",
+      "dense_lambda_region": [
+        0.6,
+        0.8
+      ],
+      "display_segments": [
+        {
+          "lambda_start": 0.0,
+          "lambda_end": 0.6,
+          "width": 0.3
+        },
+        {
+          "lambda_start": 0.6,
+          "lambda_end": 0.8,
+          "width": 0.45
+        },
+        {
+          "lambda_start": 0.8,
+          "lambda_end": 1.0,
+          "width": 0.25
+        }
+      ],
+      "source_configs": [
+        "data/raw/gamma099/source_configs/dense11_1000.yaml",
+        "data/raw/gamma099/source_configs/dense21_subset_1000.yaml",
+        "data/raw/gamma099/source_configs/dense21_quarter_increments_1000.yaml"
+      ]
+    }
+  ],
+  "output_path": "assets_gamma099_only/cliffwalk_control_gamma099_stable_hits.png"
+}

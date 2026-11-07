@@ -1,0 +1,53 @@
+[
+  {
+    "figure": "main_figure1",
+    "retained_stream_sha256": "2892a37556e6f2e931e0a5999f74dcc26f407727aa7c84136688c8b29ed4c337",
+    "regenerated_stream_sha256": "020c4f5ec4f1241faad40cfe2bc82af693a37a1e85c0f68dbac2a3113ff1d5ff",
+    "drawing_stream_match": false,
+    "extracted_text_match": true,
+    "retained_pdf_sha256": "2de9854959d0601e8f50e41be54864409fc23b69168dda8510994e31ad50aaf3",
+    "regenerated_pdf_sha256": "4598d4a91da7e242da78d0df5e3607ebf3f976cdef06e9e4b16c481f232ab62e",
+    "figure_scope": "Supplementary planning comparison; this record does not establish fidelity of the current manuscript Figure 1."
+  },
+  {
+    "figure": "E1-weighted-cost",
+    "retained_stream_sha256": "f337578eca917e317674172a590bcec58d1539c3588eebfb158f915879d31ad4",
+    "regenerated_stream_sha256": "f337578eca917e317674172a590bcec58d1539c3588eebfb158f915879d31ad4",
+    "drawing_stream_match": true,
+    "extracted_text_match": true,
+    "retained_pdf_sha256": "906e0a40b15d620535d90f2050bc318f5868e31193b45bc05de68902f35bed47",
+    "regenerated_pdf_sha256": "9dfc3e37e4643c33cb4221f9ed0055bc2d33b222250f883b6ca1ef245fbe83e7",
+    "figure_scope": "Supplementary planning comparison; this record does not establish fidelity of the current manuscript Figure 1."
+  },
+  {
+    "figure": "E2-solve-tolerance",
+    "retained_stream_sha256": "bf4cf3ce67ba4537c68fefadd6d7e3a0ed25952dba39b1f9f52eddf0bb62eaed",
+    "regenerated_stream_sha256": "bf4cf3ce67ba4537c68fefadd6d7e3a0ed25952dba39b1f9f52eddf0bb62eaed",
+    "drawing_stream_match": true,
+    "extracted_text_match": true,
+    "retained_pdf_sha256": "9c1a6c656a980e53b4d1f79c6ae9847342cf9a8c16aecf5373d9a30a1f90aed2",
+    "regenerated_pdf_sha256": "9d8b1e22d296bfe4155c5e7cc4de80c1d47eeb044076fd976ad5dd3328a270e6",
+    "figure_scope": "Supplementary planning comparison; this record does not establish fidelity of the current manuscript Figure 1."
+  },
+  {
+    "figure": "E3-horizon-scaling",
+    "retained_stream_sha256": "54f8d557401af4db6d609c256e3339ad144fa8947d2302f25bb0e5ebd75c9b15",
+    "regenerated_stream_sha256": "bebfdb3609a8cb9df03df2132f717889a143259ffcec2e43a8774effb73e4080",
+    "drawing_stream_match": false,
+    "extracted_text_match": true,
+    "retained_pdf_sha256": "f40c7dc93bfe38f0fa78fec6a20dfda1c96ad5edac9f0a8a93b446a106e91051",
+    "regenerated_pdf_sha256": "3bf6844e6f9ed1e1f5f41efbc0031500483ffe94f7df6afb82196826480c4632",
+    "presentation_difference": "The figure asset uses red for selected legend substrings; the renderer uses black legend text. Display labels agree.",
+    "figure_scope": "Supplementary planning comparison; this record does not establish fidelity of the current manuscript Figure 1."
+  },
+  {
+    "figure": "E4-wallclock-fidelity",
+    "retained_stream_sha256": "e7734c7468c450c521446388920135ef8c928df03e1f22e9ccde139943480893",
+    "regenerated_stream_sha256": "e7734c7468c450c521446388920135ef8c928df03e1f22e9ccde139943480893",
+    "drawing_stream_match": true,
+    "extracted_text_match": true,
+    "retained_pdf_sha256": "b7d8d2f491a0119b1f10c385e47b96a3d340d59bd7c3727be89796ea971edb07",
+    "regenerated_pdf_sha256": "753d06d7aefa11a6ab864e51cec18336bdf91538dd6d564cc36026d1780ed745",
+    "figure_scope": "Supplementary planning comparison; this record does not establish fidelity of the current manuscript Figure 1."
+  }
+]

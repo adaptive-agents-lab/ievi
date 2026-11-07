@@ -1,0 +1,515 @@
+[
+  {
+    "lambda": 0,
+    "algorithm": "vi",
+    "reference_first_hit": 49,
+    "verified_first_hit": 49,
+    "policy_mismatch_output_count": 1,
+    "first_policy_mismatch_query": 2,
+    "max_abs_policy_error_difference": 0.2659752501409436
+  },
+  {
+    "lambda": 0,
+    "algorithm": "osvi",
+    "reference_first_hit": 1,
+    "verified_first_hit": 1,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 5.677438754592032e-16
+  },
+  {
+    "lambda": 0,
+    "algorithm": "aisp",
+    "reference_first_hit": 12,
+    "verified_first_hit": 12,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 5.677438754592032e-16
+  },
+  {
+    "lambda": 0.1,
+    "algorithm": "vi",
+    "reference_first_hit": 49,
+    "verified_first_hit": 49,
+    "policy_mismatch_output_count": 1,
+    "first_policy_mismatch_query": 2,
+    "max_abs_policy_error_difference": 0.2659752501409436
+  },
+  {
+    "lambda": 0.1,
+    "algorithm": "osvi",
+    "reference_first_hit": 1,
+    "verified_first_hit": 1,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 5.677438754592032e-16
+  },
+  {
+    "lambda": 0.1,
+    "algorithm": "aisp",
+    "reference_first_hit": 12,
+    "verified_first_hit": 12,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 5.677438754592032e-16
+  },
+  {
+    "lambda": 0.2,
+    "algorithm": "vi",
+    "reference_first_hit": 49,
+    "verified_first_hit": 49,
+    "policy_mismatch_output_count": 1,
+    "first_policy_mismatch_query": 2,
+    "max_abs_policy_error_difference": 0.2659752501409436
+  },
+  {
+    "lambda": 0.2,
+    "algorithm": "osvi",
+    "reference_first_hit": 2,
+    "verified_first_hit": 2,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 1.038232000372119e-15
+  },
+  {
+    "lambda": 0.2,
+    "algorithm": "aisp",
+    "reference_first_hit": 12,
+    "verified_first_hit": 12,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 5.677438754592032e-16
+  },
+  {
+    "lambda": 0.3,
+    "algorithm": "vi",
+    "reference_first_hit": 49,
+    "verified_first_hit": 49,
+    "policy_mismatch_output_count": 1,
+    "first_policy_mismatch_query": 2,
+    "max_abs_policy_error_difference": 0.2659752501409436
+  },
+  {
+    "lambda": 0.3,
+    "algorithm": "osvi",
+    "reference_first_hit": 3,
+    "verified_first_hit": 3,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 1.038232000372119e-15
+  },
+  {
+    "lambda": 0.3,
+    "algorithm": "aisp",
+    "reference_first_hit": 12,
+    "verified_first_hit": 12,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 5.677438754592032e-16
+  },
+  {
+    "lambda": 0.4,
+    "algorithm": "vi",
+    "reference_first_hit": 49,
+    "verified_first_hit": 49,
+    "policy_mismatch_output_count": 1,
+    "first_policy_mismatch_query": 2,
+    "max_abs_policy_error_difference": 0.2659752501409436
+  },
+  {
+    "lambda": 0.4,
+    "algorithm": "osvi",
+    "reference_first_hit": 4,
+    "verified_first_hit": 4,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 1.038232000372119e-15
+  },
+  {
+    "lambda": 0.4,
+    "algorithm": "aisp",
+    "reference_first_hit": 12,
+    "verified_first_hit": 12,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 5.677438754592032e-16
+  },
+  {
+    "lambda": 0.5,
+    "algorithm": "vi",
+    "reference_first_hit": 49,
+    "verified_first_hit": 49,
+    "policy_mismatch_output_count": 1,
+    "first_policy_mismatch_query": 2,
+    "max_abs_policy_error_difference": 0.2659752501409436
+  },
+  {
+    "lambda": 0.5,
+    "algorithm": "osvi",
+    "reference_first_hit": 8,
+    "verified_first_hit": 8,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 1.038232000372119e-15
+  },
+  {
+    "lambda": 0.5,
+    "algorithm": "aisp",
+    "reference_first_hit": 12,
+    "verified_first_hit": 12,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 5.677438754592032e-16
+  },
+  {
+    "lambda": 0.6,
+    "algorithm": "vi",
+    "reference_first_hit": 49,
+    "verified_first_hit": 49,
+    "policy_mismatch_output_count": 1,
+    "first_policy_mismatch_query": 2,
+    "max_abs_policy_error_difference": 0.2659752501409436
+  },
+  {
+    "lambda": 0.6,
+    "algorithm": "osvi",
+    "reference_first_hit": 10,
+    "verified_first_hit": 10,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 1.038232000372119e-15
+  },
+  {
+    "lambda": 0.6,
+    "algorithm": "aisp",
+    "reference_first_hit": 12,
+    "verified_first_hit": 12,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 5.677438754592032e-16
+  },
+  {
+    "lambda": 0.625,
+    "algorithm": "vi",
+    "reference_first_hit": 49,
+    "verified_first_hit": 49,
+    "policy_mismatch_output_count": 1,
+    "first_policy_mismatch_query": 2,
+    "max_abs_policy_error_difference": 0.2659752501409436
+  },
+  {
+    "lambda": 0.625,
+    "algorithm": "osvi",
+    "reference_first_hit": 11,
+    "verified_first_hit": 11,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 1.038232000372119e-15
+  },
+  {
+    "lambda": 0.625,
+    "algorithm": "aisp",
+    "reference_first_hit": 12,
+    "verified_first_hit": 12,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 5.677438754592032e-16
+  },
+  {
+    "lambda": 0.65,
+    "algorithm": "vi",
+    "reference_first_hit": 49,
+    "verified_first_hit": 49,
+    "policy_mismatch_output_count": 1,
+    "first_policy_mismatch_query": 2,
+    "max_abs_policy_error_difference": 0.2659752501409436
+  },
+  {
+    "lambda": 0.65,
+    "algorithm": "osvi",
+    "reference_first_hit": 12,
+    "verified_first_hit": 12,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 1.038232000372119e-15
+  },
+  {
+    "lambda": 0.65,
+    "algorithm": "aisp",
+    "reference_first_hit": 12,
+    "verified_first_hit": 12,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 5.677438754592032e-16
+  },
+  {
+    "lambda": 0.675,
+    "algorithm": "vi",
+    "reference_first_hit": 49,
+    "verified_first_hit": 49,
+    "policy_mismatch_output_count": 1,
+    "first_policy_mismatch_query": 2,
+    "max_abs_policy_error_difference": 0.2659752501409436
+  },
+  {
+    "lambda": 0.675,
+    "algorithm": "osvi",
+    "reference_first_hit": 13,
+    "verified_first_hit": 13,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 1.038232000372119e-15
+  },
+  {
+    "lambda": 0.675,
+    "algorithm": "aisp",
+    "reference_first_hit": 12,
+    "verified_first_hit": 12,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 5.677438754592032e-16
+  },
+  {
+    "lambda": 0.7,
+    "algorithm": "vi",
+    "reference_first_hit": 49,
+    "verified_first_hit": 49,
+    "policy_mismatch_output_count": 1,
+    "first_policy_mismatch_query": 2,
+    "max_abs_policy_error_difference": 0.2659752501409436
+  },
+  {
+    "lambda": 0.7,
+    "algorithm": "osvi",
+    "reference_first_hit": 14,
+    "verified_first_hit": 14,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 1.038232000372119e-15
+  },
+  {
+    "lambda": 0.7,
+    "algorithm": "aisp",
+    "reference_first_hit": 45,
+    "verified_first_hit": 45,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 5.677438754592032e-16
+  },
+  {
+    "lambda": 0.725,
+    "algorithm": "vi",
+    "reference_first_hit": 49,
+    "verified_first_hit": 49,
+    "policy_mismatch_output_count": 1,
+    "first_policy_mismatch_query": 2,
+    "max_abs_policy_error_difference": 0.2659752501409436
+  },
+  {
+    "lambda": 0.725,
+    "algorithm": "osvi",
+    "reference_first_hit": 16,
+    "verified_first_hit": 16,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 1.4710455076283324e-15
+  },
+  {
+    "lambda": 0.725,
+    "algorithm": "aisp",
+    "reference_first_hit": 45,
+    "verified_first_hit": 45,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 5.677438754592032e-16
+  },
+  {
+    "lambda": 0.75,
+    "algorithm": "vi",
+    "reference_first_hit": 49,
+    "verified_first_hit": 49,
+    "policy_mismatch_output_count": 1,
+    "first_policy_mismatch_query": 2,
+    "max_abs_policy_error_difference": 0.2659752501409436
+  },
+  {
+    "lambda": 0.75,
+    "algorithm": "osvi",
+    "reference_first_hit": 124,
+    "verified_first_hit": 124,
+    "policy_mismatch_output_count": 648,
+    "first_policy_mismatch_query": 235,
+    "max_abs_policy_error_difference": 0.3640532907788425
+  },
+  {
+    "lambda": 0.75,
+    "algorithm": "aisp",
+    "reference_first_hit": 958,
+    "verified_first_hit": 958,
+    "policy_mismatch_output_count": 0,
+    "first_policy_mismatch_query": null,
+    "max_abs_policy_error_difference": 8.881784197001252e-16
+  },
+  {
+    "lambda": 0.775,
+    "algorithm": "vi",
+    "reference_first_hit": 49,
+    "verified_first_hit": 49,
+    "policy_mismatch_output_count": 1,
+    "first_policy_mismatch_query": 2,
+    "max_abs_policy_error_difference": 0.2659752501409436
+  },
+  {
+    "lambda": 0.775,
+    "algorithm": "osvi",
+    "reference_first_hit": 32,
+    "verified_first_hit": 32,
+    "policy_mismatch_output_count": 728,
+    "first_policy_mismatch_query": 200,
+    "max_abs_policy_error_difference": 0.32346413618572023
+  },
+  {
+    "lambda": 0.775,
+    "algorithm": "aisp",
+    "reference_first_hit": 815,
+    "verified_first_hit": 815,
+    "policy_mismatch_output_count": 34,
+    "first_policy_mismatch_query": 375,
+    "max_abs_policy_error_difference": 0.28764008311640676
+  },
+  {
+    "lambda": 0.8,
+    "algorithm": "vi",
+    "reference_first_hit": 49,
+    "verified_first_hit": 49,
+    "policy_mismatch_output_count": 1,
+    "first_policy_mismatch_query": 2,
+    "max_abs_policy_error_difference": 0.2659752501409436
+  },
+  {
+    "lambda": 0.8,
+    "algorithm": "osvi",
+    "reference_first_hit": 794,
+    "verified_first_hit": 248,
+    "policy_mismatch_output_count": 786,
+    "first_policy_mismatch_query": 178,
+    "max_abs_policy_error_difference": 0.4671594669096709
+  },
+  {
+    "lambda": 0.8,
+    "algorithm": "aisp",
+    "reference_first_hit": null,
+    "verified_first_hit": null,
+    "policy_mismatch_output_count": 42,
+    "first_policy_mismatch_query": 276,
+    "max_abs_policy_error_difference": 0.2944883179833226
+  },
+  {
+    "lambda": 0.85,
+    "algorithm": "vi",
+    "reference_first_hit": 49,
+    "verified_first_hit": 49,
+    "policy_mismatch_output_count": 1,
+    "first_policy_mismatch_query": 2,
+    "max_abs_policy_error_difference": 0.2659752501409436
+  },
+  {
+    "lambda": 0.85,
+    "algorithm": "osvi",
+    "reference_first_hit": 35,
+    "verified_first_hit": 35,
+    "policy_mismatch_output_count": 817,
+    "first_policy_mismatch_query": 164,
+    "max_abs_policy_error_difference": 0.5447952404967599
+  },
+  {
+    "lambda": 0.85,
+    "algorithm": "aisp",
+    "reference_first_hit": null,
+    "verified_first_hit": null,
+    "policy_mismatch_output_count": 46,
+    "first_policy_mismatch_query": 265,
+    "max_abs_policy_error_difference": 0.3244413202976495
+  },
+  {
+    "lambda": 0.9,
+    "algorithm": "vi",
+    "reference_first_hit": 49,
+    "verified_first_hit": 49,
+    "policy_mismatch_output_count": 1,
+    "first_policy_mismatch_query": 2,
+    "max_abs_policy_error_difference": 0.2659752501409436
+  },
+  {
+    "lambda": 0.9,
+    "algorithm": "osvi",
+    "reference_first_hit": 226,
+    "verified_first_hit": 320,
+    "policy_mismatch_output_count": 854,
+    "first_policy_mismatch_query": 123,
+    "max_abs_policy_error_difference": 0.7283763428894429
+  },
+  {
+    "lambda": 0.9,
+    "algorithm": "aisp",
+    "reference_first_hit": null,
+    "verified_first_hit": null,
+    "policy_mismatch_output_count": 50,
+    "first_policy_mismatch_query": 232,
+    "max_abs_policy_error_difference": 0.4277551540522626
+  },
+  {
+    "lambda": 0.95,
+    "algorithm": "vi",
+    "reference_first_hit": 49,
+    "verified_first_hit": 49,
+    "policy_mismatch_output_count": 1,
+    "first_policy_mismatch_query": 2,
+    "max_abs_policy_error_difference": 0.2659752501409436
+  },
+  {
+    "lambda": 0.95,
+    "algorithm": "osvi",
+    "reference_first_hit": 235,
+    "verified_first_hit": 938,
+    "policy_mismatch_output_count": 860,
+    "first_policy_mismatch_query": 124,
+    "max_abs_policy_error_difference": 0.7796323491714332
+  },
+  {
+    "lambda": 0.95,
+    "algorithm": "aisp",
+    "reference_first_hit": null,
+    "verified_first_hit": null,
+    "policy_mismatch_output_count": 54,
+    "first_policy_mismatch_query": 188,
+    "max_abs_policy_error_difference": 0.7481066501485476
+  },
+  {
+    "lambda": 1,
+    "algorithm": "vi",
+    "reference_first_hit": 49,
+    "verified_first_hit": 49,
+    "policy_mismatch_output_count": 1,
+    "first_policy_mismatch_query": 2,
+    "max_abs_policy_error_difference": 0.2659752501409436
+  },
+  {
+    "lambda": 1,
+    "algorithm": "osvi",
+    "reference_first_hit": null,
+    "verified_first_hit": null,
+    "policy_mismatch_output_count": 866,
+    "first_policy_mismatch_query": 131,
+    "max_abs_policy_error_difference": 0.7980342354483095
+  },
+  {
+    "lambda": 1,
+    "algorithm": "aisp",
+    "reference_first_hit": null,
+    "verified_first_hit": null,
+    "policy_mismatch_output_count": 55,
+    "first_policy_mismatch_query": 177,
+    "max_abs_policy_error_difference": 0.7395844279567492
+  }
+]

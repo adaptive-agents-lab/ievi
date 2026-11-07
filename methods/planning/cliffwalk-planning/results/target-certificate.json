@@ -1,0 +1,11 @@
+{
+  "certified": true,
+  "stop_reason": "certified",
+  "iterations": 2637,
+  "residual_norm": 9.868017514236271e-11,
+  "residual_tolerance": 1.000000000000001e-10,
+  "value_error_bound": 9.868017514236263e-09,
+  "greedy_policy_stable": true,
+  "epsilon_target": 1e-08,
+  "max_iters": 500000
+}

@@ -1,0 +1,94 @@
+{
+  "source_runtime": null,
+  "implementation_note": "The deterministic-control dispatcher exposes aisp.target_epsilon. Source files and their recorded hashes specify the implementation; exact executed source identity is not established by the configuration alone.",
+  "source_files_used": [
+    {
+      "path": "besp/runners/deterministic_dispatch.py",
+      "sha256": "54ad1c9459eba38fa383bd2978581e3091d8950d9d66fab078a33ef6c89ba6da"
+    },
+    {
+      "path": null,
+      "sha256": "0c620e280bf541361fa5736a3c9af2416246ac49d68c5852980503f4fc362478"
+    }
+  ],
+  "source_config": null,
+  "source_run_dir": null,
+  "source_trace_file": null,
+  "command": "JAX_PLATFORMS=cpu python scripts/run_experiment.py --config configs/control_gamma099_cliffwalk_support_uniform_vi_osvi_aisp_target1e3_piecewise_1000.yaml --platform cpu --cores 32",
+  "parameters": {
+    "environment": "cliffwalk",
+    "gamma": 0.99,
+    "error_mode": "support_uniform",
+    "threshold": 0.001,
+    "metric_mode": "policy_value_error",
+    "stable_hit_threshold": 0.001,
+    "max_queries": 1000,
+    "aisp_target_epsilon": 0.001,
+    "lambdas": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.625,
+      0.65,
+      0.675,
+      0.7,
+      0.725,
+      0.75,
+      0.775,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      1.0
+    ],
+    "algorithms": {
+      "vi": {},
+      "osvi": {
+        "surrogate_policy_iteration_steps": 5
+      },
+      "aisp": {
+        "target_epsilon": 0.001
+      }
+    }
+  },
+  "imported_files": [
+    {
+      "path": "data/raw/control_traces.json",
+      "sha256": "05ebea50edde04459b2e25376d79997c348d5ab93e9191018fd1cf96d6185ed1"
+    },
+    {
+      "path": "data/raw/source_config.yaml",
+      "sha256": "bf6ff915318bac21e77708d797c7bbd2ebc25c1cbba3de9801f3c919965cd6c2"
+    },
+    {
+      "path": "data/results.csv",
+      "sha256": "905f8925207d7e44ac44679c5393f9cb32d1861019e54b3a9dced84ac434adf7"
+    },
+    {
+      "path": "data/summary.json",
+      "sha256": "ab8711827368d3fc11a3ff5321d72052c2b24f70fc9c4512caa5543f7b6956a5"
+    }
+  ],
+  "verification": [
+    {
+      "repo": null,
+      "command": "python -m pytest tests/unit/test_control_algs.py tests/unit/test_adaptive_control_policy_trace.py tests/integration/test_deterministic_jax_oracles.py -q",
+      "result": "11 passed in 10.50s"
+    },
+    {
+      "repo": null,
+      "command": "python -m pytest tests/unit/test_gpu_worker.py -k 'aisp' -q",
+      "result": "5 passed, 84 deselected in 7.27s"
+    },
+    {
+      "repo": null,
+      "command": "PATH=\".\" ruff check besp/runners/deterministic_dispatch.py tests/unit/test_gpu_worker.py",
+      "result": "All checks passed"
+    }
+  ],
+  "recorded_hash_scope": "Hash values identify reference-source bytes. Null optional source locations indicate unavailable identical source files. Corresponding bundled inputs may differ in byte identity; numerical settings and outcomes are documented separately."
+}

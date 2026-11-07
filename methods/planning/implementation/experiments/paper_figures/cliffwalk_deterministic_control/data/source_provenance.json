@@ -1,0 +1,148 @@
+{
+  "figure_slug": "cliffwalk_control_discount_comparison",
+  "figure_role": "active_main_body_figure_2",
+  "purpose": "Two-panel deterministic-control Cliffwalk stable-hit comparison for the main-body Figure 2.",
+  "source_runtime": null,
+  "source_files_used": [
+    {
+      "path": "besp/runners/deterministic_dispatch.py",
+      "status": "Implementation used for the gamma=0.9 high-lambda measurements",
+      "sha256": "54ad1c9459eba38fa383bd2978581e3091d8950d9d66fab078a33ef6c89ba6da"
+    },
+    {
+      "path": null,
+      "status": "Configuration for the gamma=0.9 high-lambda measurements",
+      "sha256": "a2345a12ca53ab69f8ff7cc2e0c61735cdebf5b29ecdbe71d56bf28b493de9a0"
+    }
+  ],
+  "gamma09_run": {
+    "run_dir": null,
+    "lambda_grid": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.825,
+      0.85,
+      0.875,
+      0.9,
+      0.925,
+      0.95,
+      0.975,
+      1.0
+    ],
+    "copied_files": [
+      {
+        "path": null,
+        "source_path": null,
+        "sha256": "24d7e4e61c9641d685eaa354f778bd43e0e32f8458065dccd4a4f8f8ed3461ca"
+      },
+      {
+        "path": "data/raw/gamma09_highlambda/source_config.yaml",
+        "source_path": null,
+        "sha256": "a2345a12ca53ab69f8ff7cc2e0c61735cdebf5b29ecdbe71d56bf28b493de9a0"
+      }
+    ],
+    "source_result_hashes": {
+      "results.csv": "ebe672573e20f350bee4bc282179254fd85a3c6b9db8a224450c0be1f0ff66ef",
+      "summary.json": "4523401a352858f562b37938a17afd47e831dafb9dbd8206d85a378a56810221"
+    },
+    "run_protocol": {
+      "environment": [
+        "JAX_PLATFORMS=cpu"
+      ],
+      "interpreter": "python",
+      "program_identifier": "run_experiment.py",
+      "parameters": [
+        {
+          "argument": "--platform",
+          "value": "cpu"
+        },
+        {
+          "argument": "--cores",
+          "value": "32"
+        }
+      ],
+      "configuration_identifier": "control_gamma09_cliffwalk_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000.yaml",
+      "configuration_path": null,
+      "scope": "Reference execution parameters; the original configuration file is unavailable."
+    }
+  },
+  "gamma099_data": {
+    "local_trace_source": null,
+    "copied_trace": {
+      "path": null,
+      "sha256": "d6b1b79ba8cc3a0b8cd4551c4752fd25610a941e8fffaf4eec2a3347392906a1"
+    },
+    "component_source_run_configs": [
+      {
+        "path": "data/raw/gamma099/source_configs/dense11_1000.yaml",
+        "source_path": null,
+        "sha256": "c312f3a4a143c19a1576054fc4d309df0677d922bb302e658c54b3f81113fcf7"
+      },
+      {
+        "path": "data/raw/gamma099/source_configs/dense21_subset_1000.yaml",
+        "source_path": null,
+        "sha256": "e182faba8c12a72c496a90209ad5eb432d1986dc303412ed60783f15d53f575b"
+      },
+      {
+        "path": "data/raw/gamma099/source_configs/dense21_quarter_increments_1000.yaml",
+        "source_path": null,
+        "sha256": "f89e7ede09fd78f7bfae34cf273d3e4b107e658d4a0804ac4cb7c70281a36607"
+      }
+    ],
+    "appendix_sensitivity_links": [
+      {
+        "label": "fig:threshold-criterion-sensitivity",
+        "package_or_asset": "figures/threshold_criterion_sensitivity.pdf"
+      },
+      {
+        "label": "fig:waterfall-schedule-sensitivity",
+        "package_or_asset": "experiments/figure_02a_waterfall_schedule_sensitivity"
+      }
+    ]
+  },
+  "rendering": {
+    "script": "code/experiments/scripts/render_gamma_comparison_hit_query_vs_lambda.py",
+    "script_sha256": "d4f897a3be777fc8c9a1531517c8f1cf97c2b34f834a199772e3acf0bc582f4a",
+    "style_helper": "code/experiments/common/plot_style.py",
+    "style_helper_sha256": "3fff1c74013bc0445a58774fad7c6e06d21f7ac1f1960dc3b5236288c44a549f",
+    "figure_spec": "figure_spec.json",
+    "figure_spec_sha256": "2a798cae8b9fac7492bba314675ceac9170a0bf45f8225bb49af2cc1cd77b2ff",
+    "native_pdf_size_points": [
+      398.419,
+      174.176
+    ],
+    "previous_body_pdf_size_points": [
+      397.231,
+      175.566
+    ],
+    "outputs": {
+      "png": {
+        "path": "assets/cliffwalk_control_discount_comparison.png",
+        "sha256": "96aabfa150a479231c3cfa2c2eeb5de3be3698bf3a3b626aa1c70bbd4e6667cb"
+      },
+      "pdf": {
+        "path": "assets/cliffwalk_control_discount_comparison.pdf",
+        "sha256": "737153f1d3ec46c68cf17d0b0fb9162e32d2d75177ea6d1ae630d9326c8995ee"
+      },
+      "metadata": {
+        "path": "assets/cliffwalk_control_discount_comparison.metadata.json",
+        "sha256": "d7e3d6b0e051de9f33ab4175a2f44ea41530737e613de3f4597e042f098ab080"
+      }
+    },
+    "figure_outputs": {
+      "png": "../../figures/cliffwalk_control_discount_comparison.png",
+      "pdf": "../../figures/cliffwalk_control_discount_comparison.pdf",
+      "metadata": "../../figures/cliffwalk_control_discount_comparison.metadata.json"
+    }
+  },
+  "recorded_hash_scope": "Hash values identify reference-source bytes. Null optional source locations indicate unavailable identical source files. Corresponding bundled inputs may differ in byte identity; numerical settings and outcomes are documented separately."
+}

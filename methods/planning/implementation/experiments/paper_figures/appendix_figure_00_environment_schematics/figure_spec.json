@@ -1,0 +1,276 @@
+{
+  "package_name": "appendix_figure_00_environment_schematics",
+  "figure": "environment_schematics",
+  "label": "fig:environment-schematics",
+  "manuscript_source": "appendix/experiments.tex",
+  "renderer": "experiments/paper_figures/appendix_figure_00_environment_schematics/code/render_environment_schematics.py",
+  "source_files": [
+    {
+      "role": "environment constructors",
+      "path": "",
+      "relevant_lines": {
+        "modified_cliffwalk": "81-125",
+        "maze": "128-166",
+        "four_rooms": "354-435",
+        "frozen_lake": "484-537"
+      },
+      "bundled_source_path": "methods/planning/implementation/src/besp/environments/jax_native.py",
+      "hash_scope": "The reference source byte identity with bundled_source_path is unverified."
+    }
+  ],
+  "outputs": {
+    "package_pdf": "experiments/paper_figures/appendix_figure_00_environment_schematics/figures/environment_schematics.pdf",
+    "package_png": "experiments/paper_figures/appendix_figure_00_environment_schematics/figures/environment_schematics.png",
+    "latex_pdf": "figures/environment_schematics.pdf",
+    "latex_png": "figures/environment_schematics.png"
+  },
+  "visual_grammar": {
+    "S": "start state",
+    "G": "goal state",
+    "H": "absorbing hazard or hole",
+    "T": "absorbing trap",
+    "black_segments": "blocked adjacencies or internal walls"
+  },
+  "environments": {
+    "cliffwalk": {
+      "panel_title": "(a) Modified Cliffwalk",
+      "description": "A 6-by-6 stochastic gridworld with top-left start, top-right absorbing goal, and absorbing hazard cells in the middle four cells of rows 0, 2, and 4.",
+      "size": [
+        6,
+        6
+      ],
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        0,
+        5
+      ],
+      "hazard_rows": [
+        {
+          "row": 0,
+          "reward": -32.0
+        },
+        {
+          "row": 2,
+          "reward": -16.0
+        },
+        {
+          "row": 4,
+          "reward": -8.0
+        }
+      ],
+      "hazard_cols": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "goal_reward": 20.0,
+      "other_state_reward": -1.0,
+      "goal_absorbing": true,
+      "hazards_absorbing": true,
+      "intended_action_probability": 0.9,
+      "unintended_action_probability_each": 0.03333333333333333
+    },
+    "maze": {
+      "panel_title": "(b) Maze",
+      "description": "A 3-by-3 stochastic gridworld with top-left start, top-right goal state, and four blocked adjacencies under row-major state numbering.",
+      "size": [
+        3,
+        3
+      ],
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        0,
+        2
+      ],
+      "goal_state": 2,
+      "blocked_adjacencies_state_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "blocked_adjacencies_cell_pairs": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      ],
+      "reward_rule": "Reward 1 is assigned to actions whose intended target is the goal state.",
+      "goal_absorbing": false,
+      "intended_action_probability": 0.9,
+      "unintended_action_probability_each": 0.03333333333333333
+    },
+    "frozen_lake": {
+      "panel_title": "(c) FrozenLake",
+      "description": "An 8-by-8 stochastic gridworld with top-left start, lower-right absorbing goal, and ten absorbing holes.",
+      "size": [
+        8,
+        8
+      ],
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        7,
+        7
+      ],
+      "holes": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          3
+        ]
+      ],
+      "goal_reward": 1.0,
+      "other_state_reward": 0.0,
+      "goal_absorbing": true,
+      "holes_absorbing": true,
+      "intended_action_probability": 0.6666666666666666,
+      "perpendicular_slip_probability_each": 0.16666666666666666
+    },
+    "four_rooms": {
+      "panel_title": "(d) Four Rooms",
+      "description": "A 15-by-15 stochastic gridworld with two internal walls crossing at the midpoint, one doorway per wall, lower-right absorbing goal, and one absorbing trap per room.",
+      "size": [
+        15,
+        15
+      ],
+      "seed": 0,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        14,
+        14
+      ],
+      "wall_midpoint": 7,
+      "vertical_wall_between_columns": [
+        6,
+        7
+      ],
+      "vertical_wall_door_row": 4,
+      "horizontal_wall_between_rows": [
+        6,
+        7
+      ],
+      "horizontal_wall_door_col": 2,
+      "traps": [
+        [
+          4,
+          9
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          13
+        ],
+        [
+          9,
+          4
+        ]
+      ],
+      "goal_reward": 1.0,
+      "trap_reward": -1.0,
+      "other_state_reward": 0.0,
+      "goal_absorbing": true,
+      "traps_absorbing": true,
+      "intended_action_probability": 0.9,
+      "unintended_action_probability_each": 0.03333333333333333
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "package_name": "deterministic-policy-evaluation-maze-support-uniform-piecewise-1000-vi-osvi-waterfall-besp",
+  "purpose": "Reproduced Maze deterministic policy-evaluation runs for support-uniform model error at gamma 0.99 and 0.9.",
+  "coverage": {
+    "regime": "deterministic policy evaluation",
+    "environment": "maze",
+    "gammas": [
+      0.99,
+      0.9
+    ],
+    "noise_model": "support_uniform",
+    "threshold": 0.001,
+    "max_queries": 1000,
+    "n_seeds": 1,
+    "config_seed": 0,
+    "lambda_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.625,
+      0.65,
+      0.675,
+      0.7,
+      0.725,
+      0.75,
+      0.775,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      1.0
+    ],
+    "source_algorithms": [
+      "vi",
+      "osvi",
+      "waterfall_besp"
+    ],
+    "visible_algorithm_labels": {
+      "vi": "VI",
+      "osvi": "OS-VI",
+      "waterfall_besp": "Adaptive IE-VI"
+    },
+    "appendix_figure": "fig:maze-pe-gamma-comparison"
+  },
+  "run_commands": [
+    "JAX_PLATFORMS=cpu CUDA_VISIBLE_DEVICES='' OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 python scripts/run_experiment.py --config configs/pe_gamma099_maze_support_uniform_vi_osvi_waterfall_besp_piecewise_1000.yaml --platform cpu --cores 16 --output_dir outputs/runs/pe_gamma099_maze_support_uniform_vi_osvi_waterfall_besp_piecewise_1000_fresh",
+    "JAX_PLATFORMS=cpu CUDA_VISIBLE_DEVICES='' OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 python scripts/run_experiment.py --config configs/pe_gamma09_maze_support_uniform_vi_osvi_waterfall_besp_piecewise_1000.yaml --platform cpu --cores 16 --output_dir outputs/runs/pe_gamma09_maze_support_uniform_vi_osvi_waterfall_besp_piecewise_1000_fresh"
+  ],
+  "runs": {
+    "gamma099": {
+      "source_run_dir": ".",
+      "local_data_dir": "data/gamma099",
+      "source_config_sha256": "e9d5500183c4b2f7a94cebbcc85fa3dbf2d7a2d000e8859f3c111f9d03f8d971",
+      "pe_traces_sha256": "582dba66686932ff839ad27c0de4ec44c21b9aaf894bef3fea517bbc78a9ba10",
+      "results_csv_sha256": "dca7ec8d5cc00eb3b848c8253977cb7d1f65eca3e2a1c46d398ad51698192837",
+      "summary_json_sha256": "8654c834386e8ff0890d1bc1655ffcf1f0644b55a462b3f08c444edb4c41ee20",
+      "figure_png": "figures/maze_pe_gamma099_support_uniform_hit_query_vs_lambda.png",
+      "figure_png_sha256": "50cb69e865d8bf20a5f10d7d725f4e9cce5c5af948867599dcb70229a9d81273",
+      "figure_pdf": "figures/maze_pe_gamma099_support_uniform_hit_query_vs_lambda.pdf",
+      "figure_pdf_sha256": "beb214b66f3beda35662317821d1ceee1cc839d03db743b0ac6fccaf1f497aa4"
+    },
+    "gamma09": {
+      "source_run_dir": ".",
+      "local_data_dir": "data/gamma09",
+      "source_config_sha256": "2727b005123be18b64ed3c661f6e095de7a43d08fe764c24b7df48238152c822",
+      "pe_traces_sha256": "a12706f14ddd35c353c8ab3f50284fb4597d317701a6e8acc34a325c90de1db3",
+      "results_csv_sha256": "4261bb418a940acdb6ca996bb9193e955854d9defc826ab9ddcc59a79a301198",
+      "summary_json_sha256": "fcce0e325a3ee50156af98914afd11c708093438e0cf8de3677e4e7330a780a9",
+      "figure_png": "figures/maze_pe_gamma09_support_uniform_hit_query_vs_lambda.png",
+      "figure_png_sha256": "756cec500f7e264652ce2a8db9c5060b2e2a51172c7227d053a3ab28b5885e83",
+      "figure_pdf": "figures/maze_pe_gamma09_support_uniform_hit_query_vs_lambda.pdf",
+      "figure_pdf_sha256": "136bc6942126ce9c926e5f1a758035f69584659a5edb2dc418e079cce9eba3df"
+    }
+  },
+  "schema_version": 2,
+  "scope": "Distributed paper-figure inputs, implementation and reference assets",
+  "files": [
+    {
+      "path": "code/render_maze_pe_gamma_comparison.py",
+      "sha256": "d959a5c8db6dd69fab29be9a1a4f330feaf4a538b3dcffbac2b0a78b8064a884",
+      "bytes": 15180
+    },
+    {
+      "path": "data/gamma09/raw/pe_traces.json",
+      "sha256": "059be4e6cd4691f882d377e62da5ee6ccba591784d615107d6b727eb33fceab8",
+      "bytes": 2859570
+    },
+    {
+      "path": "data/gamma09/raw/results.json",
+      "sha256": "79c4d4527f4e500ab1b60264e6d92ff1adf924ff214d8a2bef5caf5e8d23445b",
+      "bytes": 2048
+    },
+    {
+      "path": "data/gamma09/raw/runner_config_snapshot.yaml",
+      "sha256": "53b992195a4c899b2a1496bdcbca2fb846d055a607c8119c980ca4fd5505f2f1",
+      "bytes": 769
+    },
+    {
+      "path": "data/gamma09/raw/source_config.yaml",
+      "sha256": "c27733e5788bbc4692b0507126b0c933afacb15b55729b7722ad31feb2a2ed02",
+      "bytes": 699
+    },
+    {
+      "path": "data/gamma09/results.csv",
+      "sha256": "d808f8b6eeb70ca57d204b20e0ac82d74f888baa29624fa876259212066020f4",
+      "bytes": 390
+    },
+    {
+      "path": "data/gamma09/summary.json",
+      "sha256": "3b46271a351c218b839e8d2fa4eb3ffa02a18c7cdd5d1fe27e658ae6e8335f04",
+      "bytes": 814
+    },
+    {
+      "path": "data/gamma099/raw/pe_traces.json",
+      "sha256": "ea6bb210bf1639d84223b70bc0034177c02c212e80541a92af0f39f956bf7e64",
+      "bytes": 2828352
+    },
+    {
+      "path": "data/gamma099/raw/results.json",
+      "sha256": "041213755694f92d60dd7cbb13e480e7b34343a211e12509215c088a053a738c",
+      "bytes": 2091
+    },
+    {
+      "path": "data/gamma099/raw/runner_config_snapshot.yaml",
+      "sha256": "207c8c9b1fecd2464d4d1e6584fb280146a5d5c8bd5121b74dbc679f855128a1",
+      "bytes": 772
+    },
+    {
+      "path": "data/gamma099/raw/source_config.yaml",
+      "sha256": "a3177f64a427e514e36b39a43b330d128ef272ab928bee5eac19243911495655",
+      "bytes": 702
+    },
+    {
+      "path": "data/gamma099/results.csv",
+      "sha256": "dfafd9d6998456753c49c685b64738095136ddfacaba04427d31fd4647bcec5b",
+      "bytes": 433
+    },
+    {
+      "path": "data/gamma099/summary.json",
+      "sha256": "4b5a734943985573927eb27f2b5002ddff74eb0e34c067f06a2ebe5aef141952",
+      "bytes": 818
+    }
+  ]
+}

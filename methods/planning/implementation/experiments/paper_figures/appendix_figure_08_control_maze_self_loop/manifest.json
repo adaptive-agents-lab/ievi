@@ -1,0 +1,58 @@
+{
+  "package_name": "appendix_figure_08_control_maze_self_loop",
+  "purpose": "Appendix Maze Control self-loop panel matching the stable-hit query figure family used in the paper.",
+  "coverage": {
+    "regime": "Control",
+    "environment": "maze",
+    "noise_model": "self_loop",
+    "gammas": [
+      0.99
+    ],
+    "threshold": 0.001,
+    "max_queries": 10000,
+    "visible_algorithm_labels": {
+      "vi": "VI",
+      "osvi": "OS-VI",
+      "aisp": "Adaptive IE-VI"
+    }
+  },
+  "schema_version": 2,
+  "scope": "Distributed paper-figure inputs, implementation and reference assets",
+  "files": [
+    {
+      "path": "code/render_maze_control_self_loop_gamma099.py",
+      "sha256": "5a02448d828ad82897f23bf3f0be08acd9ae98a8bd27a18b5d25bcd44651f599",
+      "bytes": 12787
+    },
+    {
+      "path": "data/raw/control_traces.json.gz",
+      "sha256": "81673cb289d0d81e53e57b62ff10758d4846d21c2ec39b8a223b240570a15990",
+      "bytes": 3015916
+    },
+    {
+      "path": "data/raw/source_config.yaml",
+      "sha256": "0c77d7b75a5773bd1838879a7b48c3666d0283425ab3bed53e11f94e5eb3bd74",
+      "bytes": 734
+    },
+    {
+      "path": "data/results.csv",
+      "sha256": "82cda789a1e618db0d6210519def060c09c49f39a5414f7ebf56927540821590",
+      "bytes": 375
+    },
+    {
+      "path": "data/source_provenance.json",
+      "sha256": "0d0cbcc73e2938a76df7887917235cee58fe8c6c623829e1b115fa4b17bb07ac",
+      "bytes": 2616
+    },
+    {
+      "path": "data/summary.json",
+      "sha256": "5a2bc2503e50045688479d86c07bc3ef22f4e9a7674cb34e23d5e88948dfe334",
+      "bytes": 936
+    },
+    {
+      "path": "figure_spec.json",
+      "sha256": "b189fe0dc8f3f91cc1c4333b1eee1fd552862f229aa2274c6b16dc2db6e231c5",
+      "bytes": 381
+    }
+  ]
+}

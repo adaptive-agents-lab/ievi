@@ -1,0 +1,270 @@
+{
+  "package_name": "appendix_figure_11_control_four_rooms_self_loop",
+  "purpose": "Final appendix Four Rooms Control self-loop gamma-comparison figure.",
+  "coverage": {
+    "regime": "Control",
+    "environment": "four_rooms",
+    "environment_params": {
+      "size": 15,
+      "seed": 0
+    },
+    "noise_model": "self_loop",
+    "gammas": [
+      0.9,
+      0.99
+    ],
+    "threshold": 0.001,
+    "max_queries": 1000,
+    "lambda_grid": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.825,
+      0.85,
+      0.875,
+      0.9,
+      0.925,
+      0.95,
+      0.975,
+      1.0
+    ],
+    "visible_algorithm_labels": {
+      "vi": "VI",
+      "osvi": "OS-VI",
+      "aievi": "Adaptive IE-VI"
+    },
+    "source_algorithm_keys": [
+      "vi",
+      "osvi",
+      "waterfall"
+    ]
+  },
+  "source_runs": {
+    "gamma09": "outputs/runs/control_gamma09_four_rooms15_self_loop_vi_osvi_waterfall_highlambda_piecewise_1000",
+    "gamma099": "outputs/runs/control_gamma099_four_rooms15_self_loop_vi_osvi_waterfall_highlambda_piecewise_1000"
+  },
+  "run_commands": [
+    "JAX_PLATFORMS=cpu CUDA_VISIBLE_DEVICES= OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 XLA_FLAGS=\"--xla_cpu_multi_thread_eigen=false intra_op_parallelism_threads=1\" python scripts/run_experiment.py --platform cpu --cores 8 --config configs/control_gamma09_four_rooms15_self_loop_vi_osvi_waterfall_highlambda_piecewise_1000.yaml --output_dir outputs/runs/control_gamma09_four_rooms15_self_loop_vi_osvi_waterfall_highlambda_piecewise_1000",
+    "JAX_PLATFORMS=cpu CUDA_VISIBLE_DEVICES= OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 XLA_FLAGS=\"--xla_cpu_multi_thread_eigen=false intra_op_parallelism_threads=1\" python scripts/run_experiment.py --platform cpu --cores 8 --config configs/control_gamma099_four_rooms15_self_loop_vi_osvi_waterfall_highlambda_piecewise_1000.yaml --output_dir outputs/runs/control_gamma099_four_rooms15_self_loop_vi_osvi_waterfall_highlambda_piecewise_1000"
+  ],
+  "stable_hit_summary": {
+    "gamma09": {
+      "vi": {
+        "finite_lambdas": [
+          0.0,
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.5,
+          0.6,
+          0.65,
+          0.7,
+          0.75,
+          0.8,
+          0.825,
+          0.85,
+          0.875,
+          0.9,
+          0.925,
+          0.95,
+          0.975,
+          1.0
+        ],
+        "finite_through_lambda": 1.0,
+        "first_failure_lambda": null,
+        "n_failures": 0,
+        "max_stable_hit": 14
+      },
+      "osvi": {
+        "finite_lambdas": [
+          0.0,
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.5
+        ],
+        "finite_through_lambda": 0.5,
+        "first_failure_lambda": 0.6,
+        "n_failures": 13,
+        "max_stable_hit": 1
+      },
+      "aievi": {
+        "finite_lambdas": [
+          0.0,
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.5,
+          0.6,
+          0.65,
+          0.7,
+          0.75
+        ],
+        "finite_through_lambda": 0.75,
+        "first_failure_lambda": 0.8,
+        "n_failures": 9,
+        "max_stable_hit": 115
+      }
+    },
+    "gamma099": {
+      "vi": {
+        "finite_lambdas": [
+          0.0,
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.5,
+          0.6,
+          0.65,
+          0.7,
+          0.75,
+          0.8,
+          0.825,
+          0.85,
+          0.875,
+          0.9,
+          0.925,
+          0.95,
+          0.975,
+          1.0
+        ],
+        "finite_through_lambda": 1.0,
+        "first_failure_lambda": null,
+        "n_failures": 0,
+        "max_stable_hit": 13
+      },
+      "osvi": {
+        "finite_lambdas": [
+          0.0,
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.5
+        ],
+        "finite_through_lambda": 0.5,
+        "first_failure_lambda": 0.6,
+        "n_failures": 13,
+        "max_stable_hit": 1
+      },
+      "aievi": {
+        "finite_lambdas": [
+          0.0,
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.5,
+          0.6,
+          0.65,
+          0.7
+        ],
+        "finite_through_lambda": 0.7,
+        "first_failure_lambda": 0.75,
+        "n_failures": 10,
+        "max_stable_hit": 890
+      }
+    }
+  },
+  "schema_version": 2,
+  "scope": "Distributed paper-figure inputs, implementation and reference assets",
+  "files": [
+    {
+      "path": "code/experiments/common/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "code/experiments/common/plot_style.py",
+      "sha256": "1a8343947080d65e07b757c2ba95a77e617e1d2c52669fef66aa02d3c600f290",
+      "bytes": 8247
+    },
+    {
+      "path": "code/experiments/common/stable_hit_style.py",
+      "sha256": "27530e9fb2346eb16e9fecd420c7dc849333d5232ccce7c9c6143e65b5915152",
+      "bytes": 9289
+    },
+    {
+      "path": "code/experiments/scripts/render_four_rooms_control_self_loop_gamma_comparison.py",
+      "sha256": "ff3e782900124d62ce2e27f23e83d3b85a139dd63abfa7090f0a6168e273a333",
+      "bytes": 9566
+    },
+    {
+      "path": "data/raw/gamma09/results.csv",
+      "sha256": "0697efe21fdb6ea8f5c1526636272f2e62394413791769daf0c81a4c55c50671",
+      "bytes": 358
+    },
+    {
+      "path": "data/raw/gamma09/results.json",
+      "sha256": "d8210fc09a9131825607c416663fd44889127a899b3c98af46b341216266cb4f",
+      "bytes": 1926
+    },
+    {
+      "path": "data/raw/gamma09/runner_config_snapshot.yaml",
+      "sha256": "eaf804e79c75cf1657dc0502f2868d20bf7d62a1423f589d51c72e4fe95c944d",
+      "bytes": 955
+    },
+    {
+      "path": "data/raw/gamma09/source_config.yaml",
+      "sha256": "eaf804e79c75cf1657dc0502f2868d20bf7d62a1423f589d51c72e4fe95c944d",
+      "bytes": 955
+    },
+    {
+      "path": "data/raw/gamma09/summary.json",
+      "sha256": "62ae2e1834d372689b7498b78425bf5e28c52a5185b20451f440e64b027517f5",
+      "bytes": 1002
+    },
+    {
+      "path": "data/raw/gamma099/results.csv",
+      "sha256": "08954f8897afb5a969817aff605966a679b488d57848713ae358800541c3d98a",
+      "bytes": 352
+    },
+    {
+      "path": "data/raw/gamma099/results.json",
+      "sha256": "89a2d89fbb72beb9065a355c8001e0b3dca2470305fa2c9123d04c7ed59feaf0",
+      "bytes": 1920
+    },
+    {
+      "path": "data/raw/gamma099/runner_config_snapshot.yaml",
+      "sha256": "c2f742a7f9ca8f7be973de74a436c533fcca048969ea20645a9bca7130f187bb",
+      "bytes": 959
+    },
+    {
+      "path": "data/raw/gamma099/source_config.yaml",
+      "sha256": "c2f742a7f9ca8f7be973de74a436c533fcca048969ea20645a9bca7130f187bb",
+      "bytes": 959
+    },
+    {
+      "path": "data/raw/gamma099/summary.json",
+      "sha256": "a5eb15b3eeb79d23b391a9bc431b2ff7feebbe6a956c6ff7157809980d137d3a",
+      "bytes": 1007
+    },
+    {
+      "path": "figure_spec.json",
+      "sha256": "a76465705a758805ae91ccef4fdf2f59c09fbee4948efe95452f432772ab1cb6",
+      "bytes": 1717
+    },
+    {
+      "path": "provenance/source-configs/control_gamma099_four_rooms15_self_loop_vi_osvi_waterfall_highlambda_piecewise_1000.yaml",
+      "sha256": "c2f742a7f9ca8f7be973de74a436c533fcca048969ea20645a9bca7130f187bb",
+      "bytes": 959
+    },
+    {
+      "path": "provenance/source-configs/control_gamma09_four_rooms15_self_loop_vi_osvi_waterfall_highlambda_piecewise_1000.yaml",
+      "sha256": "eaf804e79c75cf1657dc0502f2868d20bf7d62a1423f589d51c72e4fe95c944d",
+      "bytes": 955
+    }
+  ]
+}

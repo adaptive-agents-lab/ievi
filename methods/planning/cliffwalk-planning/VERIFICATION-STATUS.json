@@ -1,0 +1,13 @@
+{
+  "ready": true,
+  "solver_runs_complete": true,
+  "checks_passed": true,
+  "all_57_stable_hits_match": true,
+  "all_recorded_query_indices_match": true,
+  "full_policy_trajectories_match": false,
+  "reference_solver_identity_proven": false,
+  "runtime_entry": "python run_verification.py --output rerun",
+  "check_entry": "python check_verification.py results",
+  "reference_verification_manifest_entries": 62,
+  "reference_manifest_sha256": "1ade0f032ff1801e49c73cc674305fbfb2c672561211bb23c8a914db113d1072"
+}

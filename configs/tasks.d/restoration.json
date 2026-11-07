@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "restoration-common",
+      "category": "restoration-common",
+      "description": "Recomputed 38 affected adaptive rows; 57 VI/OS-VI rows explicitly reference",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/methods/incumbent-restoration/common-solver/run.py",
+        "--archive",
+        "{root}/methods/planning",
+        "--output-dir",
+        "{output}/common"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "methods/incumbent-restoration/common-solver/assets/target_arrays.npz",
+        "methods/planning/results/benchmarks/control_accuracy/raw/control_accuracy_summary.csv",
+        "methods/planning/results/benchmarks/control_accuracy/raw/control_accuracy_trajectories.csv",
+        "methods/planning/results/benchmarks/control_accuracy/raw/control_accuracy_ievi_attempts.csv"
+      ],
+      "code": [
+        "methods/incumbent-restoration/common-solver/**/*.py",
+        "methods/planning/benchmarks/src/ievi_experiments/control_accuracy/control_accuracy_common.py",
+        "methods/planning/benchmarks/src/ievi_experiments/control_accuracy/run_control_accuracy_common_solver.py"
+      ],
+      "expected_outputs": [
+        "common/control_accuracy_ievi_summary.csv",
+        "common/control_accuracy_ievi_trajectories.csv",
+        "common/control_accuracy_ievi_attempts.csv",
+        "common/provenance.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "NUMBA_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "expensive": true,
+      "depends_on": [],
+      "comparator": {
+        "pairs": [
+          {
+            "actual": "common/control_accuracy_ievi_summary.csv",
+            "reference": "methods/incumbent-restoration/results/common-solver/control_accuracy_ievi_summary.csv",
+            "mode": "csv",
+            "key_columns": [
+              "lambda",
+              "delta_solve"
+            ],
+            "ignore_columns": [
+              "wall_seconds_full_run"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

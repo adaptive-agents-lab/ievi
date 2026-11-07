@@ -1,0 +1,48 @@
+{
+  "archived_raw": "methods/planning/results/benchmarks/control_accuracy/raw",
+  "argv": [
+    "methods/incumbent-restoration/common-solver/run.py",
+    "--archive",
+    "methods/planning",
+    "--output-dir",
+    "methods/incumbent-restoration/results/common-solver"
+  ],
+  "environment": {
+    "cpu_count": 32,
+    "jax": "0.11.1",
+    "jax_devices": [
+      "cpu:0"
+    ],
+    "numpy": "2.5.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 26 Model 112 Stepping 0, AuthenticAMD",
+    "scipy": "1.18.1",
+    "thread_env": {
+      "JAX_PLATFORMS": "cpu",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "XLA_FLAGS": null
+    }
+  },
+  "recomputed_runs": 38,
+  "reference_timing_retained": true,
+  "note": "Reproduced IEVI elapsed times are diagnostic full-run times only, not replacements for independent timing studies.",
+  "retained_algorithms": [
+    "VI_current",
+    "OSVI_common_VI"
+  ],
+  "source_sha256": {
+    "methods/planning/benchmarks/src/ievi_experiments/control_accuracy/control_accuracy_common.py": "d3441caa1a8821fa8409076a0474c025f1d198613c8ddfd353f9fe455b2d34f5",
+    "methods/planning/benchmarks/src/ievi_experiments/control_accuracy/run_control_accuracy_common_solver.py": "3703f03ef7a067d9d573ebd46684aa814593d784c457ac9a8925bf81cc6daf37",
+    "methods/planning/results/benchmarks/control_accuracy/raw/control_accuracy_ievi_attempts.csv": "98e9dc2d795f39d2d84c301f49c0a06bf7900a5caaf11aeb978063a285fd5ed0",
+    "methods/planning/results/benchmarks/control_accuracy/raw/control_accuracy_summary.csv": "c4a21e465e0ecf647cb4b7ad20462b4effec397d8ae0bf64574282e082c4b13a",
+    "methods/planning/results/benchmarks/control_accuracy/raw/control_accuracy_trajectories.csv": "5e6c4f9a07b90395895f81fce124d9e6e52219d82c42307a931c0f175b1b25be",
+    "methods/incumbent-restoration/common-solver/assets/target_arrays.npz": "58c3b061931c301f82da2bfeb291682e44f981a6ea033dc81bd0b057af064423",
+    "methods/incumbent-restoration/common-solver/control_accuracy_common.py": "d3441caa1a8821fa8409076a0474c025f1d198613c8ddfd353f9fe455b2d34f5",
+    "methods/incumbent-restoration/common-solver/run.py": "9a7d3dcf1bf75aca676ba8cdec4a0a6a52e616cdebe1ff329d425f9356a173f2",
+    "methods/incumbent-restoration/common-solver/run_control_accuracy_common_solver.py": "5566937ba9bc23b8f937d159202c00f09313e84d7d360d4ceefd641d385e0518",
+    "methods/incumbent-restoration/results/common-solver/effective-config.json": "cf129f38bfb2740f4980badd96859f519dd2b6167f6c905b9d55bd62bc0d845b"
+  }
+}

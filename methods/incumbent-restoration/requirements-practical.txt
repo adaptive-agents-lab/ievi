@@ -1,0 +1,8 @@
+# Verified runtime: CPython 3.13.15, Windows 11, CPU, float64.
+# Includes configuration preparation and retained-style rendering dependencies.
+jax==0.11.2
+jaxlib==0.11.2
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+PyYAML==6.0.3

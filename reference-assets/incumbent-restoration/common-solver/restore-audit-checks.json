@@ -1,0 +1,354 @@
+{
+  "all_checks_exact": true,
+  "diagnostic_P_applications": 38228,
+  "diagnostic_applications_excluded_from_algorithm_cost": true,
+  "instrumentation": "read-only sys.settrace at post-restoration local state; independent candidate residuals and strict history argmin; solver wrapper captures each returned candidate policy",
+  "passed": true,
+  "replay_algorithm_surrogate_apps": 1157929,
+  "replay_algorithm_true_apps": 38000,
+  "runs": [
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 6186,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 1e-08,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.0,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 2610,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 0.01,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.0,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 6496,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 1e-08,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.1,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 2736,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 0.01,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.1,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 6802,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 1e-08,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.2,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 2850,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 0.01,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.2,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 53636,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 1e-08,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.3,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 16945,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 0.01,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.3,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 53636,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 1e-08,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.4,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 17057,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 0.01,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.4,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 53636,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 1e-08,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.5,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 17093,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 0.01,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.5,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 53636,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 1e-08,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.6,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 17013,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 0.01,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.6,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 53636,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 1e-08,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.625,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 17007,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 0.01,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.625,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 53636,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 1e-08,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.65,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 17018,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 0.01,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.65,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 53636,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 1e-08,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.675,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 17019,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 0.01,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.675,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 53636,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 1e-08,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.7,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 17013,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 0.01,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.7,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 53636,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 1e-08,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.725,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 17007,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 0.01,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.725,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 53636,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 1e-08,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.75,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 17001,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 0.01,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.75,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 53636,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 1e-08,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.775,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 16997,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 0.01,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.775,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 53636,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 1e-08,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.8,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 16991,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 0.01,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.8,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 53636,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 1e-08,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.85,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 16989,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 0.01,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.85,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 53636,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 1e-08,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.9,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 16981,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 0.01,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.9,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 53636,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 1e-08,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.95,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 16975,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 0.01,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 0.95,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 53636,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 1e-08,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 1.0,
+      "restores_checked": 6
+    },
+    {
+      "algorithm_N_P": 1000,
+      "algorithm_N_Phat": 16967,
+      "all_non_timing_summary_fields_equal": true,
+      "delta_solve": 0.01,
+      "independent_candidate_residuals_checked": 1000,
+      "lambda": 1.0,
+      "restores_checked": 6
+    }
+  ],
+  "total_restores": 228
+}

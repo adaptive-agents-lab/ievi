@@ -1,0 +1,62 @@
+{
+  "package": "frozen_lake_control_support_uniform",
+  "schema_version": 2,
+  "scope": "Distributed paper-figure inputs, implementation and reference assets",
+  "files": [
+    {
+      "path": "code/experiments/common/plot_style.py",
+      "sha256": "1a8343947080d65e07b757c2ba95a77e617e1d2c52669fef66aa02d3c600f290",
+      "bytes": 8247
+    },
+    {
+      "path": "code/experiments/scripts/render_gamma_comparison_hit_query_vs_lambda.py",
+      "sha256": "b000f0f788705d9f5bb66addfafdd102e2d8b26372a9c441596dfd0e3375d08f",
+      "bytes": 16062
+    },
+    {
+      "path": "data/frozen_lake_control_support_uniform.metadata.json",
+      "sha256": "f780649c5ac13cebb083150f7ff62aa8f4141d5e894cf0681d8939c8848d4194",
+      "bytes": 21429
+    },
+    {
+      "path": "data/raw/gamma09/results.csv",
+      "sha256": "dfee2177f9c3b46295fcbb5495f39ad0228c9d2c0929d083c9aa316bca556a5e",
+      "bytes": 346
+    },
+    {
+      "path": "data/raw/gamma09/run_summary.json",
+      "sha256": "7781ded12d6a77afbea6fd60979e06bd3e4aa031036d7d7526780ad4e672fafa",
+      "bytes": 1043
+    },
+    {
+      "path": "data/raw/gamma09/source_config.yaml",
+      "sha256": "cd6a429ca9a91b1f3bf601c0778d76c76950d90009d249b7884fd17d7aad1ead",
+      "bytes": 919
+    },
+    {
+      "path": "data/raw/gamma099/results.csv",
+      "sha256": "61612def29122f82083a93f52a08f184f423675f9ba66c19317d6a0d99963cf6",
+      "bytes": 369
+    },
+    {
+      "path": "data/raw/gamma099/run_summary.json",
+      "sha256": "23080268fdb196a08fc78be8a62da9d907f5db9e34ba8a5f4cbb8270a30fa0cd",
+      "bytes": 1048
+    },
+    {
+      "path": "data/raw/gamma099/source_config.yaml",
+      "sha256": "855a148310eed3c5181ba3e44d433b8bb6ee4ffb717330b72396e33ec3cf4e1e",
+      "bytes": 922
+    },
+    {
+      "path": "data/source_provenance.json",
+      "sha256": "91e92e2afae1130528c4b42f5cc8c6ea054bdf597dbb93f79620d0491a61253b",
+      "bytes": 6858
+    },
+    {
+      "path": "figure_spec.json",
+      "sha256": "49b8d76cc8a4973d3eeaa5bb5a65eb3c7641a1dcd502c06614a78d7653171c36",
+      "bytes": 1694
+    }
+  ]
+}

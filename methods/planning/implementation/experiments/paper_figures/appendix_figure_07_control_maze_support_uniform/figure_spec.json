@@ -1,0 +1,20 @@
+{
+  "figure": "figure_app_maze_control_support_uniform",
+  "paper_label": "fig:maze-control-support-uniform",
+  "regime": "Control",
+  "environment": "maze",
+  "noise_model": "support_uniform",
+  "threshold": 0.001,
+  "panels": [
+    {
+      "gamma": 0.9,
+      "asset_pdf": "assets/figure_app_maze_control_support_uniform_gamma09.pdf",
+      "trace_file": "data/gamma09/raw/control_traces.json"
+    },
+    {
+      "gamma": 0.99,
+      "asset_pdf": "assets/figure_app_maze_control_support_uniform_gamma099.pdf",
+      "trace_file": "data/gamma099/raw/control_traces.json"
+    }
+  ]
+}

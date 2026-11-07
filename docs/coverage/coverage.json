@@ -1,0 +1,7466 @@
+{
+  "figure_inventory": [
+    {
+      "asset": "figure_main_empirical_results_composite.pdf",
+      "family_ids": [
+        "cliffwalk_control",
+        "cliffwalk_rl"
+      ],
+      "paper_label": "fig:main-results",
+      "paper_id": "Figure 1",
+      "paper_page": 9,
+      "source_tasks": [
+        "planning-05_threshold",
+        "selected-control-cliffwalk-gamma099"
+      ],
+      "study": {
+        "path": "studies/cliffwalk",
+        "methods": [
+          "q",
+          "os",
+          "ie"
+        ],
+        "gamma": 0.99,
+        "lambda": 0.8,
+        "heldout_seed_count": 60,
+        "nominal_sample_budget": 80000
+      },
+      "reference_asset": {
+        "path": "studies/cliffwalk/data/figure-reference.pdf",
+        "sha256": "5c1b971767630201761af3a1ab02bd134ed4b28be8e0b5e8aaec72ee83718a86"
+      }
+    },
+    {
+      "asset": "two_state_compact_inset.pdf",
+      "family_ids": [
+        "two_state"
+      ],
+      "paper_label": "fig:two-state-modal",
+      "paper_id": "Figure B.1",
+      "paper_page": 22,
+      "source_tasks": [
+        "two-state-stiffness"
+      ]
+    },
+    {
+      "asset": "environment_schematics.pdf",
+      "family_ids": [
+        "environment_schematics"
+      ],
+      "paper_label": "fig:environment-schematics",
+      "paper_id": "Figure N.1",
+      "paper_page": 58,
+      "source_tasks": []
+    },
+    {
+      "asset": "frozen_lake_control_support_uniform.pdf",
+      "family_ids": [
+        "frozenlake_control"
+      ],
+      "paper_label": "fig:frozen-lake-control-gamma-comparison",
+      "paper_id": "Figure N.2",
+      "paper_page": 61,
+      "source_tasks": [
+        "planning-01_gamma09",
+        "selected-control-frozen-lake-gamma09",
+        "planning-01_gamma099",
+        "selected-control-frozen-lake-gamma099"
+      ]
+    },
+    {
+      "asset": "four_rooms_control_support_uniform.pdf",
+      "family_ids": [
+        "fourrooms_control"
+      ],
+      "paper_label": "fig:four-rooms-control-gamma-comparison",
+      "paper_id": "Figure N.3",
+      "paper_page": 61,
+      "source_tasks": [
+        "planning-02_gamma09",
+        "selected-control-four-rooms-gamma09",
+        "planning-02_gamma099",
+        "selected-control-four-rooms-gamma099"
+      ]
+    },
+    {
+      "asset": "figure_app_maze_pe_gamma_comparison.pdf",
+      "family_ids": [
+        "maze_pe"
+      ],
+      "paper_label": "fig:maze-pe-gamma-comparison",
+      "paper_id": "Figure N.4",
+      "paper_page": 62,
+      "source_tasks": [
+        "planning-03_gamma09",
+        "selected-evaluation-maze-gamma09",
+        "planning-03_gamma099",
+        "selected-evaluation-maze-gamma099"
+      ]
+    },
+    {
+      "asset": "figure_app_four_rooms_pe_gamma_comparison.pdf",
+      "family_ids": [
+        "fourrooms_pe"
+      ],
+      "paper_label": "fig:four-rooms-pe-gamma-comparison",
+      "paper_id": "Figure N.5",
+      "paper_page": 62,
+      "source_tasks": [
+        "planning-04_gamma09",
+        "selected-evaluation-four-rooms-gamma09",
+        "planning-04_gamma099",
+        "selected-evaluation-four-rooms-gamma099"
+      ]
+    },
+    {
+      "asset": "threshold_criterion_sensitivity.pdf",
+      "family_ids": [
+        "threshold"
+      ],
+      "paper_label": "fig:threshold-criterion-sensitivity",
+      "paper_id": "Figure N.6",
+      "paper_page": 63,
+      "source_tasks": [
+        "planning-05_threshold",
+        "selected-control-cliffwalk-gamma099"
+      ]
+    },
+    {
+      "asset": "adaptive_schedule_sensitivity.pdf",
+      "family_ids": [
+        "schedule"
+      ],
+      "paper_label": "fig:aievi-schedule-sensitivity",
+      "paper_id": "Figure N.7",
+      "paper_page": 64,
+      "source_tasks": [
+        "planning-06_beta0p03_S1",
+        "selected-control-cliffwalk-gamma099",
+        "planning-06_beta0p03_S2",
+        "planning-06_beta0p03_S3",
+        "planning-06_beta0p03_S5",
+        "planning-06_beta0p03_S8",
+        "planning-06_beta0p05_S1",
+        "planning-06_beta0p05_S2",
+        "planning-06_beta0p05_S3",
+        "planning-06_beta0p05_S5",
+        "planning-06_beta0p05_S8",
+        "planning-06_beta0p1_S1",
+        "planning-06_beta0p1_S2",
+        "planning-06_beta0p1_S3",
+        "planning-06_beta0p1_S5",
+        "planning-06_beta0p1_S8",
+        "planning-06_beta0p2_S1",
+        "planning-06_beta0p2_S2",
+        "planning-06_beta0p2_S3",
+        "planning-06_beta0p2_S5",
+        "planning-06_beta0p2_S8",
+        "planning-06_beta0p5_S1",
+        "planning-06_beta0p5_S2",
+        "planning-06_beta0p5_S3",
+        "planning-06_beta0p5_S5",
+        "planning-06_beta0p5_S8"
+      ]
+    },
+    {
+      "asset": "figure_app_maze_control_support_uniform_gamma_comparison.pdf",
+      "family_ids": [
+        "maze_restarted_support"
+      ],
+      "paper_label": "fig:maze-control-support-uniform",
+      "paper_id": "Figure N.8",
+      "paper_page": 65,
+      "source_tasks": [
+        "selected-control-maze-gamma09",
+        "selected-control-maze-gamma099"
+      ]
+    },
+    {
+      "asset": "figure_app_maze_control_self_loop_gamma099.pdf",
+      "family_ids": [
+        "maze_restarted_selfloop"
+      ],
+      "paper_label": "fig:maze-control-self-loop",
+      "paper_id": "Figure N.9",
+      "paper_page": 65,
+      "source_tasks": [
+        "selected-control-maze-self-loop-gamma099"
+      ]
+    },
+    {
+      "asset": "figure_app_maze_pe_self_loop_gamma_comparison.pdf",
+      "family_ids": [
+        "maze_pe_selfloop"
+      ],
+      "paper_label": "fig:maze-pe-self-loop",
+      "paper_id": "Figure N.10",
+      "paper_page": 66,
+      "source_tasks": [
+        "planning-09_gamma09",
+        "selected-evaluation-maze-self-loop-gamma09",
+        "planning-09_gamma099",
+        "selected-evaluation-maze-self-loop-gamma099"
+      ]
+    },
+    {
+      "asset": "figure_app_cliffwalk_pe_self_loop_grid.pdf",
+      "family_ids": [
+        "cliffwalk_pe_grid"
+      ],
+      "paper_label": "fig:cliffwalk-pe-self-loop",
+      "paper_id": "Figure N.11",
+      "paper_page": 66,
+      "source_tasks": [
+        "planning-10_gamma0999_budget1000",
+        "selected-evaluation-cliffwalk-self-loop-gamma0999-budget1000",
+        "planning-10_gamma0999_budget10000",
+        "selected-evaluation-cliffwalk-self-loop-gamma0999-budget10000",
+        "planning-10_gamma099_budget1000",
+        "selected-evaluation-cliffwalk-self-loop-gamma099-budget1000",
+        "planning-10_gamma099_budget10000",
+        "selected-evaluation-cliffwalk-self-loop-gamma099-budget10000"
+      ]
+    },
+    {
+      "asset": "figure_app_four_rooms_control_self_loop_gamma_comparison.pdf",
+      "family_ids": [
+        "fourrooms_control_selfloop"
+      ],
+      "paper_label": "fig:four-rooms-control-self-loop",
+      "paper_id": "Figure N.12",
+      "paper_page": 67,
+      "source_tasks": [
+        "planning-11_gamma09",
+        "selected-control-four-rooms-self-loop-gamma09",
+        "planning-11_gamma099",
+        "selected-control-four-rooms-self-loop-gamma099"
+      ]
+    },
+    {
+      "asset": "figure_app_four_rooms_pe_self_loop_gamma_comparison.pdf",
+      "family_ids": [
+        "fourrooms_pe_selfloop"
+      ],
+      "paper_label": "fig:four-rooms-pe-self-loop",
+      "paper_id": "Figure N.13",
+      "paper_page": 67,
+      "source_tasks": [
+        "planning-12_gamma09",
+        "selected-evaluation-four-rooms-self-loop-gamma09",
+        "planning-12_gamma099",
+        "selected-evaluation-four-rooms-self-loop-gamma099"
+      ]
+    },
+    {
+      "asset": "final-experiments/E1-weighted-cost.pdf",
+      "family_ids": [
+        "common_solver"
+      ],
+      "paper_label": "fig:final-weighted-cost",
+      "paper_id": "Figure N.14",
+      "paper_page": 69,
+      "source_tasks": [
+        "planning-control"
+      ]
+    },
+    {
+      "asset": "final-experiments/E2-solve-tolerance.pdf",
+      "family_ids": [
+        "common_solver"
+      ],
+      "paper_label": "fig:final-solve-accuracy",
+      "paper_id": "Figure N.15",
+      "paper_page": 69,
+      "source_tasks": [
+        "planning-control"
+      ]
+    },
+    {
+      "asset": "final-experiments/E3-horizon-scaling.pdf",
+      "family_ids": [
+        "horizon"
+      ],
+      "paper_label": "fig:final-horizon-scaling",
+      "paper_id": "Figure N.16",
+      "paper_page": 73,
+      "source_tasks": [
+        "planning-horizon"
+      ]
+    },
+    {
+      "asset": "final-experiments/E4-wallclock-fidelity.pdf",
+      "family_ids": [
+        "timing"
+      ],
+      "paper_label": "fig:final-solver-time",
+      "paper_id": "Figure N.17",
+      "paper_page": 75,
+      "source_tasks": [
+        "planning-timing"
+      ]
+    }
+  ],
+  "schema_version": "2.0",
+  "table_inventory": [
+    {
+      "classification": "empirical",
+      "family_ids": [
+        "common_solver"
+      ],
+      "paper_label": "tab:final-control-counts",
+      "tolerance": "exact integer/no-hit values; rounded floats to half a unit in last printed place; new timing values descriptive only",
+      "blocks": [
+        {
+          "columns": [
+            "Corruption lambda",
+            "OS-VI true calls",
+            "OS-VI surrogate calls",
+            "Adaptive IE-VI true calls",
+            "Adaptive IE-VI surrogate calls"
+          ],
+          "rows": [
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1263.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1263.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.1
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1263.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1263.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.2
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1311.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1612.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.3
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1422.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1671.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.4
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1551.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  5.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1807.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.5
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  8.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1996.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  9.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2271.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.6
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  10.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2159.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2430.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.625
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  14.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2459.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  15.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2711.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.65
+                ],
+                "precision": [
+                  2
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  23.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3095.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  19.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2931.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.675
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  60.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  5203.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  20.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2904.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.7
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  21.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2925.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.725
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  23.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2953.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.75
+                ],
+                "precision": [
+                  2
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  44.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3147.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.775
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  69.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3449.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.8
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  96.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3745.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.85
+                ],
+                "precision": [
+                  2
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  163.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4527.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.9
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  213.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  5076.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.95
+                ],
+                "precision": [
+                  2
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  261.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  5641.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  1.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  321.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  6374.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ]
+          ]
+        }
+      ],
+      "paper_id": "Table N.1",
+      "paper_page": 70,
+      "source_tasks": [
+        "planning-control"
+      ]
+    },
+    {
+      "classification": "empirical",
+      "family_ids": [
+        "common_solver"
+      ],
+      "paper_label": "tab:final-control-costs",
+      "tolerance": "exact integer/no-hit values; rounded floats to half a unit in last printed place; new timing values descriptive only",
+      "blocks": [
+        {
+          "columns": [
+            "Corruption lambda",
+            "Break-even surrogate cost ratio",
+            "Cost ratio at kappa=0.001",
+            "Cost ratio at kappa=0.01"
+          ],
+          "rows": [
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.037213
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.0666
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.2986
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.1
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.037213
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.0666
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.2986
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.2
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.028536
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.0941
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.3902
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.3
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.02693
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.1157
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.4227
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.4
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.02435
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.1389
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.4708
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.5
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.017613
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.23
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.6471
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.6
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.015638
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.2741
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.7204
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.625
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.012541
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.3614
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.8594
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.65
+                ],
+                "precision": [
+                  2
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.010235
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.4476
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.9859
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.675
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.009986
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.4674
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.0008
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.7
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.009573
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.4883
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.0255
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.725
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.008805
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.5297
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.072
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.75
+                ],
+                "precision": [
+                  2
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.001589
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.9622
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.5402
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.775
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "None"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.4786
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.112
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.8
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "None"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.0356
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.7235
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.85
+                ],
+                "precision": [
+                  2
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "None"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3.4189
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4.2504
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.9
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "None"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4.4505
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  5.3829
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.95
+                ],
+                "precision": [
+                  2
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "None"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  5.4417
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  6.4778
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  1.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "None"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  6.6811
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  7.8518
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              }
+            ]
+          ]
+        }
+      ],
+      "paper_id": "Table N.2",
+      "paper_page": 70,
+      "source_tasks": [
+        "planning-control"
+      ]
+    },
+    {
+      "classification": "empirical",
+      "family_ids": [
+        "common_solver"
+      ],
+      "paper_label": "tab:final-tolerance-ievi",
+      "tolerance": "exact integer/no-hit values; rounded floats to half a unit in last printed place; new timing values descriptive only",
+      "blocks": [
+        {
+          "columns": [
+            "Corruption lambda",
+            "True calls at both tolerances",
+            "Surrogate calls at tolerance 1e-8",
+            "Surrogate calls at tolerance 1e-2",
+            "Surrogate work ratio"
+          ],
+          "rows": [
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2637.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1263.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.088
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.1
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2637.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1263.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.088
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.2
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4358.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1612.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.703
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.3
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  5163.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1671.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3.09
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.4
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  5.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  5288.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1807.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.926
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.5
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  9.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  6201.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2271.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.731
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.6
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  6665.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2430.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.743
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.625
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  15.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  7230.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2711.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.667
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.65
+                ],
+                "precision": [
+                  2
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  19.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  7716.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2931.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.633
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.675
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  20.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  7643.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2904.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.632
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.7
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  21.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  7701.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2925.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.633
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.725
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  23.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  7717.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2953.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.613
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.75
+                ],
+                "precision": [
+                  2
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  44.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  8221.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3147.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.612
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.775
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  69.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  8931.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3449.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.589
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.8
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  96.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  9659.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3745.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.579
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.85
+                ],
+                "precision": [
+                  2
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  163.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11414.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4527.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.521
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.9
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  213.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  12623.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  5076.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.487
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.95
+                ],
+                "precision": [
+                  2
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  261.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  13794.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  5641.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.445
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  1.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  321.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  15285.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  6374.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.398
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              }
+            ]
+          ]
+        }
+      ],
+      "paper_id": "Table N.3",
+      "paper_page": 71,
+      "source_tasks": [
+        "planning-control"
+      ]
+    },
+    {
+      "classification": "empirical",
+      "family_ids": [
+        "common_solver"
+      ],
+      "paper_label": "tab:final-tolerance-osvi",
+      "tolerance": "exact integer/no-hit values; rounded floats to half a unit in last printed place; new timing values descriptive only",
+      "blocks": [
+        {
+          "columns": [
+            "Corruption lambda",
+            "True calls at both tolerances",
+            "Surrogate calls at tolerance 1e-8",
+            "Surrogate calls at tolerance 1e-2"
+          ],
+          "rows": [
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2638.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1263.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.1
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2638.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1263.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.2
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2715.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1311.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.3
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2945.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1422.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.4
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3182.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1551.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.5
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  8.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4088.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1996.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.6
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  10.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4462.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2159.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.625
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  14.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  5049.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2459.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.65
+                ],
+                "precision": [
+                  2
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  23.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  6384.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3095.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.675
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  60.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  10981.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  5203.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.7
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.725
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.75
+                ],
+                "precision": [
+                  2
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.775
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.8
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.85
+                ],
+                "precision": [
+                  2
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.9
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.95
+                ],
+                "precision": [
+                  2
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  1.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              }
+            ]
+          ]
+        }
+      ],
+      "paper_id": "Table N.4",
+      "paper_page": 71,
+      "source_tasks": [
+        "planning-control"
+      ]
+    },
+    {
+      "classification": "empirical",
+      "family_ids": [
+        "horizon"
+      ],
+      "paper_label": "tab:final-horizon-fixed",
+      "tolerance": "exact integer/no-hit values; rounded floats to half a unit in last printed place; new timing values descriptive only",
+      "blocks": [
+        {
+          "columns": [
+            "Horizon",
+            "VI median [Q25,Q75]",
+            "OS-VI median [Q25,Q75]",
+            "Median model error"
+          ],
+          "rows": [
+            [
+              {
+                "kind": "number",
+                "values": [
+                  10.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  66.0,
+                  66.0,
+                  66.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3.0,
+                  3.0,
+                  3.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.135
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  20.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  135.0,
+                  135.0,
+                  135.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3.0,
+                  3.0,
+                  3.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.1425
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  40.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  273.0,
+                  273.0,
+                  273.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3.0,
+                  3.0,
+                  3.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.14625
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  80.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  550.0,
+                  550.0,
+                  550.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3.0,
+                  3.0,
+                  3.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.148125
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  160.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1102.0,
+                  1102.0,
+                  1102.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3.0,
+                  3.0,
+                  3.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.149063
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  320.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2208.0,
+                  2208.0,
+                  2208.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3.0,
+                  3.0,
+                  3.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.149531
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  640.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4418.0,
+                  4418.0,
+                  4418.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3.0,
+                  3.0,
+                  3.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.149766
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Horizon",
+            "Conservative IE-VI median [Q25,Q75]",
+            "Refined IE-VI median [Q25,Q75]"
+          ],
+          "rows": [
+            [
+              {
+                "kind": "number",
+                "values": [
+                  10.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  105.0,
+                  84.0,
+                  133.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  108.0,
+                  88.0,
+                  128.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  20.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  288.0,
+                  240.0,
+                  344.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  315.0,
+                  260.0,
+                  370.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  40.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  702.0,
+                  576.0,
+                  819.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  660.0,
+                  545.0,
+                  770.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  80.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1610.0,
+                  1330.0,
+                  1880.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1668.0,
+                  1386.0,
+                  1944.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  160.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3597.0,
+                  2992.0,
+                  4191.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3372.0,
+                  2808.0,
+                  4690.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  320.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  7896.0,
+                  6576.0,
+                  9216.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  8078.0,
+                  6727.0,
+                  9429.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval",
+                "group_thousands": true
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  640.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  17173.0,
+                  14313.0,
+                  20046.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  18808.0,
+                  13496.0,
+                  21952.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval",
+                "group_thousands": true
+              }
+            ]
+          ]
+        }
+      ],
+      "paper_id": "Table N.5",
+      "paper_page": 73,
+      "source_tasks": [
+        "planning-horizon"
+      ]
+    },
+    {
+      "classification": "empirical",
+      "family_ids": [
+        "horizon"
+      ],
+      "paper_label": "tab:final-horizon-growing",
+      "tolerance": "exact integer/no-hit values; rounded floats to half a unit in last printed place; new timing values descriptive only",
+      "blocks": [
+        {
+          "columns": [
+            "Horizon",
+            "VI median [Q25,Q75]",
+            "OS-VI median [Q25,Q75]",
+            "Median model error"
+          ],
+          "rows": [
+            [
+              {
+                "kind": "number",
+                "values": [
+                  10.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  66.0,
+                  66.0,
+                  66.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.0,
+                  2.0,
+                  3.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.103125
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  20.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  135.0,
+                  135.0,
+                  135.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.0,
+                  2.0,
+                  2.75
+                ],
+                "precision": [
+                  0,
+                  0,
+                  2
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.073229
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  40.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  273.0,
+                  273.0,
+                  273.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.0,
+                  2.0,
+                  2.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.054844
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  80.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  550.0,
+                  550.0,
+                  550.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.0,
+                  2.0,
+                  2.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.041146
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  160.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1102.0,
+                  1102.0,
+                  1102.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.0,
+                  2.0,
+                  2.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.028337
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  320.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2208.0,
+                  2208.0,
+                  2208.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.0,
+                  2.0,
+                  2.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.018627
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  640.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4418.0,
+                  4418.0,
+                  4418.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.0,
+                  2.0,
+                  2.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.013943
+                ],
+                "precision": [
+                  6
+                ],
+                "layout": "scalar"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Horizon",
+            "Conservative IE-VI median [Q25,Q75]",
+            "Refined IE-VI median [Q25,Q75]"
+          ],
+          "rows": [
+            [
+              {
+                "kind": "number",
+                "values": [
+                  10.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  77.0,
+                  70.0,
+                  91.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  78.0,
+                  59.5,
+                  92.0
+                ],
+                "precision": [
+                  0,
+                  1,
+                  0
+                ],
+                "layout": "estimate_interval"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  20.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  136.0,
+                  128.0,
+                  164.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  116.0,
+                  112.0,
+                  141.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  40.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  243.0,
+                  209.25,
+                  279.0
+                ],
+                "precision": [
+                  0,
+                  2,
+                  0
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  180.0,
+                  154.0,
+                  265.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  80.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  420.0,
+                  382.5,
+                  447.5
+                ],
+                "precision": [
+                  0,
+                  1,
+                  1
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  365.0,
+                  327.5,
+                  383.75
+                ],
+                "precision": [
+                  0,
+                  1,
+                  2
+                ],
+                "layout": "estimate_interval"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  160.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  654.5,
+                  605.0,
+                  723.25
+                ],
+                "precision": [
+                  1,
+                  0,
+                  2
+                ],
+                "layout": "estimate_interval"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  507.5,
+                  470.0,
+                  553.75
+                ],
+                "precision": [
+                  1,
+                  0,
+                  2
+                ],
+                "layout": "estimate_interval"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  320.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  954.0,
+                  888.0,
+                  1077.0
+                ],
+                "precision": [
+                  0,
+                  0,
+                  0
+                ],
+                "layout": "estimate_interval",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  672.5,
+                  630.0,
+                  758.75
+                ],
+                "precision": [
+                  1,
+                  0,
+                  2
+                ],
+                "layout": "estimate_interval"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  640.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1566.5,
+                  1381.25,
+                  1738.75
+                ],
+                "precision": [
+                  1,
+                  2,
+                  2
+                ],
+                "layout": "estimate_interval",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1251.0,
+                  1102.5,
+                  1390.5
+                ],
+                "precision": [
+                  0,
+                  1,
+                  1
+                ],
+                "layout": "estimate_interval",
+                "group_thousands": true
+              }
+            ]
+          ]
+        }
+      ],
+      "paper_id": "Table N.6",
+      "paper_page": 74,
+      "source_tasks": [
+        "planning-horizon"
+      ]
+    },
+    {
+      "classification": "empirical",
+      "family_ids": [
+        "horizon"
+      ],
+      "paper_label": "tab:final-horizon-slopes",
+      "tolerance": "exact integer/no-hit values; rounded floats to half a unit in last printed place; new timing values descriptive only",
+      "blocks": [
+        {
+          "columns": [
+            "Samples per row",
+            "Quantity",
+            "Log-log slope",
+            "Bootstrap 95% interval"
+          ],
+          "rows": [
+            [
+              {
+                "kind": "text",
+                "text": "80 per row"
+              },
+              {
+                "kind": "text",
+                "text": "Model error"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.022
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.022,
+                  0.022
+                ],
+                "precision": [
+                  3,
+                  3
+                ],
+                "layout": "interval"
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "80 per row"
+              },
+              {
+                "kind": "text",
+                "text": "VI"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.0097
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.0097,
+                  1.0097
+                ],
+                "precision": [
+                  4,
+                  4
+                ],
+                "layout": "interval"
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "80 per row"
+              },
+              {
+                "kind": "text",
+                "text": "OS-VI"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.0,
+                  0.0
+                ],
+                "precision": [
+                  0,
+                  0
+                ],
+                "layout": "interval"
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "80 per row"
+              },
+              {
+                "kind": "text",
+                "text": "IE-VI (conservative schedule)"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.2133
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.1985,
+                  1.2164
+                ],
+                "precision": [
+                  4,
+                  4
+                ],
+                "layout": "interval"
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "80 per row"
+              },
+              {
+                "kind": "text",
+                "text": "IE-VI (refined schedule)"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.216
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.1992,
+                  1.2192
+                ],
+                "precision": [
+                  4,
+                  4
+                ],
+                "layout": "interval"
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "16H per row"
+              },
+              {
+                "kind": "text",
+                "text": "Model error"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  -0.4844
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  -0.5089,
+                  -0.4575
+                ],
+                "precision": [
+                  4,
+                  4
+                ],
+                "layout": "interval"
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "16H per row"
+              },
+              {
+                "kind": "text",
+                "text": "VI"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.0097
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.0097,
+                  1.0097
+                ],
+                "precision": [
+                  4,
+                  4
+                ],
+                "layout": "interval"
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "16H per row"
+              },
+              {
+                "kind": "text",
+                "text": "OS-VI"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  -0.0627,
+                  0.0
+                ],
+                "precision": [
+                  4,
+                  0
+                ],
+                "layout": "interval"
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "16H per row"
+              },
+              {
+                "kind": "text",
+                "text": "IE-VI (conservative schedule)"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.7175
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.6906,
+                  0.7474
+                ],
+                "precision": [
+                  4,
+                  4
+                ],
+                "layout": "interval"
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "16H per row"
+              },
+              {
+                "kind": "text",
+                "text": "IE-VI (refined schedule)"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.6635
+                ],
+                "precision": [
+                  4
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.6326,
+                  0.6866
+                ],
+                "precision": [
+                  4,
+                  4
+                ],
+                "layout": "interval"
+              }
+            ]
+          ]
+        }
+      ],
+      "paper_id": "Table N.7",
+      "paper_page": 74,
+      "source_tasks": [
+        "planning-horizon"
+      ]
+    },
+    {
+      "classification": "empirical",
+      "family_ids": [
+        "timing"
+      ],
+      "paper_label": "tab:final-runtime",
+      "tolerance": "exact integer/no-hit values; rounded floats to half a unit in last printed place; new timing values descriptive only",
+      "blocks": [
+        {
+          "columns": [
+            "Method",
+            "Solver seconds: mean and SE",
+            "Paired speedup: mean [95% interval]"
+          ],
+          "rows": [
+            [
+              {
+                "kind": "text",
+                "text": "VI"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  5.05024,
+                  0.04468
+                ],
+                "precision": [
+                  5,
+                  5
+                ],
+                "layout": "mean_se"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "IE-VI, 4 steps"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.61198,
+                  0.0038
+                ],
+                "precision": [
+                  5,
+                  5
+                ],
+                "layout": "mean_se"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  8.2538,
+                  8.0848,
+                  8.4229
+                ],
+                "precision": [
+                  4,
+                  4,
+                  4
+                ],
+                "layout": "estimate_interval"
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "IE-VI, 8 steps"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.1224,
+                  0.00451
+                ],
+                "precision": [
+                  5,
+                  5
+                ],
+                "layout": "mean_se"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4.4998,
+                  4.4124,
+                  4.5871
+                ],
+                "precision": [
+                  4,
+                  4,
+                  4
+                ],
+                "layout": "estimate_interval"
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "IE-VI, 16 steps"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.18741,
+                  0.01749
+                ],
+                "precision": [
+                  5,
+                  5
+                ],
+                "layout": "mean_se"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.3093,
+                  2.2655,
+                  2.3532
+                ],
+                "precision": [
+                  4,
+                  4,
+                  4
+                ],
+                "layout": "estimate_interval"
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "IE-VI, 32 steps"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4.2629,
+                  0.01151
+                ],
+                "precision": [
+                  5,
+                  5
+                ],
+                "layout": "mean_se"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.1847,
+                  1.1613,
+                  1.2082
+                ],
+                "precision": [
+                  4,
+                  4,
+                  4
+                ],
+                "layout": "estimate_interval"
+              }
+            ]
+          ]
+        }
+      ],
+      "paper_id": "Table N.8",
+      "paper_page": 75,
+      "source_tasks": [
+        "planning-timing"
+      ]
+    },
+    {
+      "classification": "empirical",
+      "family_ids": [
+        "timing"
+      ],
+      "paper_label": "tab:final-runtime-with-setup",
+      "tolerance": "exact integer/no-hit values; rounded floats to half a unit in last printed place; new timing values descriptive only",
+      "blocks": [
+        {
+          "columns": [
+            "Method",
+            "Preparation plus solver seconds: mean and SE",
+            "Paired speedup: mean [95% interval]"
+          ],
+          "rows": [
+            [
+              {
+                "kind": "text",
+                "text": "VI"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  5.31649,
+                  0.04731
+                ],
+                "precision": [
+                  5,
+                  5
+                ],
+                "layout": "mean_se"
+              },
+              {
+                "kind": "missing",
+                "display": "---"
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "IE-VI, 4 steps"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.88008,
+                  0.00593
+                ],
+                "precision": [
+                  5,
+                  5
+                ],
+                "layout": "mean_se"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  6.0412,
+                  5.9497,
+                  6.1328
+                ],
+                "precision": [
+                  4,
+                  4,
+                  4
+                ],
+                "layout": "estimate_interval"
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "IE-VI, 8 steps"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.39112,
+                  0.00837
+                ],
+                "precision": [
+                  5,
+                  5
+                ],
+                "layout": "mean_se"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3.822,
+                  3.7547,
+                  3.8894
+                ],
+                "precision": [
+                  4,
+                  4,
+                  4
+                ],
+                "layout": "estimate_interval"
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "IE-VI, 16 steps"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.45936,
+                  0.0214
+                ],
+                "precision": [
+                  5,
+                  5
+                ],
+                "layout": "mean_se"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.1623,
+                  2.1232,
+                  2.2015
+                ],
+                "precision": [
+                  4,
+                  4,
+                  4
+                ],
+                "layout": "estimate_interval"
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "IE-VI, 32 steps"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4.5404,
+                  0.01473
+                ],
+                "precision": [
+                  5,
+                  5
+                ],
+                "layout": "mean_se"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1.1709,
+                  1.1491,
+                  1.1928
+                ],
+                "precision": [
+                  4,
+                  4,
+                  4
+                ],
+                "layout": "estimate_interval"
+              }
+            ]
+          ]
+        }
+      ],
+      "paper_id": "Table N.9",
+      "paper_page": 75,
+      "source_tasks": [
+        "planning-timing"
+      ]
+    },
+    {
+      "classification": "empirical",
+      "family_ids": [
+        "timing"
+      ],
+      "paper_label": "tab:final-runtime-counts",
+      "tolerance": "exact integer/no-hit values; rounded floats to half a unit in last printed place; new timing values descriptive only",
+      "blocks": [
+        {
+          "columns": [
+            "Method",
+            "True calls",
+            "Surrogate calls",
+            "Maximum relative residual"
+          ],
+          "rows": [
+            [
+              {
+                "kind": "text",
+                "text": "VI"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1868.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  0.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  9.98242e-06
+                ],
+                "precision": [
+                  5
+                ],
+                "layout": "scientific",
+                "exponent": -6
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "IE-VI, 4 steps"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  6.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  7182.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4.50529e-06
+                ],
+                "precision": [
+                  5
+                ],
+                "layout": "scientific",
+                "exponent": -6
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "IE-VI, 8 steps"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  6.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  7149.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4.35107e-06
+                ],
+                "precision": [
+                  5
+                ],
+                "layout": "scientific",
+                "exponent": -6
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "IE-VI, 16 steps"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  6.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  7155.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4.44089e-06
+                ],
+                "precision": [
+                  5
+                ],
+                "layout": "scientific",
+                "exponent": -6
+              }
+            ],
+            [
+              {
+                "kind": "text",
+                "text": "IE-VI, 32 steps"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  6.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  7156.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar",
+                "group_thousands": true
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4.50428e-06
+                ],
+                "precision": [
+                  5
+                ],
+                "layout": "scientific",
+                "exponent": -6
+              }
+            ]
+          ]
+        }
+      ],
+      "paper_id": "Table N.10",
+      "paper_page": 76,
+      "source_tasks": [
+        "planning-timing"
+      ]
+    },
+    {
+      "classification": "empirical",
+      "family_ids": [
+        "restoration"
+      ],
+      "paper_label": "tab:incumbent-restoration-comparison",
+      "tolerance": "exact integer/no-hit values; rounded floats to half a unit in last printed place; new timing values descriptive only",
+      "blocks": [
+        {
+          "columns": [
+            "Corruption lambda",
+            "Carry-forward true calls",
+            "Carry-forward surrogate calls: 1e-8",
+            "Carry-forward surrogate calls: 1e-2",
+            "Restoration true calls",
+            "Restoration surrogate calls: 1e-8",
+            "Restoration surrogate calls: 1e-2"
+          ],
+          "rows": [
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2637.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1263.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2637.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1263.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.1
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2637.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1263.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2637.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1263.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.2
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4358.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1612.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4358.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1612.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.3
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  5163.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1671.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  67.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  29994.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11323.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.4
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  5.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  5288.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  1807.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  66.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  29962.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11423.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.5
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  9.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  6201.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2271.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  66.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  29962.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11459.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.6
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  6665.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2430.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  65.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  29930.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11367.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.625
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  15.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  7230.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2711.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  65.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  29930.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11361.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.65
+                ],
+                "precision": [
+                  2
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  19.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  7716.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2931.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  65.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  29930.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11372.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.675
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  20.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  7643.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2904.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  65.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  29930.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11373.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.7
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  21.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  7701.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2925.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  65.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  29930.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11367.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.725
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  23.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  7717.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  2953.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  65.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  29930.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11361.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.75
+                ],
+                "precision": [
+                  2
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  44.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  8221.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3147.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  65.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  29930.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11355.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.775
+                ],
+                "precision": [
+                  3
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  69.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  8931.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3449.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  64.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  29898.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11339.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.8
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  96.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  9659.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  3745.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  64.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  29898.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11333.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.85
+                ],
+                "precision": [
+                  2
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  163.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11414.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  4527.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  64.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  29898.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11331.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.9
+                ],
+                "precision": [
+                  1
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  213.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  12623.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  5076.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  64.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  29898.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11323.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  0.95
+                ],
+                "precision": [
+                  2
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  261.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  13794.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  5641.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  64.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  29898.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11317.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              }
+            ],
+            [
+              {
+                "kind": "number",
+                "values": [
+                  1.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  321.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  15285.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  6374.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  63.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  29866.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              },
+              {
+                "kind": "number",
+                "values": [
+                  11297.0
+                ],
+                "precision": [
+                  0
+                ],
+                "layout": "scalar"
+              }
+            ]
+          ]
+        }
+      ],
+      "paper_id": "Table N.11",
+      "paper_page": 77,
+      "source_tasks": [
+        "planning-control",
+        "restoration-common"
+      ]
+    }
+  ],
+  "tolerance_profiles": {
+    "analytic": {
+      "closed_form": {
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "illustrative_geometry": "visually preserve disclosed convention; not numerical trajectory acceptance",
+      "integer_crossings": "exact 10,30,688",
+      "rounded_matrices": "half-unit last shown significant digit"
+    },
+    "counts_and_rounded": {
+      "full_precision_aggregate": {
+        "atol": 1e-10,
+        "rtol": 1e-09,
+        "status": "proposed comparison tolerance"
+      },
+      "hit_flags": "exact",
+      "integer_operator_counts": "exact",
+      "printed_decimal": "absolute half-unit of final displayed decimal"
+    },
+    "geometry": {
+      "layout": "visual inspection",
+      "states_rewards_walls_traps_supports": "exact",
+      "transition_row_sum_atol": 1e-12
+    },
+    "horizon": {
+      "bootstrap": "same paired resampling and seed for exact CI, otherwise Monte Carlo difference reported separately",
+      "median_and_quartiles": "same quantile convention and printed rounding",
+      "nested_samples": "array identity when regenerated RNG environment matches; otherwise explicitly reconstructed input",
+      "per_seed_counts": "exact for same recovered protocol/seeds/arrays"
+    },
+    "planning": {
+      "floating_trace": {
+        "atol": 1e-09,
+        "rtol": 1e-07,
+        "status": "proposed diagnostic only, never excuses hit/no-hit mismatch"
+      },
+      "grid_and_budget": "exact",
+      "integer_hit_queries": "exact",
+      "no_hit_flags": "exact",
+      "notes": "No universal relaxed query tolerance. Any discrete mismatch is reported; numerical threshold-edge differences need diagnosis.",
+      "threshold": "strict <; use full recorded suffix with no smoothing"
+    },
+    "timing": {
+      "reference_aggregation": "printed rounding from retained rows",
+      "new_seconds": "no fixed numerical tolerance or requirement to fall inside reference CI; describe runtime/hardware/noise and paired speedups",
+      "operator_counts": "exact",
+      "pilot": "smallest accepted candidate exactly h=1024 if original protocol reconstructed",
+      "residual_target": "<=1e-5"
+    }
+  },
+  "paper": {
+    "path": "paper/manuscript/neurips_2026.pdf",
+    "sha256": "de5edd7aa35d61c1b8d59957922e54fbbc3948f1205ada70caa04833c5764e80"
+  }
+}

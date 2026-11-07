@@ -1,0 +1,10 @@
+{
+  "control_accuracy_rows": 95,
+  "horizon_rows": 1680,
+  "timing_rows": 50,
+  "setup_sum_verified": true,
+  "raw_inputs_written": false,
+  "solver_experiments_run": false,
+  "output_root": "generated",
+  "secondary_csv": "data/operator-setup-plus-solver-statistics.csv"
+}

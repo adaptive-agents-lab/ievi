@@ -1,0 +1,37 @@
+{
+  "cells": [
+    "pol|all|L1"
+  ],
+  "settings": {
+    "pol|all|L1|su|per_lam|q|0.8": {
+      "method": "q",
+      "jobfam": "-",
+      "lam": 0.0,
+      "sched": "v:n^-0.8",
+      "J": 1,
+      "B": 10,
+      "h": 0.0,
+      "area40_tune": 5.953918409347534
+    },
+    "pol|all|L1|su|per_lam|os|0.8": {
+      "method": "os",
+      "jobfam": "su",
+      "lam": 0.8,
+      "sched": "c0.01",
+      "J": 1,
+      "B": 30,
+      "h": 0.0,
+      "area40_tune": 16.465074851363898
+    },
+    "pol|all|L1|su|per_lam|ie|0.8": {
+      "method": "ie",
+      "jobfam": "su",
+      "lam": 0.8,
+      "sched": "v:3/(3+n)",
+      "J": 1,
+      "B": 10,
+      "h": 0.03,
+      "area40_tune": 13.448491764627397
+    }
+  }
+}

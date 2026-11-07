@@ -1,0 +1,63 @@
+{
+  "package": "adaptive_schedule_sensitivity",
+  "purpose": "Deterministic-control schedule sensitivity for the Figure 2 Adaptive IE-VI setting",
+  "schema_version": 2,
+  "scope": "Distributed paper-figure inputs, implementation and reference assets",
+  "files": [
+    {
+      "path": "code/experiments/scripts/render_aievi_schedule_sensitivity.py",
+      "sha256": "2f4d8ea67798467a08c386bfa9513dfa826a9aab619c04f58ebdff565bdbab92",
+      "bytes": 21981
+    },
+    {
+      "path": "data/derived/aievi_schedule_by_lambda.csv",
+      "sha256": "53813fa5bbc3877eca28ec4cc920a02b1d4a353d47a29bbfdff676f11c67e0d9",
+      "bytes": 33334
+    },
+    {
+      "path": "data/derived/aievi_schedule_by_lambda.json",
+      "sha256": "decba2b1a7e7dd01a0263d7b2bdecf8d6e02f7edababf076f6ae233548f4f3b6",
+      "bytes": 139606
+    },
+    {
+      "path": "data/derived/aievi_schedule_summary.csv",
+      "sha256": "e9197e4b4bebaf91230108aeea22daf8d66318da946862ab9fe420619ef50368",
+      "bytes": 2564
+    },
+    {
+      "path": "data/derived/aievi_schedule_summary.json",
+      "sha256": "afe24c36ca5f236126a9ed33cbe00d1671e0c2e4984d1eadfeb927447e66728b",
+      "bytes": 9860
+    },
+    {
+      "path": "data/raw/control_traces.json",
+      "sha256": "a307def1c1cb7f58f23b2a586d28fcbe7459790d02ae16542c813fcbde25d0eb",
+      "bytes": 170
+    },
+    {
+      "path": "data/raw/results.csv",
+      "sha256": "eb4bd64f7014f7d42e9d358035802242741b974e8dfcd37c59f9c21ce29d781e",
+      "bytes": 2
+    },
+    {
+      "path": "data/raw/results.json",
+      "sha256": "a307def1c1cb7f58f23b2a586d28fcbe7459790d02ae16542c813fcbde25d0eb",
+      "bytes": 170
+    },
+    {
+      "path": "data/raw/source_config.yaml",
+      "sha256": "122487bbc7965eab6525f71d0157633b3ea5b30ee1c4a69f1b8ba8aeaa0449a1",
+      "bytes": 143
+    },
+    {
+      "path": "data/source_provenance.json",
+      "sha256": "103a83e12f22295e0bf6ade23cee41367ce7d4795532a5d7b325f84bc2d34f3c",
+      "bytes": 915
+    },
+    {
+      "path": "figure_spec.json",
+      "sha256": "9914379292fc41e0f55bc7bddc93da1db2183998da4c40239e0672afbcb94f5b",
+      "bytes": 774
+    }
+  ]
+}

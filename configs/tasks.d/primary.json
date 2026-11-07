@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "planning-control",
+      "category": "primary",
+      "description": "95 control/tolerance outcomes for IE-VI without incumbent restoration, executed with one worker",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/methods/planning/benchmarks/scripts/run_control.py",
+        "--output-dir",
+        "{output}/control_accuracy",
+        "--workers",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "methods/planning/benchmarks/src/ievi_experiments/control_accuracy/assets/target_arrays.npz"
+      ],
+      "code": [
+        "methods/planning/benchmarks/scripts/run_control.py",
+        "methods/planning/benchmarks/src/ievi_experiments/control_accuracy/**/*.py"
+      ],
+      "expected_outputs": [
+        "control_accuracy/raw/control_accuracy_summary.csv",
+        "control_accuracy/raw/control_accuracy_trajectories.csv"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "NUMBA_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "expensive": true,
+      "depends_on": [],
+      "comparator": {
+        "pairs": [
+          {
+            "actual": "control_accuracy/raw/control_accuracy_summary.csv",
+            "mode": "csv",
+            "key_columns": [
+              "algorithm",
+              "lambda",
+              "delta_solve"
+            ],
+            "ignore_columns": [
+              "wall_seconds_full_run"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "planning-horizon",
+      "category": "primary",
+      "description": "Recomputed full 30-seed horizon grid (1,680 paired outcomes); runtime fields excluded from deterministic equality",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/methods/planning/benchmarks/scripts/run_horizon.py",
+        "--output-root",
+        "{output}/horizon_scaling",
+        "--replications",
+        "30",
+        "--base-seed",
+        "202609170000",
+        "--timing-repetitions",
+        "5"
+      ],
+      "cwd": "{root}",
+      "inputs": [],
+      "code": [
+        "methods/planning/benchmarks/scripts/run_horizon.py",
+        "methods/planning/benchmarks/src/ievi_experiments/horizon_scaling/**/*.py"
+      ],
+      "expected_outputs": [
+        "horizon_scaling/data/raw/records.csv",
+        "horizon_scaling/data/raw/experiment_inputs.npz",
+        "horizon_scaling/data/derived/summary_by_H.csv"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "NUMBA_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "expensive": true,
+      "depends_on": [],
+      "comparator": {
+        "pairs": [
+          {
+            "actual": "horizon_scaling/data/raw/records.csv",
+            "mode": "csv",
+            "key_columns": [
+              "replication",
+              "schedule",
+              "H",
+              "algorithm"
+            ],
+            "ignore_columns": [
+              "wall_time_median_seconds",
+              "wall_time_mad_seconds",
+              "timing_batch_repeats"
+            ]
+          },
+          {
+            "actual": "horizon_scaling/data/derived/summary_by_H.csv",
+            "mode": "csv",
+            "key_columns": [
+              "schedule",
+              "H",
+              "algorithm"
+            ],
+            "ignore_columns": [
+              "median_wall_time_seconds",
+              "q25_wall_time_seconds",
+              "q75_wall_time_seconds"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "planning-timing",
+      "category": "timing",
+      "description": "Recomputed 50 timing measurements; compare convergence/work counts and disclose runtime variation",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/methods/planning/benchmarks/scripts/run_timing.py",
+        "--output-dir",
+        "{output}/wallclock",
+        "--reps",
+        "10"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "methods/planning/benchmarks/src/ievi_experiments/wallclock_10k/config.json"
+      ],
+      "code": [
+        "methods/planning/benchmarks/scripts/run_timing.py",
+        "methods/planning/benchmarks/src/ievi_experiments/wallclock_10k/code/**/*.py"
+      ],
+      "expected_outputs": [
+        "wallclock/data/derived/runtime_summary.csv",
+        "wallclock/data/raw/calibration_runs.csv",
+        "wallclock/data/derived/calibration_selection.json",
+        "wallclock/data/raw/benchmark_runs.csv"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "NUMBA_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "expensive": true,
+      "depends_on": [],
+      "comparator": {
+        "pairs": [
+          {
+            "actual": "wallclock/data/derived/runtime_summary.csv",
+            "mode": "csv",
+            "key_columns": [
+              "grid_side",
+              "method"
+            ],
+            "ignore_columns": [
+              "median_runtime_seconds",
+              "runtime_q25",
+              "runtime_q75"
+            ],
+            "report_columns": [
+              "median_runtime_seconds",
+              "runtime_q25",
+              "runtime_q75"
+            ]
+          },
+          {
+            "actual": "wallclock/data/raw/calibration_runs.csv",
+            "mode": "csv",
+            "key_columns": [
+              "method",
+              "h"
+            ],
+            "ignore_columns": [
+              "runtime_seconds"
+            ],
+            "exact_columns": [
+              "method",
+              "grid_side",
+              "state_count",
+              "repetition",
+              "converged",
+              "final_relative_true_residual",
+              "sup_error_to_reference",
+              "true_operator_calls",
+              "true_microsteps",
+              "surrogate_operator_calls",
+              "surrogate_microsteps",
+              "outer_iterations",
+              "inner_vi_iterations",
+              "surrogate_microsteps_per_call",
+              "h",
+              "m",
+              "gamma_h",
+              "inner_vi_rtol",
+              "inner_solver_converged"
+            ]
+          },
+          {
+            "actual": "wallclock/data/derived/calibration_selection.json",
+            "mode": "json",
+            "ignore_keys": [
+              "runtime_seconds"
+            ]
+          },
+          {
+            "actual": "wallclock/data/raw/benchmark_runs.csv",
+            "mode": "csv",
+            "key_columns": [
+              "grid_side",
+              "method",
+              "repetition"
+            ],
+            "ignore_columns": [
+              "runtime_seconds",
+              "solver_seconds",
+              "true_setup_seconds",
+              "surrogate_setup_seconds",
+              "setup_plus_solver_seconds"
+            ],
+            "exact_columns": [
+              "method",
+              "grid_side",
+              "state_count",
+              "repetition",
+              "converged",
+              "final_relative_true_residual",
+              "sup_error_to_reference",
+              "true_operator_calls",
+              "true_microsteps",
+              "surrogate_operator_calls",
+              "surrogate_microsteps",
+              "outer_iterations",
+              "inner_vi_iterations",
+              "surrogate_microsteps_per_call",
+              "h",
+              "m",
+              "gamma_h",
+              "inner_vi_rtol",
+              "inner_solver_converged",
+              "timing_order_seed",
+              "method_order_position",
+              "selected_h_from_calibration"
+            ],
+            "report_columns": [
+              "runtime_seconds",
+              "solver_seconds",
+              "true_setup_seconds",
+              "surrogate_setup_seconds",
+              "setup_plus_solver_seconds"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

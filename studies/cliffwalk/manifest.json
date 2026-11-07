@@ -1,0 +1,311 @@
+{
+  "schema": 1,
+  "study": "cliffwalk",
+  "files": [
+    {
+      "path": "data/figure-reference.pdf",
+      "bytes": 77506,
+      "sha256": "5c1b971767630201761af3a1ab02bd134ed4b28be8e0b5e8aaec72ee83718a86"
+    },
+    {
+      "path": "data/heldout-manifest.json",
+      "bytes": 2353,
+      "sha256": "9a004f39ae739d2e6596aa639a6b96f766421345396d1bb4aaf54a856f8b197d"
+    },
+    {
+      "path": "data/panel-data.npz",
+      "bytes": 11730,
+      "sha256": "7ee70d392a4529ed2cf4700e42a5f705b63f6152181b6fc9f569efe1ff39b66d"
+    },
+    {
+      "path": "data/results/cliffwalk/execution-groups.json",
+      "bytes": 995,
+      "sha256": "0e5be8f3bb5739fb481d6a5dbbdd7c4b58ab7147a56f0b4c800bcf30cded44a7"
+    },
+    {
+      "path": "data/results/cliffwalk/heldout/ie_su_l0.8_J1_B10_h0.0.npz",
+      "bytes": 4012,
+      "sha256": "9c3734cd8fc10e21d8e674e6fad663112d8a9f40708622581b2b364dabe40479"
+    },
+    {
+      "path": "data/results/cliffwalk/heldout/os_su_l0.8_J1_B30_h0.0.npz",
+      "bytes": 4375,
+      "sha256": "dd556f5136011d535c51c2165b4f65b609b85a2d543792c0caded6dd2211a105"
+    },
+    {
+      "path": "data/results/cliffwalk/heldout/q_-_l0.0_J1_B10_h0.0.npz",
+      "bytes": 2523,
+      "sha256": "c1ca5508d6dc246af48ecb4265d1d70c882f5ac3340e8d7b238047f0e6b8d445"
+    },
+    {
+      "path": "data/results/cliffwalk/selection.json",
+      "bytes": 747,
+      "sha256": "52daea5d0da12ad56e36ad4c337bd64ef765df9369f6f773b973ba20777e7b68"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J1_B10_h0.001.npz",
+      "bytes": 457876,
+      "sha256": "05633b5b02b43c52af08efce57d9c946c5f2b9510efafe5f616a4e55ae97b93e"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J1_B10_h0.003.npz",
+      "bytes": 443147,
+      "sha256": "0c52b51fb83c428d8e83fbbd8391d9b8fd9a294465ce53300bd3f4c0a34ed192"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J1_B10_h0.01.npz",
+      "bytes": 459961,
+      "sha256": "ffbf305dffab5739b024ac9c7002d02eb9911ce3eb7434b9db812a33f82f0ad0"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J1_B10_h0.03.npz",
+      "bytes": 489872,
+      "sha256": "07758e68f1adb00adeb47ed3dced9b339344e27aeebff9c304971830da992365"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J1_B10_h0.1.npz",
+      "bytes": 517606,
+      "sha256": "fc572b59282f8aeca40c63108b24a4be96a3a23624dd7564dc51f6cb8c3cfda2"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J1_B10_h0.3.npz",
+      "bytes": 540197,
+      "sha256": "430319caa38a7255808bc47a33d11d37d834423deb938c76bca5d4b776effdbf"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J1_B10_h1.0.npz",
+      "bytes": 560323,
+      "sha256": "59763584089e3439f5fdc468c450d9953326d1a8446160e368dfa6b0365e1204"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J1_B10_h10.0.npz",
+      "bytes": 581880,
+      "sha256": "d07b050d8ab599a7808629703a0965cad09c54b2bd5ed9ecad50c2bafb5a3a8d"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J1_B10_h3.0.npz",
+      "bytes": 576443,
+      "sha256": "e90fb6fbe3045dd0efb1c5edcdc05a87623f0490b196e6303b30a67bd87fb785"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J1_B10_h30.0.npz",
+      "bytes": 583659,
+      "sha256": "de298805bbc6580415e2fd7a328c1edbe9d9da7d14a1ce02c116667a18e2be19"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J1_B30_h0.001.npz",
+      "bytes": 482731,
+      "sha256": "f41badc7ec55dc9e5fce7484248328ffea8dc331884bc243fe909cd7658a5bfc"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J1_B30_h0.003.npz",
+      "bytes": 458265,
+      "sha256": "561c33a0ce88607f1d9c1395128239cb445d1a60a71be7b03e1e215604d78870"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J1_B30_h0.01.npz",
+      "bytes": 442775,
+      "sha256": "51dc1785eee3b8e602770aed53514aa7ab829cf67a1dc12c151417c7f19c5b8c"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J1_B30_h0.03.npz",
+      "bytes": 458659,
+      "sha256": "d63d948ec1b54fd5f8344266e1bc12a480aaa0dc1b9233387a564d6fe9b6a384"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J1_B30_h0.1.npz",
+      "bytes": 492021,
+      "sha256": "64028943a117fe8cbcf8e50133694e55023bbbef3447220d9359c2e3a7268e1a"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J1_B30_h0.3.npz",
+      "bytes": 517523,
+      "sha256": "e46c8002e65841d72abc22071821d398a1950626cd68076df3e0b64c280139fc"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J1_B30_h1.0.npz",
+      "bytes": 542653,
+      "sha256": "4614f2c9d58dde7a32574a81f72b2a7d35ad8f06f3e5e405d5f418fce0eb88e8"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J1_B30_h10.0.npz",
+      "bytes": 576935,
+      "sha256": "a6be4e743d9d03d5ff8755164ffb31b70d78be346080fc7894937bd513b19396"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J1_B30_h3.0.npz",
+      "bytes": 560070,
+      "sha256": "9025f70b025a8ec89c782c564fa222e689ada3175ae0631077ee515059f11b9d"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J1_B30_h30.0.npz",
+      "bytes": 583148,
+      "sha256": "acfe198d57bc5d361744404e1edba63fa41ce35984d08d72db65ccd8cb4cbbd4"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J3_B10_h0.001.npz",
+      "bytes": 482892,
+      "sha256": "a194c02ef4311dc3f2829fd6964ce82bb9c1b9aa05072aa71fee41bccff39a68"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J3_B10_h0.003.npz",
+      "bytes": 459250,
+      "sha256": "050f45d28788efac3f3c31352481253fd5a5c72a562600ea9fc34380f398ca18"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J3_B10_h0.01.npz",
+      "bytes": 443093,
+      "sha256": "49f1039ef9d6cb1278a0485c86014b74849fc5f883d5262a2b52db145116b5a4"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J3_B10_h0.03.npz",
+      "bytes": 459069,
+      "sha256": "55403e6ca41f8eee590c7e300ea8744e6e4b303c1b619a9ccafebcbe8c8000dc"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J3_B10_h0.1.npz",
+      "bytes": 491332,
+      "sha256": "68509b49f7ec65d483186d839e39fae4aafcddc92b3af67e58c769357439e388"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J3_B10_h0.3.npz",
+      "bytes": 516944,
+      "sha256": "a5d40082152ecbb7020c38167ff4c3af782712434d811a27b7768411537cea05"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J3_B10_h1.0.npz",
+      "bytes": 542531,
+      "sha256": "89cf92c87beb8da3c714708405e31d14d2cadb7e3cd1bd1abdbcf7535d910968"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J3_B10_h10.0.npz",
+      "bytes": 577273,
+      "sha256": "29a14714ddf90940d99b843397d1849602dc1b402e43b12e2a15a23dd14b2f5d"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J3_B10_h3.0.npz",
+      "bytes": 560418,
+      "sha256": "07b95c6dcc464a973b9cb1ed66733d3e8f62d29fe9744974a85cfed7f5d9aac5"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J3_B10_h30.0.npz",
+      "bytes": 581431,
+      "sha256": "924dbe992c5855bc957240a9190f82c90d7ca6eb5ad9056ec6b6d253265b37b5"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J3_B30_h0.001.npz",
+      "bytes": 484400,
+      "sha256": "96c798e8eda73092053a44bcdc9f5d4353bd61d9865b8912a3b332f42b6d61e7"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J3_B30_h0.003.npz",
+      "bytes": 480691,
+      "sha256": "b509744261b0622dc07ab27784de941edc3b2645c9f59fd318886a964e09ef8d"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J3_B30_h0.01.npz",
+      "bytes": 458086,
+      "sha256": "a692e13042f09a53418857e2208fd36f4db4a2f82edf8db22410aeb1d463d5a0"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J3_B30_h0.03.npz",
+      "bytes": 442436,
+      "sha256": "bcff6091478d770813488ae57a0f0210a3f8a752929ad0b880e8fc924a1e597b"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J3_B30_h0.1.npz",
+      "bytes": 460955,
+      "sha256": "afeda5fae109fed2ec3413f9f950204ff87e7f27147ae555c32885f2eafea7b0"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J3_B30_h0.3.npz",
+      "bytes": 490616,
+      "sha256": "12135077adfde47af8daf6e06f456667f5c75536a0e02ccff6bdf1b138369f88"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J3_B30_h1.0.npz",
+      "bytes": 518041,
+      "sha256": "721dfd96920301335569229560daec6ca945111eb3576a4e78ec3eb6120b67ad"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J3_B30_h10.0.npz",
+      "bytes": 564531,
+      "sha256": "2f781c1b95df742e2f4d49a3cc05dadc4b6d67b6ed9a156d51ecac38591abde1"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J3_B30_h3.0.npz",
+      "bytes": 542587,
+      "sha256": "d65446c171179675dac73517c4e220ae1b199bc2240e045ee48e352bb849a58f"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/ie_su_l0.8_J3_B30_h30.0.npz",
+      "bytes": 579120,
+      "sha256": "c058e2cfe6bb2dc9989a1a1d676ae443c4004e37f00aed9f1642e11c633fdb60"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/os_su_l0.8_J1_B100_h0.0.npz",
+      "bytes": 592856,
+      "sha256": "26fec42139c2538f5ddedd81ad97e6431677ee3b942975b907f27b23500ce336"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/os_su_l0.8_J1_B10_h0.0.npz",
+      "bytes": 585095,
+      "sha256": "56539eca2e8eb40907c29f8f11cf167ccd8fdfbedcb3445d1745090a48b87ed1"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/os_su_l0.8_J1_B30_h0.0.npz",
+      "bytes": 587542,
+      "sha256": "5a925b8fc782d54965a2bf0b96d95eb451a513ff7687db0ef3c2dc0f5332d376"
+    },
+    {
+      "path": "data/results/cliffwalk/tuning/q_-_l0.0_J1_B10_h0.0.npz",
+      "bytes": 539428,
+      "sha256": "045d6655f35f35800e27a31041eafd7fcc0b1fd44cc90ff2761ec4d022bb15be"
+    },
+    {
+      "path": "data/selection-verification.json",
+      "bytes": 394,
+      "sha256": "1322be43bbc1d86b842038aa1cd57265cc4b3488ba869bf6812d06dd3cbac4a0"
+    },
+    {
+      "path": "data/source-manifest.json",
+      "bytes": 353,
+      "sha256": "a7aed8074994fbb708441e9e0f505eeb7010babe7f62b18f8a775d66f9ae556e"
+    },
+    {
+      "path": "data/tuning-candidate-scores.npz",
+      "bytes": 23989,
+      "sha256": "07945132f897de9eb0e30e0d86757d36035adbc06f791d251b37d4b33a666004"
+    },
+    {
+      "path": "data/tuning-manifest.json",
+      "bytes": 11287,
+      "sha256": "36404f3c580e79472cba52bebeea2b9b60c9cbb632e2cf5c95fa7ad77b6ba81d"
+    },
+    {
+      "path": "data/tuning-ranking.csv",
+      "bytes": 169350,
+      "sha256": "d3536c2e7bae630504e9d312fb7047d584502b5bbe6da2dc8cdab31da5b4c353"
+    },
+    {
+      "path": "implementation/environment.py",
+      "bytes": 9566,
+      "sha256": "53aee74dae9df42df1999eb9f43556b800883401577ebcd71ce56ceaf08cde63"
+    },
+    {
+      "path": "implementation/experiment.py",
+      "bytes": 9036,
+      "sha256": "e42028271b9204faca139aeaa18cae821b934275c8a01e8d5af6bd6222aa5379"
+    },
+    {
+      "path": "implementation/learning.py",
+      "bytes": 8723,
+      "sha256": "31f9b303117ad42f19cf3c9593e69bfcd434cf116d84755fe7acb87b63bd657d"
+    },
+    {
+      "path": "implementation/metrics.py",
+      "bytes": 5301,
+      "sha256": "641811f9d560a617081ff4b71c7b12e69daec0417e4aeead8c77ebbe24c692bb"
+    }
+  ]
+}

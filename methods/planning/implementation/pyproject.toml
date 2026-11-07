@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ievi-experiments"
+version = "0.1.0"
+description = "Experiments for Implicit-Euler Value Iteration."
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pyyaml",
+  "pandas",
+  "jax[cpu]",
+  "matplotlib",
+  "scipy",
+  "numba>=0.61",
+  "threadpoolctl",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["besp", "besp.*", "ievi", "ievi.*", "ievi_experiments", "ievi_experiments.*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "studies": [
+    {
+      "id": "source-control-frozen-lake-gamma09",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/frozen_lake_control_support_uniform.metadata.json",
+        "selector": "datasets[0].rows",
+        "gamma": 0.9
+      }
+    },
+    {
+      "id": "source-control-frozen-lake-gamma099",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/frozen_lake_control_support_uniform.metadata.json",
+        "selector": "datasets[1].rows",
+        "gamma": 0.99
+      }
+    },
+    {
+      "id": "source-control-four-rooms-gamma09",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/four_rooms_control_support_uniform.metadata.json",
+        "selector": "datasets[0].rows",
+        "gamma": 0.9
+      }
+    },
+    {
+      "id": "source-control-four-rooms-gamma099",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/four_rooms_control_support_uniform.metadata.json",
+        "selector": "datasets[1].rows",
+        "gamma": 0.99
+      }
+    },
+    {
+      "id": "source-evaluation-maze-gamma09",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/figure_app_maze_pe_gamma_comparison.metadata.json",
+        "selector": "datasets[0].rows",
+        "gamma": 0.9
+      }
+    },
+    {
+      "id": "source-evaluation-maze-gamma099",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/figure_app_maze_pe_gamma_comparison.metadata.json",
+        "selector": "datasets[1].rows",
+        "gamma": 0.99
+      }
+    },
+    {
+      "id": "source-evaluation-four-rooms-gamma09",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/figure_app_four_rooms_pe_gamma_comparison.metadata.json",
+        "selector": "datasets[0].rows",
+        "gamma": 0.9
+      }
+    },
+    {
+      "id": "source-evaluation-four-rooms-gamma099",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/figure_app_four_rooms_pe_gamma_comparison.metadata.json",
+        "selector": "datasets[1].rows",
+        "gamma": 0.99
+      }
+    },
+    {
+      "id": "source-control-cliffwalk-gamma099",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/threshold_criterion_sensitivity.metadata.json",
+        "selector": "panels[*][*]",
+        "encoding": "six panels; zipped lambdas/osvi_hits/aievi_hits, scalar vi_hit; compare every threshold/criterion"
+      }
+    },
+    {
+      "id": "source-control-maze-gamma09",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/figure_app_maze_control_support_uniform_gamma_comparison.metadata.json",
+        "selector": "datasets[0].rows",
+        "gamma": 0.9
+      }
+    },
+    {
+      "id": "source-control-maze-gamma099",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/figure_app_maze_control_support_uniform_gamma_comparison.metadata.json",
+        "selector": "datasets[1].rows",
+        "gamma": 0.99
+      }
+    },
+    {
+      "id": "source-control-maze-self-loop-gamma099",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/figure_app_maze_control_self_loop_gamma099.metadata.json",
+        "selector": "rows"
+      }
+    },
+    {
+      "id": "source-evaluation-maze-self-loop-gamma09",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/figure_app_maze_pe_self_loop_gamma_comparison.metadata.json",
+        "selector": "datasets[0].rows",
+        "gamma": 0.9
+      }
+    },
+    {
+      "id": "source-evaluation-maze-self-loop-gamma099",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/figure_app_maze_pe_self_loop_gamma_comparison.metadata.json",
+        "selector": "datasets[1].rows",
+        "gamma": 0.99
+      }
+    },
+    {
+      "id": "source-control-four-rooms-self-loop-gamma09",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/figure_app_four_rooms_control_self_loop_gamma_comparison.metadata.json",
+        "selector": "datasets[0].rows",
+        "gamma": 0.9
+      }
+    },
+    {
+      "id": "source-control-four-rooms-self-loop-gamma099",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/figure_app_four_rooms_control_self_loop_gamma_comparison.metadata.json",
+        "selector": "datasets[1].rows",
+        "gamma": 0.99
+      }
+    },
+    {
+      "id": "source-evaluation-four-rooms-self-loop-gamma09",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/figure_app_four_rooms_pe_self_loop_gamma_comparison.metadata.json",
+        "selector": "datasets[0].rows",
+        "gamma": 0.9
+      }
+    },
+    {
+      "id": "source-evaluation-four-rooms-self-loop-gamma099",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/figure_app_four_rooms_pe_self_loop_gamma_comparison.metadata.json",
+        "selector": "datasets[1].rows",
+        "gamma": 0.99
+      }
+    },
+    {
+      "id": "source-evaluation-cliffwalk-self-loop-gamma0999-budget10000",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/figure_app_cliffwalk_pe_self_loop_grid.metadata.json",
+        "selector": "panels[3].rows",
+        "panel_key": "gamma0999_budget10000"
+      }
+    },
+    {
+      "id": "source-evaluation-cliffwalk-self-loop-gamma0999-budget1000",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/figure_app_cliffwalk_pe_self_loop_grid.metadata.json",
+        "selector": "panels[2].rows",
+        "panel_key": "gamma0999_budget1000"
+      }
+    },
+    {
+      "id": "source-evaluation-cliffwalk-self-loop-gamma099-budget10000",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/figure_app_cliffwalk_pe_self_loop_grid.metadata.json",
+        "selector": "panels[1].rows",
+        "panel_key": "gamma099_budget10000"
+      }
+    },
+    {
+      "id": "source-evaluation-cliffwalk-self-loop-gamma099-budget1000",
+      "active_metadata": {
+        "path": "methods/planning/implementation/figures/figure_app_cliffwalk_pe_self_loop_grid.metadata.json",
+        "selector": "panels[0].rows",
+        "panel_key": "gamma099_budget1000"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "figure_slug": "cliffwalk_control_trajectories",
+  "source_experiment_package": "experiments/deterministic-control-cliffwalk-gamma099-support-uniform-dense11-1000-vi-osvi-waterfall",
+  "source_trace_file": null,
+  "trace_subset_lambdas": [
+    0.0,
+    0.7,
+    1.0
+  ],
+  "copied_assets_from_stem": "control_story_400_piecewise_x_log1p_y_uniform_log_w3_vi_waterfall_0_0p7_1_osvi_0p7",
+  "notes": [
+    "The raw trace file in this package is reduced to the lambdas required by Figure 2a.",
+    "The interactive HTML embeds its data payload and can be opened as a single copied file."
+  ],
+  "recorded_hash_scope": "Hash values identify reference-source bytes. Null optional source locations indicate unavailable identical source files. Corresponding bundled inputs may differ in byte identity; numerical settings and outcomes are documented separately."
+}

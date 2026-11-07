@@ -1,0 +1,82 @@
+{
+  "source_runtime": null,
+  "implementation_note": "Maze deterministic-control self-loop measurements use gamma=0.99 and the deterministic dispatcher with explicit aisp.target_epsilon. The listed source files define the implementation.",
+  "source_files_used": [
+    {
+      "path": "besp/runners/deterministic_dispatch.py",
+      "sha256": "54ad1c9459eba38fa383bd2978581e3091d8950d9d66fab078a33ef6c89ba6da"
+    },
+    {
+      "path": null,
+      "sha256": "f790e694b6933660adbc760e991bfab084e74f5c71ec8aca1a7f117691558d63"
+    }
+  ],
+  "source_config": null,
+  "source_run_dir": null,
+  "source_trace_file": null,
+  "command": "JAX_PLATFORMS=cpu CUDA_VISIBLE_DEVICES='' OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 python scripts/run_experiment.py --config configs/control_gamma099_maze_self_loop_vi_osvi_aisp_target1e3_piecewise_10000.yaml --platform cpu --cores 32",
+  "parameters": {
+    "environment": "maze",
+    "gamma": 0.99,
+    "error_mode": "self_loop",
+    "threshold": 0.001,
+    "metric_mode": "policy_value_error",
+    "stable_hit_threshold": 0.001,
+    "max_queries": 10000,
+    "aisp_target_epsilon": 0.001,
+    "lambdas": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.625,
+      0.65,
+      0.675,
+      0.7,
+      0.725,
+      0.75,
+      0.775,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      1.0
+    ],
+    "algorithms": {
+      "vi": {},
+      "osvi": {
+        "surrogate_policy_iteration_steps": 5
+      },
+      "aisp": {
+        "target_epsilon": 0.001
+      }
+    },
+    "deterministic_target_manifest": "control-target-maze-gamma0p99-fe63a89967e9/target_manifest.json"
+  },
+  "imported_files": [
+    {
+      "path": "data/raw/control_traces.json",
+      "sha256": "aabd5586805b3137729efa865833b5a31bcc6ba2f6550920e7315382a3ee7b8c"
+    },
+    {
+      "path": "data/raw/source_config.yaml",
+      "sha256": "f790e694b6933660adbc760e991bfab084e74f5c71ec8aca1a7f117691558d63"
+    },
+    {
+      "path": "data/results.csv",
+      "sha256": "720fdfa32211feb00b7649c3ebb64fa66e40497f6d79279831a06f2d7af9a96d"
+    },
+    {
+      "path": "data/summary.json",
+      "sha256": "bdb47af793feb0e3d9ca4ef2690dda32fcd3f2a69435ecb81ccba61666f65bb2"
+    },
+    {
+      "path": null,
+      "sha256": "68449fedf15a47296874a8a92a5e4d1c680558257652e58e931e0a37f5734f02"
+    }
+  ],
+  "recorded_hash_scope": "Hash values identify reference-source bytes. Null optional source locations indicate unavailable identical source files. Corresponding bundled inputs may differ in byte identity; numerical settings and outcomes are documented separately."
+}

@@ -1,0 +1,10 @@
+{
+  "bellman_optimality_residual_inf": 4.547473508864641e-13,
+  "policy_evaluation_residual_inf": 4.547473508864641e-13,
+  "value_error_upper_bound": 4.547473508864637e-11,
+  "policy_optimal_to_float64_precision": true,
+  "construction": "JAX value iteration to iterate delta<=1e-12 or cap100000, first-index argmax then numpy float64 direct policy evaluation",
+  "reference_target_recovered": false,
+  "mdp_fingerprint": "985f040f40513723669006d1c01eff4e709662f2083252dacde95518e8bdd683",
+  "reference_target_path": "control-target-cliffwalk-gamma0p99-985f040f4051/target_manifest.json"
+}

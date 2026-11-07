@@ -1,0 +1,17 @@
+{
+  "name": "pe_gamma099_cliffwalk_self_loop_transition025_1000_vi_osvi_waterfall_besp",
+  "mode": "deterministic_jax",
+  "platform": "cpu",
+  "env": "cliffwalk",
+  "lambda_values": [
+    0.625,
+    0.675,
+    0.725,
+    0.775
+  ],
+  "n_rows": 4,
+  "results_csv": "outputs/runs/pe_gamma099_cliffwalk_self_loop_transition025_1000_vi_osvi_waterfall_besp/results.csv",
+  "raw_results_json": "outputs/runs/pe_gamma099_cliffwalk_self_loop_transition025_1000_vi_osvi_waterfall_besp/raw/results.json",
+  "logs_dir": "outputs/slurm_logs/run_experiment/",
+  "pe_traces_json": "outputs/runs/pe_gamma099_cliffwalk_self_loop_transition025_1000_vi_osvi_waterfall_besp/raw/pe_traces.json"
+}

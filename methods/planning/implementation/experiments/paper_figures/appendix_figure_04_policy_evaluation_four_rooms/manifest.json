@@ -1,0 +1,279 @@
+{
+  "package_name": "deterministic-policy-evaluation-four-rooms-support-uniform-piecewise-1000-vi-osvi-waterfall-besp",
+  "purpose": "Four Rooms deterministic policy-evaluation runs for support-uniform model error at gamma 0.9 and 0.99.",
+  "coverage": {
+    "regime": "deterministic policy evaluation",
+    "environment": "four_rooms",
+    "environment_params": {
+      "size": 15,
+      "slip": 0.1,
+      "seed": 0
+    },
+    "gammas": [
+      0.9,
+      0.99
+    ],
+    "noise_model": "support_uniform",
+    "threshold": 0.001,
+    "max_queries": 1000,
+    "n_seeds": 1,
+    "config_seed": 0,
+    "lambda_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.825,
+      0.85,
+      0.875,
+      0.9,
+      0.925,
+      0.95,
+      0.975,
+      1.0
+    ],
+    "source_algorithms": [
+      "vi",
+      "osvi",
+      "waterfall_besp"
+    ],
+    "visible_algorithm_labels": {
+      "vi": "VI",
+      "osvi": "OS-VI",
+      "waterfall_besp": "Adaptive IE-VI"
+    },
+    "appendix_figure": "fig:four-rooms-pe-gamma-comparison"
+  },
+  "target_manifests": {
+    "gamma09": {
+      "target_id": "pe-target-four_rooms-gamma0p9-6ae9dfa04a8e",
+      "path": ".",
+      "sha256": "d664dc9db9c22d16879d8aa36ada83b7b416e93147a3ffde8c31e89a8c64682a"
+    },
+    "gamma099": {
+      "target_id": "pe-target-four_rooms-gamma0p99-1113d13dee58",
+      "path": ".",
+      "sha256": "ecb1a1a6ac050315beec1627e729384ecaeea2cb291d37ffd6800e5bdd2a8e0c"
+    }
+  },
+  "run_commands": {
+    "protocol": "deterministic target preparation",
+    "parameters": {
+      "protocol": "deterministic target preparation",
+      "parameters": [
+        {
+          "protocol": "deterministic target preparation",
+          "parameters": [
+            "JAX_PLATFORMS=cpu",
+            "--lane",
+            "pe",
+            "--env",
+            "four_rooms",
+            "--gamma",
+            "0.9",
+            "--env-param",
+            "size=15",
+            "--env-param",
+            "seed=0",
+            "--platform",
+            "cpu"
+          ]
+        },
+        {
+          "protocol": "deterministic target preparation",
+          "parameters": [
+            "JAX_PLATFORMS=cpu",
+            "--lane",
+            "pe",
+            "--env",
+            "four_rooms",
+            "--gamma",
+            "0.99",
+            "--env-param",
+            "size=15",
+            "--env-param",
+            "seed=0",
+            "--platform",
+            "cpu"
+          ]
+        },
+        "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 XLA_FLAGS='--xla_cpu_multi_thread_eigen=false intra_op_parallelism_threads=1' JAX_PLATFORMS=cpu python scripts/run_experiment.py --config configs/pe_gamma09_four_rooms15_support_uniform_vi_osvi_waterfall_besp_highlambda_piecewise_1000.yaml --platform cpu --cores 8 --output_dir outputs/runs/pe_gamma09_four_rooms15_support_uniform_vi_osvi_waterfall_besp_highlambda_piecewise_1000",
+        "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 XLA_FLAGS='--xla_cpu_multi_thread_eigen=false intra_op_parallelism_threads=1' JAX_PLATFORMS=cpu python scripts/run_experiment.py --config configs/pe_gamma099_four_rooms15_support_uniform_vi_osvi_waterfall_besp_highlambda_piecewise_1000.yaml --platform cpu --cores 8 --output_dir outputs/runs/pe_gamma099_four_rooms15_support_uniform_vi_osvi_waterfall_besp_highlambda_piecewise_1000",
+        "python experiments/deterministic-policy-evaluation-four-rooms-support-uniform-piecewise-1000-vi-osvi-waterfall-besp/code/render_four_rooms_pe_gamma_comparison.py --gamma09-trace experiments/deterministic-policy-evaluation-four-rooms-support-uniform-piecewise-1000-vi-osvi-waterfall-besp/data/gamma09/raw/pe_traces.json --gamma099-trace experiments/deterministic-policy-evaluation-four-rooms-support-uniform-piecewise-1000-vi-osvi-waterfall-besp/data/gamma099/raw/pe_traces.json --output experiments/deterministic-policy-evaluation-four-rooms-support-uniform-piecewise-1000-vi-osvi-waterfall-besp/figures/figure_app_four_rooms_pe_gamma_comparison.png"
+      ]
+    }
+  },
+  "runs": {
+    "gamma09": {
+      "source_run_dir": ".",
+      "local_data_dir": "data/gamma09",
+      "source_config_sha256": "d403d2c61a4f15748fdc8b2700d34eade92b6d6b2afc01d318db4c96352ff89a",
+      "env_variant_sha256": "dcd3c084b7493afc7f043ea85361ae1db3e3d794adefcd93eaa8332301394234",
+      "pe_traces_sha256": "d65943b8cf84433470b4ea2fe7e498638801c248605c9dcf56196976dddcbeb1",
+      "results_csv_sha256": "4bcbfcc96ef71f82b633f461975eb7ab9ec714981af822d5b15e26a84b39b38d",
+      "summary_json_sha256": "a847458d1e22871d40beb93947cebfd50c61203520c98b5f86811e4cbf52e3d8"
+    },
+    "gamma099": {
+      "source_run_dir": ".",
+      "local_data_dir": "data/gamma099",
+      "source_config_sha256": "c51f35b617c84a1c039b1f2023b811dcc9f81b8cd5b0ed4056e9a1e8af28289a",
+      "env_variant_sha256": "205f55d28139e859cdc7ab7449202a46400aa879c5dc8fbca5cfc587574e0e58",
+      "pe_traces_sha256": "2d46a41a3758fa01ca6892c3822784827e9ed0a15a6bd6bb1f967c54afd1dc16",
+      "results_csv_sha256": "cf108cb6d735bef2b2bd25355f2761053f71f96570af92e348940ae6144590e9",
+      "summary_json_sha256": "c56e4667cc4e062fd4814efd84899bce08ddba5a28095f5aa71ec51d80ad7e42"
+    }
+  },
+  "stable_hit_summary": {
+    "gamma09": {
+      "vi": {
+        "min": 73,
+        "max": 73,
+        "dnf_lambdas": []
+      },
+      "aievi": {
+        "min": 1,
+        "max": 125,
+        "dnf_lambdas": []
+      },
+      "osvi": {
+        "min": 1,
+        "max": 37,
+        "dnf_lambdas": [
+          0.65,
+          0.7,
+          0.75,
+          0.8,
+          0.825,
+          0.85,
+          0.875,
+          0.9,
+          0.925,
+          0.95,
+          0.975,
+          1.0
+        ]
+      }
+    },
+    "gamma099": {
+      "vi": {
+        "min": 695,
+        "max": 695,
+        "dnf_lambdas": []
+      },
+      "aievi": {
+        "min": 1,
+        "max": 928,
+        "dnf_lambdas": [
+          0.65,
+          0.7,
+          0.75,
+          0.8,
+          0.825,
+          0.85,
+          0.875,
+          0.9,
+          0.925,
+          0.95,
+          0.975,
+          1.0
+        ]
+      },
+      "osvi": {
+        "min": 1,
+        "max": 14,
+        "dnf_lambdas": [
+          0.5,
+          0.6,
+          0.65,
+          0.7,
+          0.75,
+          0.8,
+          0.825,
+          0.85,
+          0.875,
+          0.9,
+          0.925,
+          0.95,
+          0.975,
+          1.0
+        ]
+      }
+    }
+  },
+  "schema_version": 2,
+  "scope": "Distributed paper-figure inputs, implementation and reference assets",
+  "files": [
+    {
+      "path": "code/render_four_rooms_pe_gamma_comparison.py",
+      "sha256": "fe9668538a3e81c3f6c127a72fae4de9897f0c99192cfedc10da5d4c3774ff74",
+      "bytes": 15200
+    },
+    {
+      "path": "data/gamma09/raw/pe_traces.json",
+      "sha256": "65dbe90a33e09b7b334377de0c8e559b3ae684c51013a424189b44a644da4ff1",
+      "bytes": 2767571
+    },
+    {
+      "path": "data/gamma09/raw/results.json",
+      "sha256": "68e02d76526c35d4df4290d61a74c76cec8a659cd68964aaf08144b1c2e72333",
+      "bytes": 2066
+    },
+    {
+      "path": "data/gamma09/raw/runner_config_snapshot.yaml",
+      "sha256": "e9ea3e18e067a7cf688d34f38fdca26fcbe8be070dc0a26ab66941bcc9214fe1",
+      "bytes": 899
+    },
+    {
+      "path": "data/gamma09/raw/source_config.yaml",
+      "sha256": "fe4f2c421a586243a19a8472d6af4de5e96af46d0e2ca3b8ebf8f00a29e74e9b",
+      "bytes": 838
+    },
+    {
+      "path": "data/gamma09/results.csv",
+      "sha256": "877303730334282742588e74a2fa1ff8d5637643e4ea4bcac2cb68b0e65149f0",
+      "bytes": 408
+    },
+    {
+      "path": "data/gamma09/summary.json",
+      "sha256": "9c76cde68543156054f689f112f844b4b8a6506986bf72e300b6bd54502eb87d",
+      "bytes": 878
+    },
+    {
+      "path": "data/gamma099/raw/pe_traces.json",
+      "sha256": "83aadb464797df1bc5f102de1953b3254e629e164f06a168286adc0d29514fbf",
+      "bytes": 2696415
+    },
+    {
+      "path": "data/gamma099/raw/results.json",
+      "sha256": "4a0a29f477520b3868f776b0e30935fff59b4c47e353b5af11ab190bdd27f7da",
+      "bytes": 2111
+    },
+    {
+      "path": "data/gamma099/raw/runner_config_snapshot.yaml",
+      "sha256": "b2a5a9a0a90d8785eb9fd23c2d5db24e2cab87f2cd012a6a1d7bc75baf535928",
+      "bytes": 903
+    },
+    {
+      "path": "data/gamma099/raw/source_config.yaml",
+      "sha256": "8f6221e5794dc0945be180cc6f6485b1c1c5ba6c194604533199d8a2c193dbae",
+      "bytes": 842
+    },
+    {
+      "path": "data/gamma099/results.csv",
+      "sha256": "6738b7df95a90426e677902f1c5620422a78ce57dfca1d19bc4da8ecffc8bb39",
+      "bytes": 453
+    },
+    {
+      "path": "data/gamma099/summary.json",
+      "sha256": "9f50e3d75d227e7ad0b18de17c1787ee544ba5e4ca5c043c223e9c00d541dca9",
+      "bytes": 882
+    }
+  ]
+}

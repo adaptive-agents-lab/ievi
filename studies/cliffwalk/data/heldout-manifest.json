@@ -1,0 +1,89 @@
+[
+  {
+    "method": "q",
+    "path": "results/cliffwalk/heldout/q_-_l0.0_J1_B10_h0.0.npz",
+    "source_group_sha256": "cddfb12e702752c9becb5e8267170477f31631bc87568efbce13411810cb6340",
+    "source_config_index": 2,
+    "source_metric_index": 1,
+    "source_config_count": 3,
+    "metric": "pol|all|L1",
+    "setting": {
+      "method": "q",
+      "jobfam": "-",
+      "lam": 0.0,
+      "sched": "v:n^-0.8",
+      "J": 1,
+      "B": 10,
+      "h": 0.0,
+      "area40_tune": 5.953918409347534
+    },
+    "full_checkpoint_and_seed_coverage": true,
+    "array_fields": [
+      "used",
+      "cells",
+      "cell_names",
+      "scheds",
+      "hs",
+      "seeds"
+    ],
+    "sha256": "c1ca5508d6dc246af48ecb4265d1d70c882f5ac3340e8d7b238047f0e6b8d445"
+  },
+  {
+    "method": "os",
+    "path": "results/cliffwalk/heldout/os_su_l0.8_J1_B30_h0.0.npz",
+    "source_group_sha256": "1da233846c8f4da5551d2111e935333cf13dcdcbb8b9bbe7978a3838fdcbd143",
+    "source_config_index": 0,
+    "source_metric_index": 1,
+    "source_config_count": 4,
+    "metric": "pol|all|L1",
+    "setting": {
+      "method": "os",
+      "jobfam": "su",
+      "lam": 0.8,
+      "sched": "c0.01",
+      "J": 1,
+      "B": 30,
+      "h": 0.0,
+      "area40_tune": 16.465074851363898
+    },
+    "full_checkpoint_and_seed_coverage": true,
+    "array_fields": [
+      "used",
+      "cells",
+      "cell_names",
+      "scheds",
+      "hs",
+      "seeds"
+    ],
+    "sha256": "dd556f5136011d535c51c2165b4f65b609b85a2d543792c0caded6dd2211a105"
+  },
+  {
+    "method": "ie",
+    "path": "results/cliffwalk/heldout/ie_su_l0.8_J1_B10_h0.0.npz",
+    "source_group_sha256": "bdbc65f8ee44f4d824a2ffabf01c38020274ac18e42827d46b0ab38b16c11079",
+    "source_config_index": 5,
+    "source_metric_index": 1,
+    "source_config_count": 6,
+    "metric": "pol|all|L1",
+    "setting": {
+      "method": "ie",
+      "jobfam": "su",
+      "lam": 0.8,
+      "sched": "v:3/(3+n)",
+      "J": 1,
+      "B": 10,
+      "h": 0.03,
+      "area40_tune": 13.448491764627397
+    },
+    "full_checkpoint_and_seed_coverage": true,
+    "array_fields": [
+      "used",
+      "cells",
+      "cell_names",
+      "scheds",
+      "hs",
+      "seeds"
+    ],
+    "sha256": "9c3734cd8fc10e21d8e674e6fad663112d8a9f40708622581b2b364dabe40479"
+  }
+]

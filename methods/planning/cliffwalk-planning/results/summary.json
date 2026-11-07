@@ -1,0 +1,43 @@
+{
+  "configuration_count": 19,
+  "algorithm_grid_points_compared": 57,
+  "all_stable_hits_equal_to_reference": true,
+  "all_query_indices_equal_to_reference": true,
+  "all_policy_traces_equal_to_reference": false,
+  "aisp_inner_iteration_cap_hits": 0,
+  "aisp_inner_solves": 9840,
+  "osvi_inner_solves": 19000,
+  "aisp_max_observed_inner_residual_inf": 7.275957614183426e-12,
+  "aisp_max_observed_inner_value_error_bound": 3.674358595162627e-10,
+  "inner_nonfinite_diagnostics": 0,
+  "reference_executed_source_identity_proven": false,
+  "bundled_solver_run_identity_proven": true,
+  "reference_target_certificate": {
+    "certified": true,
+    "stop_reason": "certified",
+    "iterations": 2637,
+    "residual_norm": 9.868017514236271e-11,
+    "residual_tolerance": 1.000000000000001e-10,
+    "value_error_bound": 9.868017514236263e-09,
+    "greedy_policy_stable": true,
+    "epsilon_target": 1e-08,
+    "max_iters": 500000
+  },
+  "offline_policy_evaluation_unique_policies": 2439,
+  "elapsed_seconds": 127.89321579999523,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "jax": "0.11.2",
+    "jaxlib": "0.11.2",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "PyYAML": "6.0.3"
+  },
+  "jax_devices": [
+    "cpu:0"
+  ],
+  "jax_enable_x64": true,
+  "instrumentation": "bounded preflight guard plus observational hooks; no change to accepted-update formula, policy extraction, inner stopping, or incumbent behavior",
+  "threshold_comparison": "strictly less than, matching the reference planning stable-hit renderer"
+}

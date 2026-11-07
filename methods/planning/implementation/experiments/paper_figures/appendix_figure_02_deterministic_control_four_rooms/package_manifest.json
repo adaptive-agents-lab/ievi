@@ -1,0 +1,62 @@
+{
+  "package": "four_rooms_control_support_uniform",
+  "schema_version": 2,
+  "scope": "Distributed paper-figure inputs, implementation and reference assets",
+  "files": [
+    {
+      "path": "code/experiments/common/plot_style.py",
+      "sha256": "1a8343947080d65e07b757c2ba95a77e617e1d2c52669fef66aa02d3c600f290",
+      "bytes": 8247
+    },
+    {
+      "path": "code/experiments/scripts/render_gamma_comparison_hit_query_vs_lambda.py",
+      "sha256": "b000f0f788705d9f5bb66addfafdd102e2d8b26372a9c441596dfd0e3375d08f",
+      "bytes": 16062
+    },
+    {
+      "path": "data/four_rooms_control_support_uniform.metadata.json",
+      "sha256": "275132f3e733caf50c3190088900c497530bf3aa7015954efe84a72154ed7f61",
+      "bytes": 21480
+    },
+    {
+      "path": "data/raw/gamma09/results.csv",
+      "sha256": "aecc8d4560bf7e8ca57f455d5759875836e587779c3c8448d23d168b7c484a83",
+      "bytes": 373
+    },
+    {
+      "path": "data/raw/gamma09/run_summary.json",
+      "sha256": "cc15d26e33fc5de2a65b1be4d9869d8c418a481629152ffa0e9318e2ae36a855",
+      "bytes": 1032
+    },
+    {
+      "path": "data/raw/gamma09/source_config.yaml",
+      "sha256": "ebf5d77e588c01b87550c574164567e9a92f7b65885c3c8b22705e4b9422174a",
+      "bytes": 967
+    },
+    {
+      "path": "data/raw/gamma099/results.csv",
+      "sha256": "fd6e103bc4105d6754b16a3e9cb171a3b4dec93d9f7ea4d8c25e826bd9981699",
+      "bytes": 402
+    },
+    {
+      "path": "data/raw/gamma099/run_summary.json",
+      "sha256": "61e33f154983b9df036843b56a9f3823983ca57f09dfa4cec573523ab41a255d",
+      "bytes": 1037
+    },
+    {
+      "path": "data/raw/gamma099/source_config.yaml",
+      "sha256": "b5a2c226729ead51cd284200f0f614afcc0f72b75430516b323376584037a3cf",
+      "bytes": 971
+    },
+    {
+      "path": "data/source_provenance.json",
+      "sha256": "b930d7d1c22a0c553822c92e2adcd32b85a8e1992e5716e6641fefe51ffaec90",
+      "bytes": 6529
+    },
+    {
+      "path": "figure_spec.json",
+      "sha256": "4550b506ce93475cd0f55b00f5f94b7e0c238ca53fbad17a74c1fd3d16f8772b",
+      "bytes": 1687
+    }
+  ]
+}

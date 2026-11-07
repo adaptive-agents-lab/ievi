@@ -1,0 +1,84 @@
+{
+  "package_name": "appendix_figure_07_control_maze_support_uniform",
+  "purpose": "Appendix Maze Control support-uniform panels matching the stable-hit query figure family used in the paper.",
+  "coverage": {
+    "regime": "Control",
+    "environment": "maze",
+    "noise_model": "support_uniform",
+    "gammas": [
+      0.9,
+      0.99
+    ],
+    "threshold": 0.001,
+    "max_queries": 1000,
+    "visible_algorithm_labels": {
+      "vi": "VI",
+      "osvi": "OS-VI",
+      "aisp": "Adaptive IE-VI"
+    }
+  },
+  "schema_version": 2,
+  "scope": "Distributed paper-figure inputs, implementation and reference assets",
+  "files": [
+    {
+      "path": "code/render_maze_control_support_uniform_gamma_comparison.py",
+      "sha256": "551bc19c05aa7c7682daf160ce4fb1802c78934d4ce433078e05bd98dce88d89",
+      "bytes": 13502
+    },
+    {
+      "path": "data/gamma09/raw/control_traces.json",
+      "sha256": "702223c5cc894971284d2aaf3fbe71abd76213abf1542b210bf418931c562b82",
+      "bytes": 10319112
+    },
+    {
+      "path": "data/gamma09/raw/source_config.yaml",
+      "sha256": "c76c7a0871d7695e3a6f1f1483e3f05e81040c3aedc787a614205b466e8f6b47",
+      "bytes": 741
+    },
+    {
+      "path": "data/gamma09/results.csv",
+      "sha256": "f858f8d67ea0f003114cce09b8029e9c273cc6d63620d4d108651d77e2e94e59",
+      "bytes": 322
+    },
+    {
+      "path": "data/gamma09/source_provenance.json",
+      "sha256": "879269a5c8bd16a4038ca3e187e0fbab94cb03090d10cd59306179ffb1b8f343",
+      "bytes": 2416
+    },
+    {
+      "path": "data/gamma09/summary.json",
+      "sha256": "df06fce5761eb416eb1df8d502f19928fdc9c77103526ec4b04408e2c0110a8a",
+      "bytes": 956
+    },
+    {
+      "path": "data/gamma099/raw/control_traces.json",
+      "sha256": "435831d6789fa53be8fc839964f3e6f1d46d456193b508fe6a5cd32e0795c96b",
+      "bytes": 10622442
+    },
+    {
+      "path": "data/gamma099/raw/source_config.yaml",
+      "sha256": "7ac62add8b7e978889ece3a360b3c801a9fdb8233e669930ed9e00ea854772e8",
+      "bytes": 744
+    },
+    {
+      "path": "data/gamma099/results.csv",
+      "sha256": "df0f911155947fac317815a4e54b08b7639215c3d135c17bea53d0144aff55d3",
+      "bytes": 341
+    },
+    {
+      "path": "data/gamma099/source_provenance.json",
+      "sha256": "dbb1c454478621ce4d4c9a16b1b5d83d28f2c7fd5ae54e66bca4fddcd85911c2",
+      "bytes": 2405
+    },
+    {
+      "path": "data/gamma099/summary.json",
+      "sha256": "dbd4b689be8fd9bcc12091522c5eb1074aaa58f5adaab373319390a9c168e4f2",
+      "bytes": 961
+    },
+    {
+      "path": "figure_spec.json",
+      "sha256": "429b3b6f8c5beecda926d8264f38a531df363401b90caa50e0d925789a76f384",
+      "bytes": 604
+    }
+  ]
+}

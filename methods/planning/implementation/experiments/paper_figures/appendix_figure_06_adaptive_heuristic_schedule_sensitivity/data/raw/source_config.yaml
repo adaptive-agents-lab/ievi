@@ -1,0 +1,4 @@
+source_configuration_available: false
+summary_sources:
+- ../derived/aievi_schedule_by_lambda.json
+- ../derived/aievi_schedule_summary.json

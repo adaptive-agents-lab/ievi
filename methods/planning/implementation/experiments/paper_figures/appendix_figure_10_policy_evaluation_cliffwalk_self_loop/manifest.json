@@ -1,0 +1,524 @@
+{
+  "package_name": "appendix_figure_10_policy_evaluation_cliffwalk_self_loop",
+  "purpose": "Appendix Cliffwalk Policy Evaluation self-loop stable-hit panels matching the paper figure family.",
+  "coverage": {
+    "regime": "Policy Evaluation",
+    "environment": "cliffwalk",
+    "noise_model": "self_loop",
+    "gammas": [
+      0.99,
+      0.999
+    ],
+    "threshold": 0.001,
+    "max_queries": [
+      1000,
+      10000
+    ],
+    "visible_algorithm_labels": {
+      "vi": "VI",
+      "osvi": "OS-VI",
+      "waterfall_besp": "Adaptive IE-VI"
+    }
+  },
+  "stable_hit_summary": {
+    "figure_app_cliffwalk_pe_self_loop_gamma099_budget1000": {
+      "vi": {
+        "finite_lambdas": [
+          0.0,
+          0.05,
+          0.1,
+          0.15,
+          0.2,
+          0.25,
+          0.3,
+          0.35,
+          0.4,
+          0.45,
+          0.5,
+          0.55,
+          0.6,
+          0.625,
+          0.65,
+          0.675,
+          0.7,
+          0.725,
+          0.75,
+          0.775,
+          0.8,
+          0.85,
+          0.9,
+          0.95,
+          1.0
+        ],
+        "first_failure_lambda": null,
+        "n_failures": 0,
+        "max_stable_hit": 692
+      },
+      "osvi": {
+        "finite_lambdas": [
+          0.0,
+          0.05,
+          0.1,
+          0.15,
+          0.2,
+          0.25,
+          0.3,
+          0.35,
+          0.4,
+          0.45,
+          0.5
+        ],
+        "first_failure_lambda": 0.55,
+        "n_failures": 14,
+        "max_stable_hit": 83
+      },
+      "aievi": {
+        "finite_lambdas": [
+          0.0,
+          0.05,
+          0.1,
+          0.15,
+          0.2,
+          0.25,
+          0.3,
+          0.35,
+          0.4,
+          0.45,
+          0.5,
+          0.55,
+          0.6,
+          0.625,
+          0.65,
+          0.675,
+          0.7
+        ],
+        "first_failure_lambda": 0.725,
+        "n_failures": 8,
+        "max_stable_hit": 83
+      }
+    },
+    "figure_app_cliffwalk_pe_self_loop_gamma099_budget10000": {
+      "vi": {
+        "finite_lambdas": [
+          0.0,
+          0.05,
+          0.1,
+          0.15,
+          0.2,
+          0.25,
+          0.3,
+          0.35,
+          0.4,
+          0.45,
+          0.5,
+          0.55,
+          0.6,
+          0.625,
+          0.65,
+          0.675,
+          0.7,
+          0.725,
+          0.75,
+          0.775,
+          0.8,
+          0.85,
+          0.9,
+          0.95,
+          1.0
+        ],
+        "first_failure_lambda": null,
+        "n_failures": 0,
+        "max_stable_hit": 692
+      },
+      "osvi": {
+        "finite_lambdas": [
+          0.0,
+          0.05,
+          0.1,
+          0.15,
+          0.2,
+          0.25,
+          0.3,
+          0.35,
+          0.4,
+          0.45,
+          0.5
+        ],
+        "first_failure_lambda": 0.55,
+        "n_failures": 14,
+        "max_stable_hit": 83
+      },
+      "aievi": {
+        "finite_lambdas": [
+          0.0,
+          0.05,
+          0.1,
+          0.15,
+          0.2,
+          0.25,
+          0.3,
+          0.35,
+          0.4,
+          0.45,
+          0.5,
+          0.55,
+          0.6,
+          0.625,
+          0.65,
+          0.675,
+          0.7
+        ],
+        "first_failure_lambda": 0.725,
+        "n_failures": 8,
+        "max_stable_hit": 83
+      }
+    },
+    "figure_app_cliffwalk_pe_self_loop_gamma0999_budget1000": {
+      "vi": {
+        "finite_lambdas": [],
+        "first_failure_lambda": 0.0,
+        "n_failures": 41,
+        "max_stable_hit": null
+      },
+      "osvi": {
+        "finite_lambdas": [
+          0.0,
+          0.025,
+          0.05,
+          0.075,
+          0.1,
+          0.125,
+          0.15,
+          0.175,
+          0.2,
+          0.225,
+          0.25,
+          0.275,
+          0.3,
+          0.325,
+          0.35,
+          0.375,
+          0.4,
+          0.425,
+          0.45,
+          0.475,
+          0.5
+        ],
+        "first_failure_lambda": 0.525,
+        "n_failures": 20,
+        "max_stable_hit": 117
+      },
+      "aievi": {
+        "finite_lambdas": [
+          0.0,
+          0.025,
+          0.05,
+          0.075,
+          0.1,
+          0.125,
+          0.15,
+          0.175,
+          0.2,
+          0.225,
+          0.25,
+          0.275,
+          0.3,
+          0.325,
+          0.35,
+          0.375,
+          0.4,
+          0.425,
+          0.45,
+          0.475,
+          0.5,
+          0.525,
+          0.55,
+          0.575,
+          0.6,
+          0.625,
+          0.65,
+          0.675,
+          0.7,
+          0.725
+        ],
+        "first_failure_lambda": 0.75,
+        "n_failures": 11,
+        "max_stable_hit": 117
+      }
+    },
+    "figure_app_cliffwalk_pe_self_loop_gamma0999_budget10000": {
+      "vi": {
+        "finite_lambdas": [
+          0.0,
+          0.025,
+          0.05,
+          0.075,
+          0.1,
+          0.125,
+          0.15,
+          0.175,
+          0.2,
+          0.225,
+          0.25,
+          0.275,
+          0.3,
+          0.325,
+          0.35,
+          0.375,
+          0.4,
+          0.425,
+          0.45,
+          0.475,
+          0.5,
+          0.525,
+          0.55,
+          0.575,
+          0.6,
+          0.625,
+          0.65,
+          0.675,
+          0.7,
+          0.725,
+          0.75,
+          0.775,
+          0.8,
+          0.825,
+          0.85,
+          0.875,
+          0.9,
+          0.925,
+          0.95,
+          0.975,
+          1.0
+        ],
+        "first_failure_lambda": null,
+        "n_failures": 0,
+        "max_stable_hit": 6910
+      },
+      "osvi": {
+        "finite_lambdas": [
+          0.0,
+          0.025,
+          0.05,
+          0.075,
+          0.1,
+          0.125,
+          0.15,
+          0.175,
+          0.2,
+          0.225,
+          0.25,
+          0.275,
+          0.3,
+          0.325,
+          0.35,
+          0.375,
+          0.4,
+          0.425,
+          0.45,
+          0.475,
+          0.5
+        ],
+        "first_failure_lambda": 0.525,
+        "n_failures": 20,
+        "max_stable_hit": 117
+      },
+      "aievi": {
+        "finite_lambdas": [
+          0.0,
+          0.025,
+          0.05,
+          0.075,
+          0.1,
+          0.125,
+          0.15,
+          0.175,
+          0.2,
+          0.225,
+          0.25,
+          0.275,
+          0.3,
+          0.325,
+          0.35,
+          0.375,
+          0.4,
+          0.425,
+          0.45,
+          0.475,
+          0.5,
+          0.525,
+          0.55,
+          0.575,
+          0.6,
+          0.625,
+          0.65,
+          0.675,
+          0.7,
+          0.725
+        ],
+        "first_failure_lambda": 0.75,
+        "n_failures": 11,
+        "max_stable_hit": 117
+      }
+    }
+  },
+  "schema_version": 2,
+  "scope": "Distributed paper-figure inputs, implementation and reference assets",
+  "files": [
+    {
+      "path": "code/render_cliffwalk_pe_self_loop_grid.py",
+      "sha256": "991de7f8f75673b1deb557f5b03839c3bd7bd439668de1c567bf302a43b9aa19",
+      "bytes": 14277
+    },
+    {
+      "path": "data/gamma0999_budget10000_dense41/config.yaml",
+      "sha256": "c62576d4881a76ee7622df26bd44aef109950ae37cc6ba8208498df92a780c17",
+      "bytes": 970
+    },
+    {
+      "path": "data/gamma0999_budget10000_dense41/raw/pe_traces.json",
+      "sha256": "50e5ae8b5449383f53a8af28f02df39b9b3faa8213aa5cec9f2acddb0e294c4c",
+      "bytes": 62388065
+    },
+    {
+      "path": "data/gamma0999_budget10000_dense41/raw/results.json",
+      "sha256": "664c147e91a2f9e139c15d7caf46ac8591cc2ca7f618a3aebaa96d04016a836d",
+      "bytes": 4575
+    },
+    {
+      "path": "data/gamma0999_budget10000_dense41/results.csv",
+      "sha256": "c64c76df747e545bce1ed9db4900b66f7eee8170af6390fe4dedcc18bb7dc6e2",
+      "bytes": 959
+    },
+    {
+      "path": "data/gamma0999_budget10000_dense41/summary.json",
+      "sha256": "b2c99f75066df17f226cd9476da68679dd416fed50b35ef99e2b7dc4c4067fc5",
+      "bytes": 1037
+    },
+    {
+      "path": "data/gamma0999_budget1000_dense41/config.yaml",
+      "sha256": "9ee9ec4a5b29c37b125b706c44af0b00ff9d528c3080e2af39073ba07c708e8c",
+      "bytes": 968
+    },
+    {
+      "path": "data/gamma0999_budget1000_dense41/raw/pe_traces.json",
+      "sha256": "a1af4d1223f0ab648b59ceb2be5ab8d6e96de0e823ed177564b6a49b7847a8ce",
+      "bytes": 6060046
+    },
+    {
+      "path": "data/gamma0999_budget1000_dense41/raw/results.json",
+      "sha256": "d9d57319288cd101d5961f54d22cd40c621161c08a4197c1c3e03e2148fcce79",
+      "bytes": 4544
+    },
+    {
+      "path": "data/gamma0999_budget1000_dense41/results.csv",
+      "sha256": "cef2b8b2fb6717e5e78c9bf69adb0b4fe83bf4fb3d893f16c3e9f10e352d3ea0",
+      "bytes": 928
+    },
+    {
+      "path": "data/gamma0999_budget1000_dense41/summary.json",
+      "sha256": "88057e1c55331448d560a28b5c567fffd63b4a021621888ff378070e1bccc077",
+      "bytes": 1033
+    },
+    {
+      "path": "data/gamma099_budget10000/config.yaml",
+      "sha256": "d3329dae269c10b2999d8b56d6b09fc6afd3bd80625ddca49d95cbc215d6143b",
+      "bytes": 830
+    },
+    {
+      "path": "data/gamma099_budget10000/raw/pe_traces.json",
+      "sha256": "a58c239026e8f524b44c3b0ffe3cf8e339cc3db7ad101f36264947fdf3a9752e",
+      "bytes": 38220783
+    },
+    {
+      "path": "data/gamma099_budget10000/raw/results.json",
+      "sha256": "11c69c128a5da4fe125a6b1c97a8b9f9df2dbdfab8579ff2c1ed20aecf23fa79",
+      "bytes": 2767
+    },
+    {
+      "path": "data/gamma099_budget10000/results.csv",
+      "sha256": "2edd4658b51bbc488d48fa16e52de07ce84475ca2ef4840c85c1245dcb780457",
+      "bytes": 575
+    },
+    {
+      "path": "data/gamma099_budget10000/summary.json",
+      "sha256": "8c2f31aa793d906b431200eeebc0e89cc2a1a97e6f6eaa792e47a5fc0352972b",
+      "bytes": 885
+    },
+    {
+      "path": "data/gamma099_budget1000_dense21/config.yaml",
+      "sha256": "99564d58c8482e4494cd0b9fd16c22bdae084ee7ea27f70c86194a1db478b3a5",
+      "bytes": 785
+    },
+    {
+      "path": "data/gamma099_budget1000_dense21/raw/pe_traces.json",
+      "sha256": "813f02102ea590640a1d10ad6a517eff76ecc1857f50ba42d1294673f0ede4c9",
+      "bytes": 3138516
+    },
+    {
+      "path": "data/gamma099_budget1000_dense21/raw/results.json",
+      "sha256": "7098658746ee250568855c841487a62d79e9035200bbdd0c72d944ed3cd62d84",
+      "bytes": 2293
+    },
+    {
+      "path": "data/gamma099_budget1000_dense21/results.csv",
+      "sha256": "3d1da49a34ec1306cfeb922b40451099ac4e9bf6d80a0c4a4549a9fb7a8dc6fc",
+      "bytes": 457
+    },
+    {
+      "path": "data/gamma099_budget1000_dense21/summary.json",
+      "sha256": "09e6b0fb87b02ae8279e1f9d79d65e23bb4cd809b739c5b80755b2e06c67ddf9",
+      "bytes": 809
+    },
+    {
+      "path": "data/gamma099_budget1000_transition025/config.yaml",
+      "sha256": "841d73fc1fc0a59c8e2696d982c0f7650a2f8d50874ed3253d30ce678dd198a5",
+      "bytes": 670
+    },
+    {
+      "path": "data/gamma099_budget1000_transition025/raw/pe_traces.json",
+      "sha256": "f5e2fc3a460ca950d4d06ed3858e9f042af6ca3fee9451bbfa360eaee9ad1b5a",
+      "bytes": 594380
+    },
+    {
+      "path": "data/gamma099_budget1000_transition025/raw/results.json",
+      "sha256": "8a21619bf399ad1f1506551211763c35ea2ef9fa5920e8e4f35601f3d5c23723",
+      "bytes": 455
+    },
+    {
+      "path": "data/gamma099_budget1000_transition025/results.csv",
+      "sha256": "4bf1196f79aff1bd198bcaa9088cc92d85478073a4bfeec0799df4bcd9dc81cf",
+      "bytes": 132
+    },
+    {
+      "path": "data/gamma099_budget1000_transition025/summary.json",
+      "sha256": "c09492f5157ba6f59c4ce714f6c697276a199e36771eceaddab472ee364b397c",
+      "bytes": 677
+    },
+    {
+      "path": "provenance/source-configs/pe_gamma0999_cliffwalk_self_loop_dense41_10000_vi_osvi_waterfall_besp.yaml",
+      "sha256": "075a2f717d159f7a5bc13bbce68a6ff402a59396a647d0cc47d2744e09d06235",
+      "bytes": 856
+    },
+    {
+      "path": "provenance/source-configs/pe_gamma0999_cliffwalk_self_loop_dense41_1000_vi_osvi_waterfall_besp.yaml",
+      "sha256": "2379a3346f877570eeff796f113d2533c7de591d21aa496df592a17f417324b9",
+      "bytes": 854
+    },
+    {
+      "path": "provenance/source-configs/pe_gamma099_cliffwalk_self_loop_dense21_1000_vi_osvi_waterfall_besp.yaml",
+      "sha256": "8b66786a32e5cbacc0b26a03459d821c940a7fcdd69e7755bebe13ed627ba3bf",
+      "bytes": 711
+    },
+    {
+      "path": "provenance/source-configs/pe_gamma099_cliffwalk_self_loop_figure2dense25_10000_vi_osvi_waterfall_besp.yaml",
+      "sha256": "f779abda99c78ffe8b1fbbc688028763e0c88f40391dfbde19b3dfe9c6500e58",
+      "bytes": 748
+    },
+    {
+      "path": "provenance/source-configs/pe_gamma099_cliffwalk_self_loop_transition025_1000_vi_osvi_waterfall_besp.yaml",
+      "sha256": "74f8ef7a4cf719c41c38fec8eaddb2bc7dd1315948b79d983325549e5835c5d1",
+      "bytes": 630
+    }
+  ]
+}

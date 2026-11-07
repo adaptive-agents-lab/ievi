@@ -1,0 +1,33 @@
+{
+  "name": "control_gamma09_frozen_lake8x8_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000",
+  "mode": "deterministic_jax",
+  "platform": "cpu",
+  "env": "frozen_lake",
+  "lambda_values": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.825,
+    0.85,
+    0.875,
+    0.9,
+    0.925,
+    0.95,
+    0.975,
+    1.0
+  ],
+  "n_rows": 19,
+  "results_csv": "outputs/runs/control_gamma09_frozen_lake8x8_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000/results.csv",
+  "raw_results_json": "outputs/runs/control_gamma09_frozen_lake8x8_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000/raw/results.json",
+  "logs_dir": "outputs/slurm_logs/run_experiment/",
+  "offline_eval_dir": "outputs/runs/control_gamma09_frozen_lake8x8_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000/raw/offline_eval",
+  "control_traces_json": "outputs/runs/control_gamma09_frozen_lake8x8_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000/raw/control_traces.json"
+}

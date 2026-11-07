@@ -1,0 +1,231 @@
+{
+  "name": "pe_gamma099_cliffwalk_self_loop_dense21_1000_vi_osvi_waterfall_besp",
+  "env": "cliffwalk",
+  "env_params": {
+    "gamma": 0.99
+  },
+  "problem_type": "pe",
+  "n_seeds": 1,
+  "seed": 0,
+  "lambdas": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1.0
+  ],
+  "max_queries": 1000,
+  "threshold": "1e-3",
+  "error_mode": "self_loop",
+  "model_norm": "Linf",
+  "value_norm": "L1",
+  "value_normalized": true,
+  "emit_pe_traces": true,
+  "algorithms": [
+    {
+      "name": "waterfall_besp",
+      "h_init": "1e6",
+      "h_min": 1.0,
+      "stall_patience": 3,
+      "decay_factor": 0.1
+    }
+  ],
+  "metric_mode": "residual_hit_time",
+  "evaluation_pipeline": "online",
+  "row_seeds": [
+    0,
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450,
+    500,
+    550,
+    600,
+    650,
+    700,
+    750,
+    800,
+    850,
+    900,
+    950,
+    1000
+  ],
+  "reference_target_manifest": "pe-target-cliffwalk-gamma0p99-985f040f4051/target_manifest.json",
+  "emit_control_traces": false,
+  "source_config": "implementation/experiments/paper_figures/appendix_figure_10_policy_evaluation_cliffwalk_self_loop/data/gamma099_budget1000_dense21/config.yaml",
+  "source_config_sha256": "99564d58c8482e4494cd0b9fd16c22bdae084ee7ea27f70c86194a1db478b3a5",
+  "figure": "figure_app_cliffwalk_pe_self_loop_grid",
+  "panel_index": 0,
+  "run_id": "10_gamma099_budget1000",
+  "reference_rows": [
+    {
+      "lambda": 0.0,
+      "seed": 0,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": 1,
+      "aievi_stable_hit": 1
+    },
+    {
+      "lambda": 0.05,
+      "seed": 50,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": 2,
+      "aievi_stable_hit": 2
+    },
+    {
+      "lambda": 0.1,
+      "seed": 100,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": 2,
+      "aievi_stable_hit": 2
+    },
+    {
+      "lambda": 0.15,
+      "seed": 150,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": 3,
+      "aievi_stable_hit": 3
+    },
+    {
+      "lambda": 0.2,
+      "seed": 200,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": 3,
+      "aievi_stable_hit": 3
+    },
+    {
+      "lambda": 0.25,
+      "seed": 250,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": 4,
+      "aievi_stable_hit": 4
+    },
+    {
+      "lambda": 0.3,
+      "seed": 300,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": 5,
+      "aievi_stable_hit": 5
+    },
+    {
+      "lambda": 0.35,
+      "seed": 350,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": 6,
+      "aievi_stable_hit": 6
+    },
+    {
+      "lambda": 0.4,
+      "seed": 400,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": 8,
+      "aievi_stable_hit": 8
+    },
+    {
+      "lambda": 0.45,
+      "seed": 450,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": 13,
+      "aievi_stable_hit": 13
+    },
+    {
+      "lambda": 0.5,
+      "seed": 500,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": 83,
+      "aievi_stable_hit": 83
+    },
+    {
+      "lambda": 0.55,
+      "seed": 550,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": null,
+      "aievi_stable_hit": 34
+    },
+    {
+      "lambda": 0.6,
+      "seed": 600,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": null,
+      "aievi_stable_hit": 45
+    },
+    {
+      "lambda": 0.65,
+      "seed": 650,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": null,
+      "aievi_stable_hit": 51
+    },
+    {
+      "lambda": 0.7,
+      "seed": 700,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": null,
+      "aievi_stable_hit": 57
+    },
+    {
+      "lambda": 0.75,
+      "seed": 750,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": null,
+      "aievi_stable_hit": null
+    },
+    {
+      "lambda": 0.8,
+      "seed": 800,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": null,
+      "aievi_stable_hit": null
+    },
+    {
+      "lambda": 0.85,
+      "seed": 850,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": null,
+      "aievi_stable_hit": null
+    },
+    {
+      "lambda": 0.9,
+      "seed": 900,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": null,
+      "aievi_stable_hit": null
+    },
+    {
+      "lambda": 0.95,
+      "seed": 950,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": null,
+      "aievi_stable_hit": null
+    },
+    {
+      "lambda": 1.0,
+      "seed": 1000,
+      "vi_stable_hit": 692,
+      "osvi_stable_hit": null,
+      "aievi_stable_hit": null
+    }
+  ],
+  "reference_trace": "implementation/experiments/paper_figures/appendix_figure_10_policy_evaluation_cliffwalk_self_loop/data/gamma099_budget1000_dense21/results.csv"
+}

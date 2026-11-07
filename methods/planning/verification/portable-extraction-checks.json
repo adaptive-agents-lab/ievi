@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "commands": [
+    {
+      "command": "python tools/build_primary.py --output-root portable-derived",
+      "exit_code": 0,
+      "stdout": "Rendered four vector figures from supplied reference data.\n{\n  \"control_accuracy_rows\": 95,\n  \"horizon_rows\": 1680,\n  \"timing_rows\": 50,\n  \"setup_sum_verified\": true,\n  \"raw_inputs_written\": false,\n  \"solver_experiments_run\": false,\n  \"output_root\": \"portable-derived\",\n  \"secondary_csv\": \"data/operator-setup-plus-solver-statistics.csv\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python tools/render_main_figure.py --output-root portable-derived/main-figure1",
+      "exit_code": 0,
+      "stdout": "{\n  \"figure\": \"main_empirical_results_composite\",\n  \"source_metadata\": [\n    \"methods/planning/implementation/figures/figure_app_cliffwalk_pe_self_loop_gamma0999_budget10000.metadata.json\",\n    \"methods/planning/implementation/figures/planning_stable_hit_query_vs_lambda.metadata.json\"\n  ],\n  \"rl_package\": \"methods/planning/implementation/experiments/paper_figures/cliffwalk_stochastic_control\",\n  \"rl_summary\": {\n    \"n_curves\": 7,\n    \"target_value\": 819.1545470513453,\n    \"scale\": 8.191545470513454,\n    \"ie_dyna_alt_used\": {\n      \"0\": \"persistent_defect_replay_lambda_0_waterfall_staircase_sp3_j1_d0p1_hm1000_config_00\",\n      \"0.5\": \"persistent_defect_replay_lambda_0p5_waterfall_staircase_sp3_j1_d0p1_hm1000_config_04\",\n      \"0.8\": \"persistent_defect_replay_lambda_0p8_waterfall_staircase_sp3_j1_d0p1_hm1000_config_00\"\n    }\n  },\n  \"palette_accessibility_report\": {\n    \"palette\": [\n      \"#9D9D9D\",\n      \"#1696D2\",\n      \"#CA5800\"\n    ],\n    \"min_contrast_vs_white\": 2.4,\n    \"min_rgb_distance\": 40.0,\n    \"low_contrast_vs_white\": [],\n    \"near_duplicate_pairs\": []\n  },\n  \"outputs\": {\n    \"pdf\": null,\n    \"png\": null\n  },\n  \"figure_scope\": \"Supplementary three-panel comparison. Panel labels refer to this asset; it is distinct from the current manuscript Figure 1.\",\n  \"output_availability\": \"Recorded command output paths are not distributed inputs; equivalent supplied assets are listed in the supplementary composite sidecar.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python cliffwalk-planning/check_verification.py cliffwalk-planning/results",
+      "exit_code": 0,
+      "stdout": "{\n  \"pass\": true,\n  \"source_ast_equivalent_after_removing_only_declared_hooks_and_budget_preflight\": true,\n  \"configuration_count\": 19,\n  \"algorithm_grid_points\": 57,\n  \"actual_query_counters_match_every_recorded_trajectory\": true,\n  \"all_actual_run_counts_within_1000\": true,\n  \"offline_policy_metric_replay_max_abs_difference\": 0.0,\n  \"exact_threshold_equalities\": 0,\n  \"target_bellman_residual_independent_numpy_check\": 9.868017514236271e-11,\n  \"target_value_error_bound\": 9.868017514236263e-09,\n  \"all_stable_hits_equal_to_reference\": true,\n  \"all_query_indices_equal_to_reference\": true,\n  \"all_policy_traces_equal_to_reference\": false,\n  \"aisp_inner_cap_hits\": 0,\n  \"reference_solver_identity_remains_unproven\": true\n}\n",
+      "stderr": ""
+    }
+  ],
+  "solvers_run": false,
+  "large_input_materialization_and_uncompressed_sha256_checked": true,
+  "original_config_runner_help_passed": true,
+  "scope": "Supplementary planning rendering and consistency checks; this record does not verify the current manuscript Figure 1.",
+  "working_directory": "methods/planning"
+}

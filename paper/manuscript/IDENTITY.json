@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "pdf": "neurips_2026.pdf",
+  "pdf_sha256": "de5edd7aa35d61c1b8d59957922e54fbbc3948f1205ada70caa04833c5764e80",
+  "total_pages": 84,
+  "main_body_pages": 10,
+  "references_start_page": 11,
+  "figure_1": "figure_main_empirical_results_composite.pdf",
+  "figure_1_sha256": "5c1b971767630201761af3a1ab02bd134ed4b28be8e0b5e8aaec72ee83718a86",
+  "figure_data": "figure-provenance.json",
+  "reference_dataset": "../../datasets/reference/planning/DATASET.json",
+  "references_end_page": 13,
+  "appendix_start_page": 14,
+  "appendix_end_page": 77,
+  "checklist_start_page": 78,
+  "checklist_end_page": 84,
+  "page_dimensions_points": [
+    612,
+    792
+  ]
+}

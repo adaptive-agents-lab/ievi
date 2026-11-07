@@ -1,0 +1,2446 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "planning-01_gamma09",
+      "category": "planning",
+      "description": "control_gamma09_frozen_lake8x8_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-01_gamma09",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/01_gamma09.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/01_gamma09.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-01_gamma099",
+      "category": "planning",
+      "description": "control_gamma099_frozen_lake8x8_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-01_gamma099",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/01_gamma099.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/01_gamma099.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-02_gamma09",
+      "category": "planning",
+      "description": "control_gamma09_four_rooms15_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-02_gamma09",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/02_gamma09.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/02_gamma09.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-02_gamma099",
+      "category": "planning",
+      "description": "control_gamma099_four_rooms15_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-02_gamma099",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/02_gamma099.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/02_gamma099.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-03_gamma09",
+      "category": "planning",
+      "description": "pe_gamma09_maze_support_uniform_vi_osvi_waterfall_besp_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-03_gamma09",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/03_gamma09.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/03_gamma09.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-03_gamma099",
+      "category": "planning",
+      "description": "pe_gamma099_maze_support_uniform_vi_osvi_waterfall_besp_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-03_gamma099",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/03_gamma099.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/03_gamma099.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-04_gamma09",
+      "category": "planning",
+      "description": "pe_gamma09_four_rooms15_support_uniform_vi_osvi_waterfall_besp_highlambda_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-04_gamma09",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/04_gamma09.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/04_gamma09.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-04_gamma099",
+      "category": "planning",
+      "description": "pe_gamma099_four_rooms15_support_uniform_vi_osvi_waterfall_besp_highlambda_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-04_gamma099",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/04_gamma099.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/04_gamma099.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-05_threshold",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-05_threshold",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/05_threshold.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/05_threshold.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p03_S1",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p03_S1",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p03_S1.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p03_S1.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p03_S2",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p03_S2",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p03_S2.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p03_S2.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p03_S3",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p03_S3",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p03_S3.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p03_S3.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p03_S5",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p03_S5",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p03_S5.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p03_S5.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p03_S8",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p03_S8",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p03_S8.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p03_S8.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p05_S1",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p05_S1",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p05_S1.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p05_S1.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p05_S2",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p05_S2",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p05_S2.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p05_S2.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p05_S3",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p05_S3",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p05_S3.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p05_S3.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p05_S5",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p05_S5",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p05_S5.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p05_S5.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p05_S8",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p05_S8",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p05_S8.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p05_S8.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p1_S1",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p1_S1",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p1_S1.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p1_S1.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p1_S2",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p1_S2",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p1_S2.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p1_S2.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p1_S3",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p1_S3",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p1_S3.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p1_S3.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p1_S5",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p1_S5",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p1_S5.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p1_S5.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p1_S8",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p1_S8",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p1_S8.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p1_S8.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p2_S1",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p2_S1",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p2_S1.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p2_S1.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p2_S2",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p2_S2",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p2_S2.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p2_S2.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p2_S3",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p2_S3",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p2_S3.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p2_S3.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p2_S5",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p2_S5",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p2_S5.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p2_S5.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p2_S8",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p2_S8",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p2_S8.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p2_S8.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p5_S1",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p5_S1",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p5_S1.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p5_S1.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p5_S2",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p5_S2",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p5_S2.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p5_S2.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p5_S3",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p5_S3",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p5_S3.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p5_S3.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p5_S5",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p5_S5",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p5_S5.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p5_S5.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-06_beta0p5_S8",
+      "category": "planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-06_beta0p5_S8",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/06_beta0p5_S8.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/06_beta0p5_S8.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-09_gamma09",
+      "category": "planning",
+      "description": "pe_gamma09_maze_self_loop_vi_osvi_waterfall_besp_piecewise_10000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-09_gamma09",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/09_gamma09.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/09_gamma09.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-09_gamma099",
+      "category": "planning",
+      "description": "pe_gamma099_maze_self_loop_vi_osvi_waterfall_besp_piecewise_10000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-09_gamma099",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/09_gamma099.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/09_gamma099.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-10_gamma0999_budget1000",
+      "category": "planning",
+      "description": "pe_gamma0999_cliffwalk_self_loop_dense41_1000_vi_osvi_waterfall_besp",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-10_gamma0999_budget1000",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/10_gamma0999_budget1000.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/10_gamma0999_budget1000.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-10_gamma0999_budget10000",
+      "category": "planning",
+      "description": "pe_gamma0999_cliffwalk_self_loop_dense41_10000_vi_osvi_waterfall_besp",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-10_gamma0999_budget10000",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/10_gamma0999_budget10000.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/10_gamma0999_budget10000.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-10_gamma099_budget1000",
+      "category": "planning",
+      "description": "pe_gamma099_cliffwalk_self_loop_dense21_1000_vi_osvi_waterfall_besp",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-10_gamma099_budget1000",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/10_gamma099_budget1000.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/10_gamma099_budget1000.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-10_gamma099_budget10000",
+      "category": "planning",
+      "description": "pe_gamma099_cliffwalk_self_loop_figure2dense25_10000_vi_osvi_waterfall_besp",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-10_gamma099_budget10000",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/10_gamma099_budget10000.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/10_gamma099_budget10000.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-11_gamma09",
+      "category": "planning",
+      "description": "control_gamma09_four_rooms15_self_loop_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-11_gamma09",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/11_gamma09.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/11_gamma09.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-11_gamma099",
+      "category": "planning",
+      "description": "control_gamma099_four_rooms15_self_loop_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-11_gamma099",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/11_gamma099.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/11_gamma099.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-12_gamma09",
+      "category": "planning",
+      "description": "pe_gamma09_four_rooms15_self_loop_vi_osvi_waterfall_besp_highlambda_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-12_gamma09",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/12_gamma09.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/12_gamma09.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-12_gamma099",
+      "category": "planning",
+      "description": "pe_gamma099_four_rooms15_self_loop_vi_osvi_waterfall_besp_highlambda_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-12_gamma099",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/incumbent-restoration/configs/12_gamma099.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw-traces.json",
+        "study/solver/summary.json",
+        "study/solver/solver-settings.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Reference outer dispatcher; semantically checked compiled inner loop and vectorized PE trace collector."
+        ],
+        "reference_rows": "methods/incumbent-restoration/configs/12_gamma099.json"
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "planning-profile",
+      "category": "planning-profile",
+      "description": "Frozen restarted Cliffwalk: all 57 stable-hit results",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/planning_reproduction.py",
+        "run",
+        "--study",
+        "planning-profile",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/planning/cliffwalk-planning/verification-config.json",
+        "methods/planning/cliffwalk-planning/reference/*.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/cliffwalk-planning/**/*.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/verification-checks.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "limitations": [
+          "Full policy trajectories differ from reference archive; exact solver build identity unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "two-state-stiffness",
+      "category": "two-state-stiffness",
+      "description": "Two-state closed-form trajectory figure and complete numerical export",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/run_two_state.py",
+        "--output-root",
+        "{output}/study"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/catalog.json",
+        "methods/planning/implementation/experiments/paper_figures/two_state_bellman_flow_stiffness/data/two_state_compact_inset.metadata.json",
+        "methods/planning/implementation/experiments/paper_figures/two_state_bellman_flow_stiffness/data/two_state_compact_inset.raw_data.json"
+      ],
+      "code": [
+        "scripts/run_two_state.py",
+        "methods/planning/implementation/experiments/paper_figures/two_state_bellman_flow_stiffness/code/**/*.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/two-state-checks.json",
+        "study/package/data/two_state_compact_inset.raw_data.json",
+        "study/package/data/actual-plotted-relative-error.json",
+        "study/package/code/experiments/two-state-bellman-flow-stiffness/figures/two_state_compact_inset.pdf"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": false,
+      "reference": {
+        "limitations": [
+          "Illustrative display overrides are preserved and distinguished from computed trajectories."
+        ]
+      },
+      "comparator": {
+        "pairs": [
+          {
+            "actual": "study/package/data/two_state_compact_inset.raw_data.json",
+            "reference": "methods/planning/implementation/experiments/paper_figures/two_state_bellman_flow_stiffness/data/two_state_compact_inset.raw_data.json",
+            "mode": "json",
+            "rtol": 1e-10,
+            "atol": 1e-12
+          }
+        ]
+      },
+      "scientific_checker": true
+    }
+  ]
+}

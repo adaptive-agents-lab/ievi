@@ -1,0 +1,1315 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "selected-control-frozen-lake-gamma09",
+      "category": "selected-planning",
+      "description": "control_gamma09_frozen_lake8x8_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning.py",
+        "run",
+        "--study",
+        "selected-control-frozen-lake-gamma09",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-control-frozen-lake-gamma09.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_01_deterministic_control_frozen_lake/data/raw/gamma09/source_config.yaml"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-control-frozen-lake-gamma09",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-control-frozen-lake-gamma099",
+      "category": "selected-planning",
+      "description": "control_gamma099_frozen_lake8x8_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning.py",
+        "run",
+        "--study",
+        "selected-control-frozen-lake-gamma099",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-control-frozen-lake-gamma099.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_01_deterministic_control_frozen_lake/data/raw/gamma099/source_config.yaml"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-control-frozen-lake-gamma099",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-control-four-rooms-gamma09",
+      "category": "selected-planning",
+      "description": "control_gamma09_four_rooms15_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning_variants.py",
+        "run",
+        "--study",
+        "selected-control-four-rooms-gamma09",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-control-four-rooms-gamma09.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_02_deterministic_control_four_rooms/data/raw/gamma09/source_config.yaml",
+        "configs/planning/target-evidence/*.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py",
+        "scripts/selected_planning_variants.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-control-four-rooms-gamma09",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-control-four-rooms-gamma099",
+      "category": "selected-planning",
+      "description": "control_gamma099_four_rooms15_support_uniform_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning_variants.py",
+        "run",
+        "--study",
+        "selected-control-four-rooms-gamma099",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-control-four-rooms-gamma099.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_02_deterministic_control_four_rooms/data/raw/gamma099/source_config.yaml",
+        "configs/planning/target-evidence/*.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py",
+        "scripts/selected_planning_variants.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-control-four-rooms-gamma099",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-evaluation-maze-gamma09",
+      "category": "selected-planning",
+      "description": "pe_gamma09_maze_support_uniform_vi_osvi_waterfall_besp_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning.py",
+        "run",
+        "--study",
+        "selected-evaluation-maze-gamma09",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-evaluation-maze-gamma09.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_03_policy_evaluation_maze/data/gamma09/raw/source_config.yaml"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-evaluation-maze-gamma09",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-evaluation-maze-gamma099",
+      "category": "selected-planning",
+      "description": "pe_gamma099_maze_support_uniform_vi_osvi_waterfall_besp_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning.py",
+        "run",
+        "--study",
+        "selected-evaluation-maze-gamma099",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-evaluation-maze-gamma099.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_03_policy_evaluation_maze/data/gamma099/raw/source_config.yaml"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-evaluation-maze-gamma099",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-evaluation-four-rooms-gamma09",
+      "category": "selected-planning",
+      "description": "pe_gamma09_four_rooms15_support_uniform_vi_osvi_waterfall_besp_highlambda_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning_variants.py",
+        "run",
+        "--study",
+        "selected-evaluation-four-rooms-gamma09",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-evaluation-four-rooms-gamma09.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_04_policy_evaluation_four_rooms/data/gamma09/raw/source_config.yaml",
+        "configs/planning/target-evidence/*.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py",
+        "scripts/selected_planning_variants.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-evaluation-four-rooms-gamma09",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-evaluation-four-rooms-gamma099",
+      "category": "selected-planning",
+      "description": "pe_gamma099_four_rooms15_support_uniform_vi_osvi_waterfall_besp_highlambda_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning_variants.py",
+        "run",
+        "--study",
+        "selected-evaluation-four-rooms-gamma099",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-evaluation-four-rooms-gamma099.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_04_policy_evaluation_four_rooms/data/gamma099/raw/source_config.yaml",
+        "configs/planning/target-evidence/*.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py",
+        "scripts/selected_planning_variants.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-evaluation-four-rooms-gamma099",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-control-cliffwalk-gamma099",
+      "category": "selected-planning",
+      "description": "control_gamma099_cliffwalk_support_uniform_long_vi_osvi_waterfall_dense11_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning.py",
+        "run",
+        "--study",
+        "selected-control-cliffwalk-gamma099",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-control-cliffwalk-gamma099.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_05_threshold_criterion_sensitivity/data/raw/source_config.yaml",
+        "methods/planning/implementation/experiments/paper_figures/cliffwalk_deterministic_control/data/raw/gamma099/source_configs/dense11_1000.yaml",
+        "methods/planning/implementation/experiments/paper_figures/cliffwalk_deterministic_control/data/raw/gamma099/source_configs/dense21_subset_1000.yaml",
+        "methods/planning/implementation/experiments/paper_figures/cliffwalk_deterministic_control/data/raw/gamma099/source_configs/dense21_quarter_increments_1000.yaml"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-control-cliffwalk-gamma099",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-control-maze-gamma09",
+      "category": "selected-planning",
+      "description": "control_gamma09_maze_support_uniform_vi_osvi_aisp_target1e3_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning.py",
+        "run",
+        "--study",
+        "selected-control-maze-gamma09",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-control-maze-gamma09.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_07_control_maze_support_uniform/data/gamma09/raw/source_config.yaml"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-control-maze-gamma09",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-control-maze-gamma099",
+      "category": "selected-planning",
+      "description": "control_gamma099_maze_support_uniform_vi_osvi_aisp_target1e3_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning.py",
+        "run",
+        "--study",
+        "selected-control-maze-gamma099",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-control-maze-gamma099.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_07_control_maze_support_uniform/data/gamma099/raw/source_config.yaml"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-control-maze-gamma099",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-control-maze-self-loop-gamma099",
+      "category": "selected-planning",
+      "description": "control_gamma099_maze_self_loop_vi_osvi_aisp_target1e3_piecewise_10000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning.py",
+        "run",
+        "--study",
+        "selected-control-maze-self-loop-gamma099",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-control-maze-self-loop-gamma099.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_08_control_maze_self_loop/data/raw/source_config.yaml"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-control-maze-self-loop-gamma099",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-evaluation-maze-self-loop-gamma09",
+      "category": "selected-planning",
+      "description": "pe_gamma09_maze_self_loop_vi_osvi_waterfall_besp_piecewise_10000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning.py",
+        "run",
+        "--study",
+        "selected-evaluation-maze-self-loop-gamma09",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-evaluation-maze-self-loop-gamma09.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_09_policy_evaluation_maze_self_loop/data/gamma09/raw/source_config.yaml"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-evaluation-maze-self-loop-gamma09",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-evaluation-maze-self-loop-gamma099",
+      "category": "selected-planning",
+      "description": "pe_gamma099_maze_self_loop_vi_osvi_waterfall_besp_piecewise_10000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning.py",
+        "run",
+        "--study",
+        "selected-evaluation-maze-self-loop-gamma099",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-evaluation-maze-self-loop-gamma099.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_09_policy_evaluation_maze_self_loop/data/gamma099/raw/source_config.yaml"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-evaluation-maze-self-loop-gamma099",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-control-four-rooms-self-loop-gamma09",
+      "category": "selected-planning",
+      "description": "control_gamma09_four_rooms15_self_loop_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning_variants.py",
+        "run",
+        "--study",
+        "selected-control-four-rooms-self-loop-gamma09",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-control-four-rooms-self-loop-gamma09.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_11_control_four_rooms_self_loop/data/raw/gamma09/source_config.yaml",
+        "configs/planning/target-evidence/*.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py",
+        "scripts/selected_planning_variants.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-control-four-rooms-self-loop-gamma09",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-control-four-rooms-self-loop-gamma099",
+      "category": "selected-planning",
+      "description": "control_gamma099_four_rooms15_self_loop_vi_osvi_waterfall_highlambda_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning_variants.py",
+        "run",
+        "--study",
+        "selected-control-four-rooms-self-loop-gamma099",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-control-four-rooms-self-loop-gamma099.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_11_control_four_rooms_self_loop/data/raw/gamma099/source_config.yaml",
+        "configs/planning/target-evidence/*.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py",
+        "scripts/selected_planning_variants.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-control-four-rooms-self-loop-gamma099",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-evaluation-four-rooms-self-loop-gamma09",
+      "category": "selected-planning",
+      "description": "pe_gamma09_four_rooms15_self_loop_vi_osvi_waterfall_besp_highlambda_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning_variants.py",
+        "run",
+        "--study",
+        "selected-evaluation-four-rooms-self-loop-gamma09",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-evaluation-four-rooms-self-loop-gamma09.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_12_policy_evaluation_four_rooms_self_loop/data/gamma09/raw/source_config.yaml",
+        "configs/planning/target-evidence/*.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py",
+        "scripts/selected_planning_variants.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-evaluation-four-rooms-self-loop-gamma09",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-evaluation-four-rooms-self-loop-gamma099",
+      "category": "selected-planning",
+      "description": "pe_gamma099_four_rooms15_self_loop_vi_osvi_waterfall_besp_highlambda_piecewise_1000",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning_variants.py",
+        "run",
+        "--study",
+        "selected-evaluation-four-rooms-self-loop-gamma099",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-evaluation-four-rooms-self-loop-gamma099.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_12_policy_evaluation_four_rooms_self_loop/data/gamma099/raw/source_config.yaml",
+        "configs/planning/target-evidence/*.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py",
+        "scripts/selected_planning_variants.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-evaluation-four-rooms-self-loop-gamma099",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-evaluation-cliffwalk-self-loop-gamma0999-budget10000",
+      "category": "selected-planning",
+      "description": "pe_gamma0999_cliffwalk_self_loop_dense41_10000_vi_osvi_waterfall_besp",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning.py",
+        "run",
+        "--study",
+        "selected-evaluation-cliffwalk-self-loop-gamma0999-budget10000",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-evaluation-cliffwalk-self-loop-gamma0999-budget10000.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_10_policy_evaluation_cliffwalk_self_loop/data/gamma0999_budget10000_dense41/config.yaml"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-evaluation-cliffwalk-self-loop-gamma0999-budget10000",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-evaluation-cliffwalk-self-loop-gamma0999-budget1000",
+      "category": "selected-planning",
+      "description": "pe_gamma0999_cliffwalk_self_loop_dense41_1000_vi_osvi_waterfall_besp",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning.py",
+        "run",
+        "--study",
+        "selected-evaluation-cliffwalk-self-loop-gamma0999-budget1000",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-evaluation-cliffwalk-self-loop-gamma0999-budget1000.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_10_policy_evaluation_cliffwalk_self_loop/data/gamma0999_budget1000_dense41/config.yaml"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-evaluation-cliffwalk-self-loop-gamma0999-budget1000",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-evaluation-cliffwalk-self-loop-gamma099-budget10000",
+      "category": "selected-planning",
+      "description": "pe_gamma099_cliffwalk_self_loop_figure2dense25_10000_vi_osvi_waterfall_besp",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning.py",
+        "run",
+        "--study",
+        "selected-evaluation-cliffwalk-self-loop-gamma099-budget10000",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-evaluation-cliffwalk-self-loop-gamma099-budget10000.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_10_policy_evaluation_cliffwalk_self_loop/data/gamma099_budget10000/config.yaml"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-evaluation-cliffwalk-self-loop-gamma099-budget10000",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-evaluation-cliffwalk-self-loop-gamma099-budget1000",
+      "category": "selected-planning",
+      "description": "pe_gamma099_cliffwalk_self_loop_dense21_1000_vi_osvi_waterfall_besp",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning.py",
+        "run",
+        "--study",
+        "selected-evaluation-cliffwalk-self-loop-gamma099-budget1000",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-evaluation-cliffwalk-self-loop-gamma099-budget1000.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_10_policy_evaluation_cliffwalk_self_loop/data/gamma099_budget1000_dense21/config.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_10_policy_evaluation_cliffwalk_self_loop/data/gamma099_budget1000_transition025/config.yaml"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "current-figure",
+        "source_catalog_id": "source-evaluation-cliffwalk-self-loop-gamma099-budget1000",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified."
+        ]
+      },
+      "scientific_checker": true
+    },
+    {
+      "id": "selected-evaluation-cliffwalk-self-loop-gamma099-boundary",
+      "category": "claim-support",
+      "description": "Supplemental PE gamma=.99 budget1000 transition grid for the prose's .725 boundary",
+      "argv": [
+        "{python}",
+        "-u",
+        "{root}/scripts/selected_planning.py",
+        "run",
+        "--study",
+        "selected-evaluation-cliffwalk-self-loop-gamma099-boundary",
+        "--output-root",
+        "{output}/study",
+        "--cores",
+        "1"
+      ],
+      "cwd": "{root}",
+      "inputs": [
+        "configs/planning/selected/catalog.json",
+        "configs/planning/selected/selected-evaluation-cliffwalk-self-loop-gamma099-boundary.yaml",
+        "methods/planning/implementation/experiments/paper_figures/appendix_figure_10_policy_evaluation_cliffwalk_self_loop/data/gamma099_budget1000_transition025/config.yaml",
+        "configs/scientific-claims/cliffwalk-pe-transition.json"
+      ],
+      "code": [
+        "scripts/planning_reproduction.py",
+        "methods/planning/implementation/src/**/*.py",
+        "methods/incumbent-restoration/harness/run_practical.py",
+        "methods/planning/implementation/scripts/run_experiment.py",
+        "scripts/selected_planning.py"
+      ],
+      "expected_outputs": [
+        "study/completed.json",
+        "study/solver/raw/results.json",
+        "study/inputs/target-certification.json"
+      ],
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "JAX_PLATFORMS": "cpu",
+        "JAX_ENABLE_X64": "true",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "MPLBACKEND": "Agg"
+      },
+      "depends_on": [],
+      "expensive": true,
+      "reference": {
+        "scope": "prose-support-only",
+        "source_catalog_id": "source-evaluation-cliffwalk-self-loop-gamma099-boundary",
+        "limitations": [
+          "Reference target arrays unavailable; independently reconstructed and certified.",
+          "Exact executed solver build identity for the reference measurements remains unverified.",
+          "Not plotted in the current 21-point PE1000 panel; separately supports the prose boundary claim."
+        ]
+      },
+      "scientific_checker": true
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "figure_slug": "cliffwalk_planning_reference_inputs",
+  "parameters": {
+    "selected_grid": [
+      0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.625,
+      0.65,
+      0.675,
+      0.7,
+      0.725,
+      0.75,
+      0.775,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      1
+    ],
+    "source_config": "configs/planning/selected/selected-control-cliffwalk-gamma099.yaml",
+    "source_configs": [
+      {
+        "lambdas": [
+          0.0,
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.5,
+          0.6,
+          0.7,
+          0.8,
+          0.9,
+          1.0
+        ],
+        "path": "methods/planning/implementation/experiments/paper_figures/appendix_figure_05_threshold_criterion_sensitivity/data/raw/source_config.yaml",
+        "sha256": "b01e48627c845d7c2618cdb68ab1eb7f60fe7ddccd0cba8eca9e3a025f6543bf"
+      },
+      {
+        "lambdas": [
+          0.0,
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.5,
+          0.6,
+          0.7,
+          0.8,
+          0.9,
+          1.0
+        ],
+        "path": "methods/planning/implementation/experiments/paper_figures/cliffwalk_deterministic_control/data/raw/gamma099/source_configs/dense11_1000.yaml",
+        "sha256": "b01e48627c845d7c2618cdb68ab1eb7f60fe7ddccd0cba8eca9e3a025f6543bf"
+      },
+      {
+        "lambdas": [
+          0.05,
+          0.15,
+          0.25,
+          0.35,
+          0.45,
+          0.55,
+          0.65,
+          0.75,
+          0.85,
+          0.95
+        ],
+        "path": "methods/planning/implementation/experiments/paper_figures/cliffwalk_deterministic_control/data/raw/gamma099/source_configs/dense21_subset_1000.yaml",
+        "sha256": "68d8619ab64c3e07d02cfd2f512a66a086242ca0d2af75960f8d46dc72d084cd"
+      },
+      {
+        "lambdas": [
+          0.625,
+          0.675,
+          0.725,
+          0.775
+        ],
+        "path": "methods/planning/implementation/experiments/paper_figures/cliffwalk_deterministic_control/data/raw/gamma099/source_configs/dense21_quarter_increments_1000.yaml",
+        "sha256": "9332e35f5afe41ed76feabdc9cf1a705a83621b452c8dcd6f299bf36cabab031"
+      }
+    ]
+  },
+  "schema_version": 2,
+  "scope": "Distributed paper-figure inputs, implementation and reference assets",
+  "files": [
+    {
+      "path": "code/experiments/common/plot_style.py",
+      "sha256": "1a8343947080d65e07b757c2ba95a77e617e1d2c52669fef66aa02d3c600f290",
+      "bytes": 8247
+    },
+    {
+      "path": "code/experiments/scripts/render_gamma_comparison_hit_query_vs_lambda.py",
+      "sha256": "1a6e5ae516514033cb056b652226faf2ee837ff74d127ca3b1336a62d986e9e9",
+      "bytes": 15737
+    },
+    {
+      "path": "data/cliffwalk_control_discount_comparison.raw_data.json",
+      "sha256": "91e8bc73d6499f5d49373a09a91c26cbe8d4675a023072f167d689d4ea81a627",
+      "bytes": 3658
+    },
+    {
+      "path": "data/raw/gamma099/source_configs/dense11_1000.yaml",
+      "sha256": "b01e48627c845d7c2618cdb68ab1eb7f60fe7ddccd0cba8eca9e3a025f6543bf",
+      "bytes": 793
+    },
+    {
+      "path": "data/raw/gamma099/source_configs/dense21_quarter_increments_1000.yaml",
+      "sha256": "9332e35f5afe41ed76feabdc9cf1a705a83621b452c8dcd6f299bf36cabab031",
+      "bytes": 771
+    },
+    {
+      "path": "data/raw/gamma099/source_configs/dense21_subset_1000.yaml",
+      "sha256": "68d8619ab64c3e07d02cfd2f512a66a086242ca0d2af75960f8d46dc72d084cd",
+      "bytes": 804
+    },
+    {
+      "path": "data/source_provenance.json",
+      "sha256": "c3f88d3f69b44a6b015f72e9278903375e1ef3ef640a3080d095b2a60f87365e",
+      "bytes": 5133
+    },
+    {
+      "path": "figure_spec_gamma099_only.json",
+      "sha256": "eef0b9ce60884b9d1c7c015876ab1a667a9aa1cbf9948e13e9553dd65bbb93be",
+      "bytes": 1182
+    }
+  ],
+  "purpose": "Source configurations and reference inputs contributing to the published Cliffwalk planning grid"
+}
